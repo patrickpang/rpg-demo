@@ -1,0 +1,19 @@
+{
+  "name": "rpg-demo",
+  "version": "1.0.0",
+  "description": "demo of rpg in phaser",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "easystarjs": "0.4.3",
+    "lodash": "4.17.10",
+    "phaser": "3.11.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
