@@ -1,5 +1,7 @@
 import Phaser from 'phaser'
 
+import { tileWidth, tileHeight } from '../constants'
+
 export default class Player extends Phaser.Physics.Arcade.Sprite {
   constructor(scene, x, y) {
     super(scene, x, y, 'players', 6)
@@ -55,32 +57,24 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     })
   }
 
-  moveAlong(path) {
-    const tweens = []
-    for (let i = 0; i < path.length - 1; i++) {
-      const ex = path[i + 1].x
-      const ey = path[i + 1].y
-      tweens.push({
-        targets: this,
-        x: { value: ex * this.scene.map.tileWidth, duration: 200 },
-        y: { value: ey * this.scene.map.tileHeight, duration: 200 },
-        onStart: () =>
-          this.updateOnTween(
-            path[i + 1].x - path[i].x,
-            path[i + 1].y - path[i].y
-          ),
-      })
-    }
+  update() {
+    const pointer = this.scene.input.activePointer
+    const targetX = this.scene.cameras.main.scrollX + pointer.x
+    const targetY = this.scene.cameras.main.scrollY + pointer.y
 
-    this.scene.tweens.timeline({
-      tweens: tweens,
-      onComplete: () => this.animateMove(),
-    })
+    if (pointer.isDown && !this.getBounds().contains(targetX, targetY)) {
+      this.moveTowards(targetX, targetY)
+    } else {
+      this.stopMovement()
+    }
   }
 
-  update(time, delta) {}
+  moveTowards(targetX, targetY) {
+    this.scene.physics.moveTo(this, targetX, targetY, 80)
 
-  updateOnTween(offsetX, offsetY) {
+    const offsetX = Math.round((targetX - this.x) / tileWidth)
+    const offsetY = Math.round((targetY - this.y) / tileHeight)
+
     if (offsetX < 0) {
       this.animateMove('left')
     } else if (offsetX > 0) {
@@ -91,6 +85,13 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
       this.animateMove('down')
     } else {
       this.animateMove()
+    }
+  }
+
+  stopMovement() {
+    if (this.body.velocity.x !== 0 || this.body.velocity.y !== 0) {
+      this.setVelocity(0, 0)
+      this.anims.stop()
     }
   }
 

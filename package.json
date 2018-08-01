@@ -8,7 +8,6 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "easystarjs": "0.4.3",
     "lodash": "4.17.10",
     "phaser": "3.11.0"
   },

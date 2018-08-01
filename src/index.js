@@ -1,6 +1,7 @@
 import Phaser from 'phaser'
 import StartScene from './scenes/StartScene'
 import WorldScene from './scenes/WorldScene'
+import UpperUStreet from './scenes/UpperUStreet'
 
 const config = {
   type: Phaser.AUTO,
@@ -16,7 +17,7 @@ const config = {
       debug: false,
     },
   },
-  scene: [StartScene, WorldScene],
+  scene: [StartScene, WorldScene, UpperUStreet],
 }
 
 const game = new Phaser.Game(config)
