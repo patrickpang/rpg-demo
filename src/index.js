@@ -6,9 +6,8 @@ import UpperUStreet from './scenes/UpperUStreet'
 const config = {
   type: Phaser.AUTO,
   parent: 'content',
-  width: window.innerWidth / 3,
-  height: window.innerHeight / 3,
-  zoom: 3,
+  width: window.innerWidth,
+  height: window.innerHeight,
   pixelArt: true,
   physics: {
     default: 'arcade',

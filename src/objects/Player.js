@@ -4,7 +4,7 @@ import { tileWidth, tileHeight } from '../constants'
 
 export default class Player extends Phaser.Physics.Arcade.Sprite {
   constructor(scene, x, y) {
-    super(scene, x, y, 'players', 6)
+    super(scene, x, y, 'george', 0)
     this.scene = scene
   }
 
@@ -24,8 +24,8 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
 
     animationManager.create({
       key: 'left',
-      frames: animationManager.generateFrameNumbers('players', {
-        frames: [1, 7, 1, 13],
+      frames: animationManager.generateFrameNumbers('george', {
+        frames: [1, 5, 9, 13],
       }),
       frameRate: 10,
       repeat: -1,
@@ -33,24 +33,24 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
 
     animationManager.create({
       key: 'right',
-      frames: animationManager.generateFrameNumbers('players', {
-        frames: [1, 7, 1, 13],
+      frames: animationManager.generateFrameNumbers('george', {
+        frames: [3, 7, 11, 15],
       }),
       frameRate: 10,
       repeat: -1,
     })
     animationManager.create({
       key: 'up',
-      frames: animationManager.generateFrameNumbers('players', {
-        frames: [2, 8, 2, 14],
+      frames: animationManager.generateFrameNumbers('george', {
+        frames: [2, 6, 10, 14],
       }),
       frameRate: 10,
       repeat: -1,
     })
     animationManager.create({
       key: 'down',
-      frames: animationManager.generateFrameNumbers('players', {
-        frames: [0, 6, 0, 12],
+      frames: animationManager.generateFrameNumbers('george', {
+        frames: [0, 4, 8, 12],
       }),
       frameRate: 10,
       repeat: -1,
@@ -70,7 +70,12 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
   }
 
   moveTowards(targetX, targetY) {
-    this.scene.physics.moveTo(this, targetX, targetY, 80)
+    this.scene.physics.moveTo(
+      this,
+      targetX,
+      targetY,
+      Phaser.Math.Distance.Between(this.x, this.y, targetX, targetY)
+    )
 
     const offsetX = Math.round((targetX - this.x) / tileWidth)
     const offsetY = Math.round((targetY - this.y) / tileHeight)
@@ -99,11 +104,9 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     switch (direction) {
       case 'left':
         this.anims.play('left', true)
-        this.flipX = true
         break
       case 'right':
         this.anims.play('right', true)
-        this.flipX = false
         break
       case 'up':
         this.anims.play('up', true)

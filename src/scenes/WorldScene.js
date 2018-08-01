@@ -43,7 +43,7 @@ export default class WorldScene extends Phaser.Scene {
     npc.x = Phaser.Math.RND.between(0, this.physics.world.bounds.width)
     npc.y = Phaser.Math.RND.between(0, this.physics.world.bounds.height)
 
-    this.cameras.main.fadeOut(500)
+    this.cameras.main.fadeOut(200)
     this.scene.start('UpperUStreet')
   }
 

@@ -10,15 +10,15 @@ export default class StartScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('tiles', tiles)
-    this.load.tilemapTiledJSON('map', map)
-    this.load.spritesheet('players', players, {
-      frameWidth: 16,
-      frameHeight: 16,
-    })
+    // this.load.image('tiles', tiles)
+    // this.load.tilemapTiledJSON('map', map)
+    // this.load.spritesheet('players', players, {
+    //   frameWidth: 16,
+    //   frameHeight: 16,
+    // })
   }
 
   create() {
-    this.scene.start('WorldScene')
+    this.scene.start('UpperUStreet')
   }
 }

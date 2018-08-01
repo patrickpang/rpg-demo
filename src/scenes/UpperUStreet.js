@@ -42,40 +42,42 @@ export default class UpperUStreet extends Phaser.Scene {
 
     this.load.tilemapTiledJSON('UpperUStreetMap', UpperUStreetMap)
     this.load.spritesheet('george', george, {
-      frameWidth: 32,
-      frameHeight: 32,
+      frameWidth: 48,
+      frameHeight: 48,
     })
   }
 
   create() {
-    this.cameras.main.fadeIn(500)
+    this.cameras.main.fadeIn(200)
 
     const map = this.make.tilemap({ key: 'UpperUStreetMap' })
 
-    // const tiles = map.addTilesetImage('spritesheet', 'tiles')
+    this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels)
+    this.physics.world.bounds.width = map.widthInPixels
+    this.physics.world.bounds.height = map.heightInPixels
 
-    // const grass = map.createStaticLayer('Grass', tiles, 0, 0)
+    const tiles = map.addTilesetImage('Grass2', 'Grass2')
+    const outside = map.createStaticLayer('Background', tiles, 0, 0)
+
+    const floorTiles = map.addTilesetImage('Tile', 'Tile')
+    const floor = map.createStaticLayer('Floor', floorTiles, 0, 0)
 
     // const obstacles = map.createStaticLayer('Obstacles', tiles, 0, 0)
-    // obstacles.setCollisionByExclusion([-1])
-
-    // this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels)
-
-    // this.physics.world.bounds.width = map.widthInPixels
-    // this.physics.world.bounds.height = map.heightInPixels
+    outside.setCollisionByExclusion([-1])
 
     // this.npc = this.physics.add.sprite(80, 20, 'players', 3)
 
-    // this.player = new Player(this, 50, 100)
-    // this.player.create()
+    const spawnPoint = map.findObject('Players', obj => obj.name === 'Player')
+    this.player = new Player(this, spawnPoint.x, spawnPoint.y)
+    this.player.create()
 
-    // this.physics.add.collider(this.player, obstacles)
+    this.physics.add.collider(this.player, outside)
 
     // this.physics.add.overlap(this.player, this.npc, (player, npc) =>
     //   this.onMeetNPC(player, npc)
     // )
 
-    // this.cameras.main.startFollow(this.player)
+    this.cameras.main.startFollow(this.player)
   }
 
   update() {
