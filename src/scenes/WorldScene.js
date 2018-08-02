@@ -31,9 +31,7 @@ export default class WorldScene extends Phaser.Scene {
 
     this.physics.add.collider(this.player, obstacles)
 
-    this.physics.add.overlap(this.player, this.npc, (player, npc) =>
-      this.onMeetNPC(player, npc)
-    )
+    this.physics.add.overlap(this.player, this.npc, (player, npc) => this.onMeetNPC(player, npc))
 
     this.cameras.main.startFollow(this.player)
   }
