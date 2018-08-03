@@ -26,7 +26,7 @@
             </struct>
         </array>
         <key>allowRotation</key>
-        <true/>
+        <false/>
         <key>shapeDebug</key>
         <false/>
         <key>dpi</key>
@@ -255,19 +255,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Tilesets/angelique_updated_si_door_by_nicnubill-d7d68a0.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>114,128,228,256</rect>
-                <key>scale9Paddings</key>
-                <rect>114,128,228,256</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">Tilesets/barrel.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -448,6 +435,19 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">Tilesets/elevator_modern_by_nicnubill-d7us1e9.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>72,96,144,192</rect>
+                <key>scale9Paddings</key>
+                <rect>72,96,144,192</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">Tilesets/house.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -526,19 +526,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Tilesets/rpg_maker_vx___ar_building_by_ayene_chan-d5snq6l.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>143,58,285,116</rect>
-                <key>scale9Paddings</key>
-                <rect>143,58,285,116</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">Tilesets/rpg_maker_vx___benches_by_ayene_chan-d6jxhsk.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -562,19 +549,6 @@
                 <rect>64,64,128,128</rect>
                 <key>scale9Paddings</key>
                 <rect>64,64,128,128</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">Tilesets/streetlight_by_nicnubill-d7pbvc1.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>38,38,75,75</rect>
-                <key>scale9Paddings</key>
-                <rect>38,38,75,75</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>

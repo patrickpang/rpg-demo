@@ -4,8 +4,8 @@
 			"image": "square_tileset.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 2043,
-				"h": 2133
+				"w": 2025,
+				"h": 1998
 			},
 			"scale": 1,
 			"frames": [
@@ -136,24 +136,45 @@
 					}
 				},
 				{
-					"filename": "angelique_updated_si_door_by_nicnubill-d7d68a0.png",
+					"filename": "Inside_A2.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 456,
-						"h": 512
+						"w": 512,
+						"h": 384
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 456,
-						"h": 512
+						"w": 512,
+						"h": 289
 					},
 					"frame": {
-						"x": 1,
-						"y": 1542,
-						"w": 456,
-						"h": 512
+						"x": 1512,
+						"y": 1,
+						"w": 512,
+						"h": 289
+					}
+				},
+				{
+					"filename": "rpg_maker_vx___tilea3_by_ayene_chan-d5lgb3n.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 256
+					},
+					"frame": {
+						"x": 1512,
+						"y": 292,
+						"w": 512,
+						"h": 256
 					}
 				},
 				{
@@ -171,15 +192,15 @@
 						"h": 438
 					},
 					"frame": {
-						"x": 515,
-						"y": 1027,
+						"x": 1,
+						"y": 1542,
 						"w": 449,
 						"h": 438
 					}
 				},
 				{
 					"filename": "castle_outside.png",
-					"rotated": false,
+					"rotated": true,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 544,
@@ -192,78 +213,15 @@
 						"h": 352
 					},
 					"frame": {
-						"x": 1512,
-						"y": 1,
+						"x": 515,
+						"y": 1027,
 						"w": 513,
 						"h": 352
 					}
 				},
 				{
-					"filename": "Inside_A2.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 512,
-						"h": 384
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 512,
-						"h": 289
-					},
-					"frame": {
-						"x": 1512,
-						"y": 355,
-						"w": 512,
-						"h": 289
-					}
-				},
-				{
-					"filename": "rpg_maker_vx___ar_building_by_ayene_chan-d5snq6l.png",
-					"rotated": true,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 571,
-						"h": 232
-					},
-					"spriteSourceSize": {
-						"x": 8,
-						"y": 3,
-						"w": 555,
-						"h": 227
-					},
-					"frame": {
-						"x": 459,
-						"y": 1542,
-						"w": 555,
-						"h": 227
-					}
-				},
-				{
-					"filename": "rpg_maker_vx___tilea3_by_ayene_chan-d5lgb3n.png",
-					"rotated": true,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 512,
-						"h": 256
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 512,
-						"h": 256
-					},
-					"frame": {
-						"x": 688,
-						"y": 1467,
-						"w": 512,
-						"h": 256
-					}
-				},
-				{
 					"filename": "castlewalls.png",
-					"rotated": false,
+					"rotated": true,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 384,
@@ -276,15 +234,15 @@
 						"h": 480
 					},
 					"frame": {
-						"x": 997,
-						"y": 515,
+						"x": 452,
+						"y": 1542,
 						"w": 384,
 						"h": 480
 					}
 				},
 				{
 					"filename": "Inside_C.png",
-					"rotated": true,
+					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 512,
@@ -297,36 +255,15 @@
 						"h": 433
 					},
 					"frame": {
-						"x": 1383,
-						"y": 646,
+						"x": 869,
+						"y": 1027,
 						"w": 257,
 						"h": 433
 					}
 				},
 				{
-					"filename": "house.png",
-					"rotated": true,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 288,
-						"h": 224
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 288,
-						"h": 224
-					},
-					"frame": {
-						"x": 1818,
-						"y": 646,
-						"w": 288,
-						"h": 224
-					}
-				},
-				{
 					"filename": "dungeon.png",
-					"rotated": false,
+					"rotated": true,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 416,
@@ -339,36 +276,15 @@
 						"h": 256
 					},
 					"frame": {
-						"x": 1383,
-						"y": 905,
+						"x": 934,
+						"y": 1462,
 						"w": 414,
 						"h": 256
 					}
 				},
 				{
-					"filename": "mountains.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 384,
-						"h": 288
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 384,
-						"h": 288
-					},
-					"frame": {
-						"x": 997,
-						"y": 997,
-						"w": 384,
-						"h": 288
-					}
-				},
-				{
 					"filename": "cabinets.png",
-					"rotated": true,
+					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 192,
@@ -381,31 +297,52 @@
 						"h": 412
 					},
 					"frame": {
-						"x": 966,
-						"y": 1287,
+						"x": 997,
+						"y": 515,
 						"w": 192,
 						"h": 412
 					}
 				},
 				{
-					"filename": "castlefloors.png",
-					"rotated": false,
+					"filename": "mountains.png",
+					"rotated": true,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 320,
-						"h": 320
+						"w": 384,
+						"h": 288
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 320,
-						"h": 320
+						"w": 384,
+						"h": 288
 					},
 					"frame": {
-						"x": 946,
-						"y": 1481,
-						"w": 320,
-						"h": 320
+						"x": 1191,
+						"y": 507,
+						"w": 384,
+						"h": 288
+					}
+				},
+				{
+					"filename": "elevator_modern_by_nicnubill-d7us1e9.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 384
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 258,
+						"h": 384
+					},
+					"frame": {
+						"x": 1481,
+						"y": 550,
+						"w": 258,
+						"h": 384
 					}
 				},
 				{
@@ -423,15 +360,78 @@
 						"h": 177
 					},
 					"frame": {
-						"x": 1383,
-						"y": 1163,
+						"x": 1481,
+						"y": 810,
 						"w": 383,
 						"h": 177
 					}
 				},
 				{
-					"filename": "inside.png",
+					"filename": "brackish.png",
+					"rotated": true,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 192
+					},
+					"frame": {
+						"x": 997,
+						"y": 929,
+						"w": 96,
+						"h": 192
+					}
+				},
+				{
+					"filename": "house.png",
 					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 288,
+						"h": 224
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 224
+					},
+					"frame": {
+						"x": 1191,
+						"y": 893,
+						"w": 288,
+						"h": 224
+					}
+				},
+				{
+					"filename": "castlefloors.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 320
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 320
+					},
+					"frame": {
+						"x": 1128,
+						"y": 1119,
+						"w": 320,
+						"h": 320
+					}
+				},
+				{
+					"filename": "inside.png",
+					"rotated": true,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 320,
@@ -444,8 +444,8 @@
 						"h": 301
 					},
 					"frame": {
-						"x": 946,
-						"y": 1803,
+						"x": 1192,
+						"y": 1441,
 						"w": 320,
 						"h": 301
 					}
@@ -465,8 +465,8 @@
 						"h": 160
 					},
 					"frame": {
-						"x": 1380,
-						"y": 1342,
+						"x": 1481,
+						"y": 989,
 						"w": 348,
 						"h": 160
 					}
@@ -486,8 +486,8 @@
 						"h": 286
 					},
 					"frame": {
-						"x": 1268,
-						"y": 1504,
+						"x": 1450,
+						"y": 1151,
 						"w": 280,
 						"h": 286
 					}
@@ -507,15 +507,15 @@
 						"h": 256
 					},
 					"frame": {
-						"x": 1268,
-						"y": 1792,
+						"x": 1495,
+						"y": 1439,
 						"w": 256,
 						"h": 256
 					}
 				},
 				{
 					"filename": "Inside_A4.png",
-					"rotated": true,
+					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 512,
@@ -528,9 +528,30 @@
 						"h": 161
 					},
 					"frame": {
-						"x": 1550,
-						"y": 1504,
+						"x": 1192,
+						"y": 1763,
 						"w": 321,
+						"h": 161
+					}
+				},
+				{
+					"filename": "Outside_A4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 193,
+						"h": 161
+					},
+					"frame": {
+						"x": 1831,
+						"y": 989,
+						"w": 193,
 						"h": 161
 					}
 				},
@@ -549,31 +570,10 @@
 						"h": 224
 					},
 					"frame": {
-						"x": 1799,
-						"y": 936,
+						"x": 1515,
+						"y": 1697,
 						"w": 192,
 						"h": 224
-					}
-				},
-				{
-					"filename": "country.png",
-					"rotated": true,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 160,
-						"h": 128
-					},
-					"spriteSourceSize": {
-						"x": 7,
-						"y": 0,
-						"w": 151,
-						"h": 128
-					},
-					"frame": {
-						"x": 688,
-						"y": 1981,
-						"w": 151,
-						"h": 128
 					}
 				},
 				{
@@ -591,157 +591,10 @@
 						"h": 209
 					},
 					"frame": {
-						"x": 1526,
-						"y": 1827,
+						"x": 1732,
+						"y": 1152,
 						"w": 192,
 						"h": 209
-					}
-				},
-				{
-					"filename": "streetlight_by_nicnubill-d7pbvc1.png",
-					"rotated": true,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 150,
-						"h": 150
-					},
-					"spriteSourceSize": {
-						"x": 34,
-						"y": 27,
-						"w": 73,
-						"h": 99
-					},
-					"frame": {
-						"x": 515,
-						"y": 1467,
-						"w": 73,
-						"h": 99
-					}
-				},
-				{
-					"filename": "trunk.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 192,
-						"h": 96
-					},
-					"spriteSourceSize": {
-						"x": 15,
-						"y": 0,
-						"w": 160,
-						"h": 74
-					},
-					"frame": {
-						"x": 1,
-						"y": 2056,
-						"w": 160,
-						"h": 74
-					}
-				},
-				{
-					"filename": "grassalt.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 96,
-						"h": 192
-					},
-					"spriteSourceSize": {
-						"x": 10,
-						"y": 0,
-						"w": 86,
-						"h": 146
-					},
-					"frame": {
-						"x": 818,
-						"y": 1981,
-						"w": 86,
-						"h": 146
-					}
-				},
-				{
-					"filename": "waterfall.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 96,
-						"h": 160
-					},
-					"spriteSourceSize": {
-						"x": 4,
-						"y": 0,
-						"w": 86,
-						"h": 136
-					},
-					"frame": {
-						"x": 1383,
-						"y": 507,
-						"w": 86,
-						"h": 136
-					}
-				},
-				{
-					"filename": "Outside_A4.png",
-					"rotated": true,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 512,
-						"h": 480
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 193,
-						"h": 161
-					},
-					"frame": {
-						"x": 1713,
-						"y": 1504,
-						"w": 193,
-						"h": 161
-					}
-				},
-				{
-					"filename": "rpg_maker_vx___benches_by_ayene_chan-d6jxhsk.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 192,
-						"h": 160
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 192,
-						"h": 160
-					},
-					"frame": {
-						"x": 1730,
-						"y": 1342,
-						"w": 192,
-						"h": 160
-					}
-				},
-				{
-					"filename": "brackish.png",
-					"rotated": true,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 96,
-						"h": 192
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 96,
-						"h": 192
-					},
-					"frame": {
-						"x": 1713,
-						"y": 1699,
-						"w": 96,
-						"h": 192
 					}
 				},
 				{
@@ -759,15 +612,15 @@
 						"h": 160
 					},
 					"frame": {
-						"x": 1720,
-						"y": 1797,
+						"x": 1867,
+						"y": 550,
 						"w": 128,
 						"h": 160
 					}
 				},
 				{
 					"filename": "cement.png",
-					"rotated": true,
+					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 96,
@@ -780,10 +633,52 @@
 						"h": 192
 					},
 					"frame": {
-						"x": 1850,
-						"y": 1797,
+						"x": 1926,
+						"y": 1152,
 						"w": 96,
 						"h": 192
+					}
+				},
+				{
+					"filename": "rpg_maker_vx___benches_by_ayene_chan-d6jxhsk.png",
+					"rotated": true,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 160
+					},
+					"frame": {
+						"x": 1753,
+						"y": 1363,
+						"w": 192,
+						"h": 160
+					}
+				},
+				{
+					"filename": "cementstair.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 160,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 160,
+						"h": 128
+					},
+					"frame": {
+						"x": 1753,
+						"y": 1557,
+						"w": 160,
+						"h": 128
 					}
 				},
 				{
@@ -801,36 +696,15 @@
 						"h": 192
 					},
 					"frame": {
-						"x": 1850,
-						"y": 1895,
+						"x": 934,
+						"y": 1878,
 						"w": 96,
 						"h": 192
-					}
-				},
-				{
-					"filename": "cementstair.png",
-					"rotated": true,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 160,
-						"h": 128
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 160,
-						"h": 128
-					},
-					"frame": {
-						"x": 1720,
-						"y": 1959,
-						"w": 160,
-						"h": 128
 					}
 				},
 				{
 					"filename": "dirt2.png",
-					"rotated": true,
+					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 96,
@@ -843,8 +717,8 @@
 						"h": 192
 					},
 					"frame": {
-						"x": 1850,
-						"y": 1993,
+						"x": 1709,
+						"y": 1697,
 						"w": 96,
 						"h": 192
 					}
@@ -864,36 +738,57 @@
 						"h": 192
 					},
 					"frame": {
-						"x": 1876,
-						"y": 1504,
+						"x": 1807,
+						"y": 1687,
 						"w": 96,
 						"h": 192
 					}
 				},
 				{
-					"filename": "Outside_A3.png",
+					"filename": "country.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 151,
+						"h": 128
+					},
+					"frame": {
+						"x": 1867,
+						"y": 712,
+						"w": 151,
+						"h": 128
+					}
+				},
+				{
+					"filename": "grassalt.png",
 					"rotated": true,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 512,
-						"h": 256
+						"w": 96,
+						"h": 192
 					},
 					"spriteSourceSize": {
-						"x": 0,
+						"x": 10,
 						"y": 0,
-						"w": 65,
-						"h": 129
+						"w": 86,
+						"h": 146
 					},
 					"frame": {
-						"x": 163,
-						"y": 2056,
-						"w": 65,
-						"h": 129
+						"x": 1866,
+						"y": 842,
+						"w": 86,
+						"h": 146
 					}
 				},
 				{
 					"filename": "water.png",
-					"rotated": true,
+					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 96,
@@ -906,52 +801,10 @@
 						"h": 192
 					},
 					"frame": {
-						"x": 1799,
-						"y": 1162,
+						"x": 1915,
+						"y": 1363,
 						"w": 96,
 						"h": 192
-					}
-				},
-				{
-					"filename": "kitchen.png",
-					"rotated": true,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 64,
-						"h": 128
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 64,
-						"h": 124
-					},
-					"frame": {
-						"x": 294,
-						"y": 2056,
-						"w": 64,
-						"h": 124
-					}
-				},
-				{
-					"filename": "Outside_A5.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 256,
-						"h": 512
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 97,
-						"h": 33
-					},
-					"frame": {
-						"x": 420,
-						"y": 2099,
-						"w": 97,
-						"h": 33
 					}
 				},
 				{
@@ -969,10 +822,73 @@
 						"h": 192
 					},
 					"frame": {
-						"x": 1924,
-						"y": 1260,
+						"x": 1915,
+						"y": 1557,
 						"w": 96,
 						"h": 192
+					}
+				},
+				{
+					"filename": "waterfall.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 86,
+						"h": 136
+					},
+					"frame": {
+						"x": 1905,
+						"y": 1751,
+						"w": 86,
+						"h": 136
+					}
+				},
+				{
+					"filename": "Outside_A3.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 65,
+						"h": 129
+					},
+					"frame": {
+						"x": 452,
+						"y": 1928,
+						"w": 65,
+						"h": 129
+					}
+				},
+				{
+					"filename": "kitchen.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 124
+					},
+					"frame": {
+						"x": 583,
+						"y": 1928,
+						"w": 64,
+						"h": 124
 					}
 				},
 				{
@@ -990,15 +906,36 @@
 						"h": 63
 					},
 					"frame": {
-						"x": 1268,
-						"y": 2050,
+						"x": 709,
+						"y": 1928,
 						"w": 112,
 						"h": 63
 					}
 				},
 				{
-					"filename": "chests.png",
+					"filename": "trunk.png",
 					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 160,
+						"h": 74
+					},
+					"frame": {
+						"x": 1515,
+						"y": 1923,
+						"w": 160,
+						"h": 74
+					}
+				},
+				{
+					"filename": "chests.png",
+					"rotated": true,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 64,
@@ -1011,15 +948,15 @@
 						"h": 96
 					},
 					"frame": {
-						"x": 1907,
-						"y": 1698,
+						"x": 823,
+						"y": 1928,
 						"w": 64,
 						"h": 96
 					}
 				},
 				{
 					"filename": "buckets.png",
-					"rotated": false,
+					"rotated": true,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 96,
@@ -1032,10 +969,31 @@
 						"h": 58
 					},
 					"frame": {
-						"x": 1382,
-						"y": 2050,
+						"x": 1128,
+						"y": 1027,
 						"w": 87,
 						"h": 58
+					}
+				},
+				{
+					"filename": "Outside_A5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 256,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 97,
+						"h": 33
+					},
+					"frame": {
+						"x": 1866,
+						"y": 930,
+						"w": 97,
+						"h": 33
 					}
 				},
 				{
@@ -1053,15 +1011,15 @@
 						"h": 87
 					},
 					"frame": {
-						"x": 1526,
-						"y": 2038,
+						"x": 1709,
+						"y": 1891,
 						"w": 105,
 						"h": 87
 					}
 				},
 				{
 					"filename": "rock.png",
-					"rotated": false,
+					"rotated": true,
 					"trimmed": false,
 					"sourceSize": {
 						"w": 64,
@@ -1074,8 +1032,8 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 616,
-						"y": 1467,
+						"x": 869,
+						"y": 1462,
 						"w": 64,
 						"h": 32
 					}
@@ -1095,8 +1053,8 @@
 						"h": 55
 					},
 					"frame": {
-						"x": 906,
-						"y": 1981,
+						"x": 1128,
+						"y": 1878,
 						"w": 32,
 						"h": 55
 					}
@@ -1107,6 +1065,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:21d6032a20fc9d56ad606f3aa5910bdd:0776def08bf1199472fe718c5cd24e90:aaa5c160213419c4304a6dc40376bb3b$"
+		"smartupdate": "$TexturePacker:SmartUpdate:5b40070316f2fc79737fc95ff23c4702:b34185077feeafaa9e05a08d9666b2b5:aaa5c160213419c4304a6dc40376bb3b$"
 	}
 }
