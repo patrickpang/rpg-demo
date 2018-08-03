@@ -1,0 +1,1112 @@
+{
+	"textures": [
+		{
+			"image": "square_tileset_32.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2043,
+				"h": 2133
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Inside_B.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 512,
+						"h": 512
+					}
+				},
+				{
+					"filename": "Outside_B.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"frame": {
+						"x": 1,
+						"y": 515,
+						"w": 512,
+						"h": 512
+					}
+				},
+				{
+					"filename": "rpg_maker_vx__modernrtp_tileb_by_painhurt-d3f7sii.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 512
+					},
+					"frame": {
+						"x": 515,
+						"y": 1,
+						"w": 512,
+						"h": 512
+					}
+				},
+				{
+					"filename": "rpg_maker_vx___tile_c_by_ayene_chan-d7kwsoc.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 512,
+						"h": 511
+					},
+					"frame": {
+						"x": 1,
+						"y": 1029,
+						"w": 512,
+						"h": 511
+					}
+				},
+				{
+					"filename": "gothic_furniture_by_nicnubill-d6ol9ts.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 480,
+						"h": 510
+					},
+					"frame": {
+						"x": 515,
+						"y": 515,
+						"w": 480,
+						"h": 510
+					}
+				},
+				{
+					"filename": "police_station_by_nicnubill-d9892fb.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 481,
+						"h": 504
+					},
+					"frame": {
+						"x": 1029,
+						"y": 1,
+						"w": 481,
+						"h": 504
+					}
+				},
+				{
+					"filename": "angelique_updated_si_door_by_nicnubill-d7d68a0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 456,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 456,
+						"h": 512
+					},
+					"frame": {
+						"x": 1,
+						"y": 1542,
+						"w": 456,
+						"h": 512
+					}
+				},
+				{
+					"filename": "tileset_theater_lab___rpg_maker_vx_ace__wip__by_guiguimu-dbrret0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 449,
+						"h": 438
+					},
+					"frame": {
+						"x": 515,
+						"y": 1027,
+						"w": 449,
+						"h": 438
+					}
+				},
+				{
+					"filename": "castle_outside.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 544,
+						"h": 352
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 0,
+						"w": 513,
+						"h": 352
+					},
+					"frame": {
+						"x": 1512,
+						"y": 1,
+						"w": 513,
+						"h": 352
+					}
+				},
+				{
+					"filename": "Inside_A2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 384
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 289
+					},
+					"frame": {
+						"x": 1512,
+						"y": 355,
+						"w": 512,
+						"h": 289
+					}
+				},
+				{
+					"filename": "rpg_maker_vx___ar_building_by_ayene_chan-d5snq6l.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 571,
+						"h": 232
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 3,
+						"w": 555,
+						"h": 227
+					},
+					"frame": {
+						"x": 459,
+						"y": 1542,
+						"w": 555,
+						"h": 227
+					}
+				},
+				{
+					"filename": "rpg_maker_vx___tilea3_by_ayene_chan-d5lgb3n.png",
+					"rotated": true,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 512,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 512,
+						"h": 256
+					},
+					"frame": {
+						"x": 688,
+						"y": 1467,
+						"w": 512,
+						"h": 256
+					}
+				},
+				{
+					"filename": "castlewalls.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 384,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 384,
+						"h": 480
+					},
+					"frame": {
+						"x": 997,
+						"y": 515,
+						"w": 384,
+						"h": 480
+					}
+				},
+				{
+					"filename": "Inside_C.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 16,
+						"w": 257,
+						"h": 433
+					},
+					"frame": {
+						"x": 1383,
+						"y": 646,
+						"w": 257,
+						"h": 433
+					}
+				},
+				{
+					"filename": "house.png",
+					"rotated": true,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 288,
+						"h": 224
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 288,
+						"h": 224
+					},
+					"frame": {
+						"x": 1818,
+						"y": 646,
+						"w": 288,
+						"h": 224
+					}
+				},
+				{
+					"filename": "dungeon.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 416,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 414,
+						"h": 256
+					},
+					"frame": {
+						"x": 1383,
+						"y": 905,
+						"w": 414,
+						"h": 256
+					}
+				},
+				{
+					"filename": "mountains.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 384,
+						"h": 288
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 384,
+						"h": 288
+					},
+					"frame": {
+						"x": 997,
+						"y": 997,
+						"w": 384,
+						"h": 288
+					}
+				},
+				{
+					"filename": "cabinets.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 416
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 192,
+						"h": 412
+					},
+					"frame": {
+						"x": 966,
+						"y": 1287,
+						"w": 192,
+						"h": 412
+					}
+				},
+				{
+					"filename": "castlefloors.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 320,
+						"h": 320
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 320
+					},
+					"frame": {
+						"x": 946,
+						"y": 1481,
+						"w": 320,
+						"h": 320
+					}
+				},
+				{
+					"filename": "mv_questbrett_by_schwarzenacht-dazcdtl.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 384,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 4,
+						"w": 383,
+						"h": 177
+					},
+					"frame": {
+						"x": 1383,
+						"y": 1163,
+						"w": 383,
+						"h": 177
+					}
+				},
+				{
+					"filename": "inside.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 320,
+						"h": 320
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 301
+					},
+					"frame": {
+						"x": 946,
+						"y": 1803,
+						"w": 320,
+						"h": 301
+					}
+				},
+				{
+					"filename": "victoria.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 352,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 348,
+						"h": 160
+					},
+					"frame": {
+						"x": 1380,
+						"y": 1342,
+						"w": 348,
+						"h": 160
+					}
+				},
+				{
+					"filename": "rpg_maker_playground_tile_by_ayene_chan-d4bhs61.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 288
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 280,
+						"h": 286
+					},
+					"frame": {
+						"x": 1268,
+						"y": 1504,
+						"w": 280,
+						"h": 286
+					}
+				},
+				{
+					"filename": "rpg_maker_wooden_floor_by_ayene_chan-d587fmi.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 256,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 256,
+						"h": 256
+					},
+					"frame": {
+						"x": 1268,
+						"y": 1792,
+						"w": 256,
+						"h": 256
+					}
+				},
+				{
+					"filename": "Inside_A4.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 321,
+						"h": 161
+					},
+					"frame": {
+						"x": 1550,
+						"y": 1504,
+						"w": 321,
+						"h": 161
+					}
+				},
+				{
+					"filename": "bridges.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 224
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 224
+					},
+					"frame": {
+						"x": 1799,
+						"y": 936,
+						"w": 192,
+						"h": 224
+					}
+				},
+				{
+					"filename": "country.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 151,
+						"h": 128
+					},
+					"frame": {
+						"x": 688,
+						"y": 1981,
+						"w": 151,
+						"h": 128
+					}
+				},
+				{
+					"filename": "treetop.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 224
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 209
+					},
+					"frame": {
+						"x": 1526,
+						"y": 1827,
+						"w": 192,
+						"h": 209
+					}
+				},
+				{
+					"filename": "streetlight_by_nicnubill-d7pbvc1.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 27,
+						"w": 73,
+						"h": 99
+					},
+					"frame": {
+						"x": 515,
+						"y": 1467,
+						"w": 73,
+						"h": 99
+					}
+				},
+				{
+					"filename": "trunk.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 160,
+						"h": 74
+					},
+					"frame": {
+						"x": 1,
+						"y": 2056,
+						"w": 160,
+						"h": 74
+					}
+				},
+				{
+					"filename": "grassalt.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 0,
+						"w": 86,
+						"h": 146
+					},
+					"frame": {
+						"x": 818,
+						"y": 1981,
+						"w": 86,
+						"h": 146
+					}
+				},
+				{
+					"filename": "waterfall.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 86,
+						"h": 136
+					},
+					"frame": {
+						"x": 1383,
+						"y": 507,
+						"w": 86,
+						"h": 136
+					}
+				},
+				{
+					"filename": "Outside_A4.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 480
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 193,
+						"h": 161
+					},
+					"frame": {
+						"x": 1713,
+						"y": 1504,
+						"w": 193,
+						"h": 161
+					}
+				},
+				{
+					"filename": "rpg_maker_vx___benches_by_ayene_chan-d6jxhsk.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 160
+					},
+					"frame": {
+						"x": 1730,
+						"y": 1342,
+						"w": 192,
+						"h": 160
+					}
+				},
+				{
+					"filename": "brackish.png",
+					"rotated": true,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 192
+					},
+					"frame": {
+						"x": 1713,
+						"y": 1699,
+						"w": 96,
+						"h": 192
+					}
+				},
+				{
+					"filename": "castlefloors_outside.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 160
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 160
+					},
+					"frame": {
+						"x": 1720,
+						"y": 1797,
+						"w": 128,
+						"h": 160
+					}
+				},
+				{
+					"filename": "cement.png",
+					"rotated": true,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 192
+					},
+					"frame": {
+						"x": 1850,
+						"y": 1797,
+						"w": 96,
+						"h": 192
+					}
+				},
+				{
+					"filename": "dirt.png",
+					"rotated": true,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 192
+					},
+					"frame": {
+						"x": 1850,
+						"y": 1895,
+						"w": 96,
+						"h": 192
+					}
+				},
+				{
+					"filename": "cementstair.png",
+					"rotated": true,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 160,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 160,
+						"h": 128
+					},
+					"frame": {
+						"x": 1720,
+						"y": 1959,
+						"w": 160,
+						"h": 128
+					}
+				},
+				{
+					"filename": "dirt2.png",
+					"rotated": true,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 192
+					},
+					"frame": {
+						"x": 1850,
+						"y": 1993,
+						"w": 96,
+						"h": 192
+					}
+				},
+				{
+					"filename": "grass.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 192
+					},
+					"frame": {
+						"x": 1876,
+						"y": 1504,
+						"w": 96,
+						"h": 192
+					}
+				},
+				{
+					"filename": "Outside_A3.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 256
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 65,
+						"h": 129
+					},
+					"frame": {
+						"x": 163,
+						"y": 2056,
+						"w": 65,
+						"h": 129
+					}
+				},
+				{
+					"filename": "water.png",
+					"rotated": true,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 192
+					},
+					"frame": {
+						"x": 1799,
+						"y": 1162,
+						"w": 96,
+						"h": 192
+					}
+				},
+				{
+					"filename": "kitchen.png",
+					"rotated": true,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 124
+					},
+					"frame": {
+						"x": 294,
+						"y": 2056,
+						"w": 64,
+						"h": 124
+					}
+				},
+				{
+					"filename": "Outside_A5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 256,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 97,
+						"h": 33
+					},
+					"frame": {
+						"x": 420,
+						"y": 2099,
+						"w": 97,
+						"h": 33
+					}
+				},
+				{
+					"filename": "watergrass.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 192
+					},
+					"frame": {
+						"x": 1924,
+						"y": 1260,
+						"w": 96,
+						"h": 192
+					}
+				},
+				{
+					"filename": "barrel.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 112,
+						"h": 63
+					},
+					"frame": {
+						"x": 1268,
+						"y": 2050,
+						"w": 112,
+						"h": 63
+					}
+				},
+				{
+					"filename": "chests.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 96
+					},
+					"frame": {
+						"x": 1907,
+						"y": 1698,
+						"w": 64,
+						"h": 96
+					}
+				},
+				{
+					"filename": "buckets.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 4,
+						"w": 87,
+						"h": 58
+					},
+					"frame": {
+						"x": 1382,
+						"y": 2050,
+						"w": 87,
+						"h": 58
+					}
+				},
+				{
+					"filename": "castle_lightsources.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 160,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 3,
+						"w": 105,
+						"h": 87
+					},
+					"frame": {
+						"x": 1526,
+						"y": 2038,
+						"w": 105,
+						"h": 87
+					}
+				},
+				{
+					"filename": "rock.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 32
+					},
+					"frame": {
+						"x": 616,
+						"y": 1467,
+						"w": 64,
+						"h": 32
+					}
+				},
+				{
+					"filename": "cup.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 32,
+						"h": 55
+					},
+					"frame": {
+						"x": 906,
+						"y": 1981,
+						"w": 32,
+						"h": 55
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:128cbea55a98aedf1c5d58ed6ab3fa85:0776def08bf1199472fe718c5cd24e90:7b12fcd18272d4d5630995e45f4f4970$"
+	}
+}
