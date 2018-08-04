@@ -96,7 +96,7 @@
                  "type":"",
                  "visible":true,
                  "width":62,
-                 "x":5348,
+                 "x":5344.7228157567,
                  "y":1436
                 }, 
                 {
@@ -188,6 +188,54 @@
                  "width":68,
                  "x":3518,
                  "y":1790
+                }, 
+                {
+                 "height":0,
+                 "id":30,
+                 "name":"NearMainLib",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":3657.16954694068,
+                 "y":1843.37536976491
+                }, 
+                {
+                 "height":0,
+                 "id":31,
+                 "name":"MainLib2F",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":3395.60952825782,
+                 "y":2296.43468784057
+                }, 
+                {
+                 "height":0,
+                 "id":32,
+                 "name":"SUBuilding1F",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":6400.43593336447,
+                 "y":1904.09465981629
+                }, 
+                {
+                 "height":0,
+                 "id":33,
+                 "name":"CBGF",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":7062.12050443718,
+                 "y":1908.76537443562
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -210,6 +258,54 @@
                  "width":0,
                  "x":5116,
                  "y":2388
+                }, 
+                {
+                 "height":0,
+                 "id":24,
+                 "name":"Haking5F",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5259.72846616556,
+                 "y":1484.19321477765
+                }, 
+                {
+                 "height":0,
+                 "id":27,
+                 "name":"HakingTunnel",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5158.02584462089,
+                 "y":1910.32227930873
+                }, 
+                {
+                 "height":0,
+                 "id":28,
+                 "name":"NearHaking",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5430.48419741554,
+                 "y":1916.54989880118
+                }, 
+                {
+                 "height":0,
+                 "id":29,
+                 "name":"NearA2",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5251.44013700763,
+                 "y":2165.65467849914
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -229,7 +325,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":24,
+ "nextobjectid":34,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

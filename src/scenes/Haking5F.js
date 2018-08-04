@@ -13,8 +13,8 @@ export default class Haking5F extends Phaser.Scene {
     this.load.tilemapTiledJSON('Haking5FMap', Haking5FMap)
   }
 
-  create() {
-    createFromTilemap(this, 'Haking5FMap', 'ideal_tileset')
+  create(data) {
+    createFromTilemap(this, 'Haking5FMap', 'ideal_tileset', data.target)
   }
 
   update() {

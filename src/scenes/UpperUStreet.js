@@ -13,8 +13,8 @@ export default class UpperUStreet extends Phaser.Scene {
     this.load.tilemapTiledJSON('UpperUStreetMap', UpperUStreetMap)
   }
 
-  create() {
-    createFromTilemap(this, 'UpperUStreetMap', 'tileset')
+  create(data) {
+    createFromTilemap(this, 'UpperUStreetMap', 'tileset', data.target)
   }
 
   update() {
