@@ -26,11 +26,11 @@ export default class UpperUStreet extends Phaser.Scene {
 
     map.createStaticLayer('Floor', tiles, 0, 0)
 
-    const grass = map.createStaticLayer('Grass', tiles, 0, 0)
+    const border = map.createStaticLayer('Border', tiles, 0, 0)
     const back = map.createStaticLayer('Back', tiles, 0, 0)
     const front = map.createStaticLayer('Front', tiles, 0, 0)
 
-    grass.setCollisionByExclusion([-1])
+    border.setCollisionByExclusion([-1])
     back.setCollisionByExclusion([-1])
     front.setCollisionByExclusion([-1])
 
@@ -51,7 +51,9 @@ export default class UpperUStreet extends Phaser.Scene {
     this.player = new Player(this, spawnPoint.x, spawnPoint.y)
     this.player.create()
 
-    this.physics.add.collider(this.player, grass)
+    const playerFront = map.createStaticLayer('Player Front', tiles, 0, 0)
+
+    this.physics.add.collider(this.player, border)
     this.physics.add.collider(this.player, back)
     this.physics.add.collider(this.player, front)
 

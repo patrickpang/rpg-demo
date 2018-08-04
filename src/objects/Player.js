@@ -74,7 +74,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
       this,
       targetX,
       targetY,
-      Phaser.Math.Distance.Between(this.x, this.y, targetX, targetY) + 30
+      Phaser.Math.Distance.Between(this.x, this.y, targetX, targetY) + 50
     )
 
     const offsetX = Math.round((targetX - this.x) / tileWidth)
