@@ -19,6 +19,6 @@ export default class StartScene extends Phaser.Scene {
   }
 
   create() {
-    this.scene.start('UpperUStreet')
+    this.scene.start('Haking5F')
   }
 }
