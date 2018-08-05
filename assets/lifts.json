@@ -14,5 +14,13 @@
       "3": "Haking3F",
       "5": "Haking5F"
     }
+  },
+
+  "SUBuildingLift": {
+    "availableLevels": ["G", "1"],
+    "levels": {
+      "G": "SUBuildingGF",
+      "1": "SUBuilding1F"
+    }
   }
 }
