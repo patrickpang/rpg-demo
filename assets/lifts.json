@@ -1,0 +1,10 @@
+{
+  "CBLift": {
+    "availableLevels": ["LG1", "G", "3"],
+    "levels": {
+      "LG1": "CBLG1",
+      "G": "CBGF",
+      "3": "CB3F"
+    }
+  }
+}
