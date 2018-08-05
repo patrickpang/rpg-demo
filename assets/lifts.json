@@ -6,5 +6,13 @@
       "G": "CBGF",
       "3": "CB3F"
     }
+  },
+
+  "HakingLift": {
+    "availableLevels": ["3", "5"],
+    "levels": {
+      "3": "Haking3F",
+      "5": "Haking5F"
+    }
   }
 }
