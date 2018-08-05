@@ -81,6 +81,14 @@
                  "height":36,
                  "id":1,
                  "name":"UpperUStreet",
+                 "properties":
+                    {
+                     "target":"NearDelifrance"
+                    },
+                 "propertytypes":
+                    {
+                     "target":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -92,6 +100,14 @@
                  "height":63,
                  "id":2,
                  "name":"UpperUStreet",
+                 "properties":
+                    {
+                     "target":"NearPool"
+                    },
+                 "propertytypes":
+                    {
+                     "target":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
