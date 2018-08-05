@@ -119,7 +119,19 @@
         {
          "draworder":"topdown",
          "name":"Players",
-         "objects":[],
+         "objects":[
+                {
+                 "height":0,
+                 "id":6,
+                 "name":"Start",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1039,
+                 "y":2641
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -138,7 +150,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":6,
+ "nextobjectid":7,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
