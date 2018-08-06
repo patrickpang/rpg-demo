@@ -14,15 +14,15 @@ export default class Dialog extends Phaser.Scene {
 
     this.scene.pause(this.parentScene.scene.key)
 
-    const gameWidth = this.sys.game.config.width
-    const gameHeight = this.sys.game.config.height
+    this.gameWidth = this.sys.game.config.width
+    this.gameHeight = this.sys.game.config.height
 
-    const marginBottom = 50
-    const padding = 50
+    this.marginBottom = 50
+    this.padding = 50
 
-    const width = Math.min(gameWidth * 0.8, 800)
-    const x = gameWidth * 0.5
-    const y = gameHeight - marginBottom
+    const width = Math.min(this.gameWidth * 0.8, 800)
+    const x = this.gameWidth * 0.5
+    const y = this.gameHeight - this.marginBottom
 
     const textStyle = {
       fontFamily: 'VT323, sans-serif',
@@ -42,27 +42,28 @@ export default class Dialog extends Phaser.Scene {
       .fillStyle(0x000000, 0.5)
       .fillRect(
         0,
-        gameHeight - (this.textBox.height + padding * 2),
-        gameWidth,
-        this.textBox.height + padding * 2
+        this.gameHeight - (this.textBox.height + this.padding * 2),
+        this.gameWidth,
+        this.textBox.height + this.padding * 2
       )
-      .setInteractive(
-        new Phaser.Geom.Rectangle(
-          0,
-          gameHeight - (this.textBox.height + padding * 2),
-          gameWidth,
-          this.textBox.height + padding * 2
-        ),
-        Phaser.Geom.Rectangle.Contains
-      )
+      .setInteractive()
 
-    this.input.on('pointerdown', () => this.nextParagraph())
+    this.input.on('pointerdown', () => this.renderNextParagraph())
   }
 
-  nextParagraph() {
+  renderNextParagraph() {
     this.currentIndex++
     if (this.currentIndex < this.paragraphs.length) {
       this.textBox.setText(this.paragraphs[this.currentIndex])
+      this.dialogBox
+        .clear()
+        .fillStyle(0x000000, 0.5)
+        .fillRect(
+          0,
+          this.gameHeight - (this.textBox.height + this.padding * 2),
+          this.gameWidth,
+          this.textBox.height + this.padding * 2
+        )
     } else {
       this.scene.stop()
       this.scene.resume(this.parentScene.scene.key)
