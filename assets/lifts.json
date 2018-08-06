@@ -1,42 +1,7 @@
 {
-  "CBLift": {
-    "availableLevels": ["LG1", "G", "3"],
-    "levels": {
-      "LG1": "CBLG1",
-      "G": "CBGF",
-      "3": "CB3F"
-    }
-  },
-
-  "HakingLift": {
-    "availableLevels": ["3", "5"],
-    "levels": {
-      "3": "Haking3F",
-      "5": "Haking5F"
-    }
-  },
-
-  "SUBuildingLift": {
-    "availableLevels": ["G", "1"],
-    "levels": {
-      "G": "SUBuildingGF",
-      "1": "SUBuilding1F"
-    }
-  },
-
-  "KnowlesLift": {
-    "availableLevels": ["G", "1"],
-    "levels": {
-      "G": "KnowlesGF",
-      "1": "Knowles1F"
-    }
-  },
-
-  "KKLift": {
-    "availableLevels": ["G", "2"],
-    "levels": {
-      "G": "KKGF",
-      "2": "KK2F"
-    }
-  }
+  "CBLift": [["LG1", "CBLG1"], ["G", "CBGF"], ["3", "CB3F"]],
+  "HakingLift": [["3", "Haking3F"], ["5", "Haking5F"]],
+  "SUBuildingLift": [["G", "SUBuildingGF"], ["1", "SUBuilding1F"]],
+  "KnowlesLift": [["G", "KnowlesGF"], ["1", "Knowles1F"]],
+  "KKLift": [["G", "KKGF"], ["2", "KK2F"]]
 }

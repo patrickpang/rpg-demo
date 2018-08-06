@@ -1,0 +1,12 @@
+{
+  "octopus-form": {
+    "en": {
+      "title": "Get Student Octopus Card",
+      "description": "You need to get a form in the office of the Faculty of Engineering"
+    },
+    "zh": {
+      "title": "攞張學生八達通",
+      "description": "去個 faculty office 填張 form 先～"
+    }
+  }
+}

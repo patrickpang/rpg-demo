@@ -6,7 +6,8 @@
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "prebuild": "rm -rf dist"
+    "prebuild": "rm -rf dist",
+    "deploy": "npm run build && firebase deploy"
   },
   "dependencies": {
     "lodash": "4.17.10",
