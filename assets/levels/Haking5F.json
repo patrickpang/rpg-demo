@@ -75,6 +75,48 @@
         }, 
         {
          "draworder":"topdown",
+         "name":"Dialogs",
+         "objects":[
+                {
+                 "height":24.3093801104972,
+                 "id":17,
+                 "name":"intro",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":83.9779198895028,
+                 "x":801.657448895028,
+                 "y":409.392271270718
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Tasks",
+         "objects":[
+                {
+                 "height":22.0994475138122,
+                 "id":11,
+                 "name":"octopus-form",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":82.8729281767955,
+                 "x":802.209944751381,
+                 "y":435.359116022099
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
          "name":"Entrances",
          "objects":[
                 {
@@ -182,7 +224,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":11,
+ "nextobjectid":18,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

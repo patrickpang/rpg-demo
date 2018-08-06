@@ -75,6 +75,37 @@
         }, 
         {
          "draworder":"topdown",
+         "name":"Dialogs",
+         "objects":[
+                {
+                 "height":59.9031353555956,
+                 "id":49,
+                 "name":"hku-intro",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":62.4522049451953,
+                 "x":5086.66836604639,
+                 "y":2347.69309202141
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Tasks",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
          "name":"Entrances",
          "objects":[
                 {
@@ -208,7 +239,7 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":5116,
+                 "x":5118,
                  "y":2388
                 }, 
                 {
@@ -324,8 +355,66 @@
          "width":300,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Welcome",
+         "objects":[
+                {
+                 "height":0,
+                 "id":38,
+                 "name":"Boy",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5054.8049961764,
+                 "y":2387.20367066021
+                }, 
+                {
+                 "height":0,
+                 "id":39,
+                 "name":"Girl",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5182.80754524599,
+                 "y":2388.47820545501
+                }, 
+                {
+                 "height":0,
+                 "id":47,
+                 "name":"Title",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5119.80627071119,
+                 "y":1984.72962018863
+                }, 
+                {
+                 "height":0,
+                 "id":48,
+                 "name":"Prompt",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5119.80627071119,
+                 "y":2110.62962018863
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextobjectid":38,
+ "nextobjectid":50,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

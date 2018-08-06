@@ -1,4 +1,5 @@
 import Phaser from 'phaser'
+import { fontFamily } from '../constants'
 
 export default class Dialog extends Phaser.Scene {
   constructor() {
@@ -25,8 +26,8 @@ export default class Dialog extends Phaser.Scene {
     const y = this.gameHeight - this.marginBottom
 
     const textStyle = {
-      fontFamily: 'VT323, sans-serif',
-      fontSize: '21px',
+      fontFamily: fontFamily,
+      fontSize: '16px',
       fill: '#fefefe',
     }
 
