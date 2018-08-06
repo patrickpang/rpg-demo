@@ -30,5 +30,13 @@
       "G": "KnowlesGF",
       "1": "Knowles1F"
     }
+  },
+
+  "KKLift": {
+    "availableLevels": ["G", "2"],
+    "levels": {
+      "G": "KKGF",
+      "2": "KK2F"
+    }
   }
 }
