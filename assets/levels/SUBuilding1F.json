@@ -75,7 +75,7 @@
         }, 
         {
          "draworder":"topdown",
-         "name":"Unavailable",
+         "name":"Entrances",
          "objects":[
                 {
                  "height":92.7706754157707,
@@ -161,7 +161,7 @@
                 {
                  "height":0,
                  "id":3,
-                 "name":"SUBuildingGF",
+                 "name":"NearStair",
                  "point":true,
                  "rotation":0,
                  "type":"",
