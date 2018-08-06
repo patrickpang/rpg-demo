@@ -120,6 +120,18 @@
                  "width":318.105381165919,
                  "x":128.923766816143,
                  "y":1058.01569506726
+                }, 
+                {
+                 "height":0,
+                 "id":30,
+                 "name":"HappyPark",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":290.006988120196,
+                 "y":1043.55928255299
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -173,7 +185,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":30,
+ "nextobjectid":31,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
