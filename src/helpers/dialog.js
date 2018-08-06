@@ -7,9 +7,12 @@ export default class Dialog extends Phaser.Scene {
 
   preload() {}
 
-  create({ paragraphs }) {
+  create({ parentScene, paragraphs }) {
+    this.parentScene = parentScene
     this.paragraphs = paragraphs
     this.currentIndex = 0
+
+    this.scene.pause(this.parentScene.scene.key)
 
     const gameWidth = this.sys.game.config.width
     const gameHeight = this.sys.game.config.height
@@ -62,6 +65,7 @@ export default class Dialog extends Phaser.Scene {
       this.textBox.setText(this.paragraphs[this.currentIndex])
     } else {
       this.scene.stop()
+      this.scene.resume(this.parentScene.scene.key)
     }
   }
 }

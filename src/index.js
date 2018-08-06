@@ -1,6 +1,5 @@
 import Phaser from 'phaser'
 import StartScene from './scenes/StartScene'
-import WorldScene from './scenes/WorldScene'
 import UpperUStreet from './scenes/UpperUStreet'
 import Haking5F from './scenes/Haking5F'
 import Dialog from './helpers/dialog'
@@ -18,7 +17,7 @@ const config = {
       debug: false,
     },
   },
-  scene: [StartScene, WorldScene, UpperUStreet, Haking5F, Dialog],
+  scene: [StartScene, UpperUStreet, Haking5F, Dialog],
 }
 
 const game = new Phaser.Game(config)
