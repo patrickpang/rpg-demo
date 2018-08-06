@@ -1,4 +1,5 @@
 import Phaser from 'phaser'
+import WebFont from 'webfontloader'
 
 import ideal_tileset from '../../assets/levels/ideal_tileset.png'
 
@@ -13,6 +14,11 @@ export default class StartScene extends Phaser.Scene {
     this.load.spritesheet('george', george, {
       frameWidth: 48,
       frameHeight: 48,
+    })
+    WebFont.load({
+      google: {
+        families: ['VT323'],
+      },
     })
   }
 

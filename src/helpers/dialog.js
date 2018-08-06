@@ -25,7 +25,7 @@ export default class Dialog extends Phaser.Scene {
     const y = gameHeight - marginBottom
 
     const textStyle = {
-      fontFamily: 'VT323, monospace',
+      fontFamily: 'VT323, sans-serif',
       fontSize: '21px',
       fill: '#fefefe',
     }

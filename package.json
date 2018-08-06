@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "lodash": "4.17.10",
-    "phaser": "3.11.0"
+    "phaser": "3.11.0",
+    "webfontloader": "^1.6.28"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1",
