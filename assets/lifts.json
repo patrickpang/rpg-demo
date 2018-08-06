@@ -22,5 +22,13 @@
       "G": "SUBuildingGF",
       "1": "SUBuilding1F"
     }
+  },
+
+  "KnowlesLift": {
+    "availableLevels": ["G", "1"],
+    "levels": {
+      "G": "KnowlesGF",
+      "1": "Knowles1F"
+    }
   }
 }
