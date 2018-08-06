@@ -8,6 +8,9 @@ export default class Dialog extends Phaser.Scene {
   preload() {}
 
   create({ paragraphs }) {
+    this.paragraphs = paragraphs
+    this.currentIndex = 0
+
     const gameWidth = this.sys.game.config.width
     const gameHeight = this.sys.game.config.height
 
@@ -24,38 +27,41 @@ export default class Dialog extends Phaser.Scene {
       fill: '#fefefe',
     }
 
-    const textBox = this.add
+    this.textBox = this.add
       .text(x, y, paragraphs[0], textStyle)
       .setWordWrapWidth(width, false)
       .setOrigin(0.5, 1)
       .setDepth(1)
       .setInteractive()
 
-    const dialogBox = this.add
+    this.dialogBox = this.add
       .graphics()
       .fillStyle(0x000000, 0.5)
       .fillRect(
         0,
-        gameHeight - (textBox.height + padding * 2),
+        gameHeight - (this.textBox.height + padding * 2),
         gameWidth,
-        textBox.height + padding * 2
+        this.textBox.height + padding * 2
       )
       .setInteractive(
         new Phaser.Geom.Rectangle(
           0,
-          gameHeight - (textBox.height + padding * 2),
+          gameHeight - (this.textBox.height + padding * 2),
           gameWidth,
-          textBox.height + padding * 2
+          this.textBox.height + padding * 2
         ),
         Phaser.Geom.Rectangle.Contains
       )
 
-    textBox.on('pointerdown', () => {
-      console.log('hi from text')
-    })
+    this.input.on('pointerdown', () => this.nextParagraph())
+  }
 
-    dialogBox.on('pointerdown', () => {
-      console.log('hi from dialog')
-    })
+  nextParagraph() {
+    this.currentIndex++
+    if (this.currentIndex < this.paragraphs.length) {
+      this.textBox.setText(this.paragraphs[this.currentIndex])
+    } else {
+      this.scene.stop()
+    }
   }
 }
