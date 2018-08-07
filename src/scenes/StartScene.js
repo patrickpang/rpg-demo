@@ -8,7 +8,7 @@ import UpperUStreetMap from '../../assets/levels/UpperUStreet.json'
 
 import george from '../../assets/players/george.png'
 import betty from '../../assets/players/betty.png'
-import { fontFamily } from '../constants'
+import { fontFamily, mainFont } from '../constants'
 
 export default class StartScene extends Phaser.Scene {
   constructor() {
@@ -28,7 +28,7 @@ export default class StartScene extends Phaser.Scene {
     this.load.tilemapTiledJSON('UpperUStreetMap', UpperUStreetMap)
     WebFont.load({
       google: {
-        families: ['Do Hyeon'],
+        families: [mainFont],
       },
     })
   }
@@ -64,17 +64,45 @@ export default class StartScene extends Phaser.Scene {
       .setOrigin(0.5, 0.5)
 
     const promptPoint = map.findObject('Welcome', obj => obj.name === 'Prompt')
-    this.add
-      .text(promptPoint.x, promptPoint.y, 'Select A Player To Start', {
+
+    const placeholder = this.add
+      .text(promptPoint.x, promptPoint.y, 'What is your name?', {
         fontFamily: fontFamily,
         fontSize: '24px',
         fill: '#fefefe',
       })
       .setOrigin(0.5, 0.5)
 
+    const padding = 10
+    const graphics = this.add.graphics()
+
+    const inputBox = graphics
+      .lineStyle(5, 0xffffff, 1)
+      .strokeRoundedRect(
+        placeholder.x - placeholder.width / 2 - padding,
+        placeholder.y - placeholder.height / 2 - padding,
+        placeholder.width + padding * 2,
+        placeholder.height + padding * 2,
+        10
+      )
+
+    graphics.setInteractive(
+      new Phaser.Geom.Rectangle(
+        placeholder.x - placeholder.width / 2,
+        placeholder.y - placeholder.height / 2,
+        placeholder.width + padding * 2,
+        placeholder.height + padding * 2
+      ),
+      Phaser.Geom.Rectangle.Contains
+    )
+
+    graphics.on('pointerdown', () => console.log('hi'))
+
     this.cameras.main.startFollow(this.player)
 
     // this.scene.start('UpperUStreet')
+
+    // set body size for larger surface area
   }
 
   update() {}
