@@ -78,23 +78,15 @@
          "name":"Entrances",
          "objects":[
                 {
-                 "height":193.0605,
+                 "height":195.727166666667,
                  "id":25,
-                 "name":"Lift",
-                 "properties":
-                    {
-                     "key":"KnowlesLift"
-                    },
-                 "propertytypes":
-                    {
-                     "key":"string"
-                    },
+                 "name":"Unavailable",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":291.4888,
-                 "x":496.325106726457,
-                 "y":414.406969730942
+                 "width":60.8221333333333,
+                 "x":724.325106726457,
+                 "y":415.740303064275
                 }, 
                 {
                  "height":63.0605,
@@ -140,6 +132,25 @@
                  "width":64,
                  "x":511,
                  "y":290
+                }, 
+                {
+                 "height":195.727,
+                 "id":34,
+                 "name":"Lift",
+                 "properties":
+                    {
+                     "key":"KnowlesLift"
+                    },
+                 "propertytypes":
+                    {
+                     "key":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":60.8221,
+                 "x":493.58895,
+                 "y":416.803166666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -193,7 +204,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":34,
+ "nextobjectid":35,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
