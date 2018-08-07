@@ -18,16 +18,15 @@ export default class Dialog extends Phaser.Scene {
     this.gameWidth = this.sys.game.config.width
     this.gameHeight = this.sys.game.config.height
 
-    this.marginBottom = 50
-    this.padding = 50
+    this.padding = 30
 
     const width = Math.min(this.gameWidth * 0.8, 800)
     const x = this.gameWidth * 0.5
-    const y = this.gameHeight - this.marginBottom
+    const y = this.gameHeight - this.padding
 
     const textStyle = {
       fontFamily: fontFamily,
-      fontSize: '16px',
+      fontSize: '24px',
       fill: '#fefefe',
     }
 
