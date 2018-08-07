@@ -10,6 +10,8 @@
     "deploy": "npm run build && firebase deploy"
   },
   "dependencies": {
+    "hyperapp": "^1.2.8",
+    "ijk": "^0.24.0",
     "lodash": "4.17.10",
     "phaser": "3.11.0",
     "webfontloader": "^1.6.28"
