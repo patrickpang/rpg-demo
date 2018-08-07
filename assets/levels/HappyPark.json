@@ -99,7 +99,15 @@
                 {
                  "height":99.649,
                  "id":18,
-                 "name":"SunYatSenSteps",
+                 "name":"UpperUStreet",
+                 "properties":
+                    {
+                     "target":"SunYatSenSteps"
+                    },
+                 "propertytypes":
+                    {
+                     "target":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
