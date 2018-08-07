@@ -89,7 +89,7 @@
                  "y":1345.33333333333
                 }, 
                 {
-                 "height":380,
+                 "height":62.6666666666666,
                  "id":4,
                  "name":"Lift",
                  "properties":
@@ -103,7 +103,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":301.333333333333,
+                 "width":53.3333333333329,
                  "x":665.33333333333,
                  "y":865.33333333333
                 }, 
@@ -128,6 +128,101 @@
                  "width":61.3333333333333,
                  "x":768,
                  "y":448
+                }, 
+                {
+                 "height":62.6667,
+                 "id":15,
+                 "name":"Lift",
+                 "properties":
+                    {
+                     "key":"KKLift"
+                    },
+                 "propertytypes":
+                    {
+                     "key":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":53.3333,
+                 "x":668.000016666667,
+                 "y":1024.66665
+                }, 
+                {
+                 "height":62.6667,
+                 "id":16,
+                 "name":"Lift",
+                 "properties":
+                    {
+                     "key":"KKLift"
+                    },
+                 "propertytypes":
+                    {
+                     "key":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":53.3333,
+                 "x":665.33335,
+                 "y":1187.33331666667
+                }, 
+                {
+                 "height":62.6667,
+                 "id":17,
+                 "name":"Lift",
+                 "properties":
+                    {
+                     "key":"KKLift"
+                    },
+                 "propertytypes":
+                    {
+                     "key":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":53.3333,
+                 "x":912.000016666667,
+                 "y":867.333316666667
+                }, 
+                {
+                 "height":62.6667,
+                 "id":18,
+                 "name":"Lift",
+                 "properties":
+                    {
+                     "key":"KKLift"
+                    },
+                 "propertytypes":
+                    {
+                     "key":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":53.3333,
+                 "x":910.666683333333,
+                 "y":1025.99998333333
+                }, 
+                {
+                 "height":62.6667,
+                 "id":19,
+                 "name":"Lift",
+                 "properties":
+                    {
+                     "key":"KKLift"
+                    },
+                 "propertytypes":
+                    {
+                     "key":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":53.3333,
+                 "x":912.000016666667,
+                 "y":1185.99998333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -172,8 +267,8 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":1298.66666666667,
-                 "y":1392
+                 "x":1305.33333333334,
+                 "y":1497.33333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -193,7 +288,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":15,
+ "nextobjectid":20,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
