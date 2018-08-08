@@ -25,8 +25,8 @@
       "Could you help me buy a lunch? Here’s the money."
     ],
     "zh": [
-      "",
-      ""
+      "Hi，你係唔係港大嘅學生呀？我好肚餓但係我唔知邊度有得買嘢食...",
+      "你可唔可以幫我買個午餐？呢啲係飯錢。"
     ]
   },
 
@@ -36,8 +36,8 @@
       "Could you please help me buy them?"
     ],
     "zh": [
-      "",
-      ""
+      "我就嚟要考試，但係我唔記得帶我啲文具！！",
+      "你可唔可以幫我去買？"
     ]
   },
 
@@ -46,7 +46,7 @@
       "University Street is a common place for many societies to set up their booths and attract students to know more about them or even register their events."
     ],
     "zh": [
-      "",
+      "UStreet係一個公共嘅地方俾唔同嘅學會set booth嚟介紹自己同埋吸引學生去報名參加佢哋嘅活動。",
       ""
     ]
   },
@@ -57,8 +57,8 @@
       "Please enjoy your shopping here."
     ],
     "zh": [
-      "",
-      ""
+      "呢度就係Co-op，你可以喺度搵到唔同種類嘅文具。",
+      "歡迎光臨。"
     ]
   },
 
@@ -67,7 +67,7 @@
       "Could you help me print out my poster? This is the USB."
     ],
     "zh": [
-      "",
+      "你可唔可以幫我print個poster？張poster喺呢隻USB度。",
       ""
     ]
   },
@@ -78,8 +78,8 @@
       "You can even print A3 poster here which is very useful for many of your class work!"
     ],
     "zh": [
-      "",
-      ""
+      "呢度就係SU Printing Shop，你可以係喺度俾錢印唔同仲量同尺寸嘅嘢。",
+      "你仲可以係度print A3 poster添，你上堂成日都要交A3 poster㗎！"
     ]
   },
 
@@ -88,7 +88,7 @@
       "My laptop suddenly start malfunctioning... Where can I fix it inside the campus?"
     ],
     "zh": [
-      "",
+      "我部電腦突然壞咗用唔到...你知唔知campus入面有邊度可以整電腦？",
       ""
     ]
   },
@@ -99,17 +99,17 @@
       "We always have IT professionals here to solve your problems!"
     ],
     "zh": [
-      "",
-      ""
+      "呢度就係SU Computer Store，你可以喺度買電腦同埋整電腦。",
+      "我哋呢度經常都會有專業嘅IT人員幫你解決問題！"
     ]
   },
 
   "borrow-socket": {
     "en": [
-      "We need a socket so that we can use our speaker. Could you please help us borrow a socket?"
+      "We need an extension chord so that we can use our speaker. Could you please help us borrow an extension chord?"
     ],
     "zh": [
-      "",
+      "我哋差個拖板先用到個speaker。你可唔可以幫我哋借個拖板呀？",
       ""
     ]
   },
@@ -117,17 +117,17 @@
   "su-office-intro": {
     "en": [
       "This is the SU Office where you can contact HKUSU, borrow all sorts of equipment and book venues within the campus to hold events.",
-      "Here is your socket."
+      "Here is your extension chord."
     ],
     "zh": [
-      "",
-      ""
+      "呢度就係SU Office，你可以係度搵到學生會嘅ex-co，借equipment同book場去搞活動。",
+      "嗱，你要嘅拖板。"
     ]
   },
 
   "haking5f-intro": {
     "en": ["Welcome to the office of the Faculty of Engineering"],
-    "zh": ["hello～呢度就係 engine faculty 既 office 拉"]
+    "zh": ["Hello～呢度就係 engine faculty 既 office 喇"]
   }
 
 }
