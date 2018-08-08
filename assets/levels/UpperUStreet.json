@@ -89,15 +89,37 @@
                  "y":1963.69309202141
                 }, 
                 {
-                 "height":69.1358024691358,
+                 "height":57.1358024691358,
                  "id":73,
                  "name":"buy-stationery",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":128.395061728395,
-                 "x":6176.30864197531,
-                 "y":1504.64197530864
+                 "width":62.3950617283954,
+                 "x":5520.30864197531,
+                 "y":1529.64197530864
+                }, 
+                {
+                 "height":61,
+                 "id":77,
+                 "name":"buy-lunch",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":61,
+                 "x":5330,
+                 "y":1444
+                }, 
+                {
+                 "height":56,
+                 "id":80,
+                 "name":"discover-soc-booths",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":61,
+                 "x":5846,
+                 "y":1526
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -110,15 +132,37 @@
          "name":"Tasks",
          "objects":[
                 {
-                 "height":65.4320987654321,
+                 "height":55.4320987654321,
                  "id":71,
                  "name":"buy-stationery",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":132.098765432099,
-                 "x":6175.30864197531,
-                 "y":1504.93827160494
+                 "width":64.0987654320988,
+                 "x":5519.30864197531,
+                 "y":1528.93827160494
+                }, 
+                {
+                 "height":60,
+                 "id":76,
+                 "name":"buy-lunch",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":61,
+                 "x":5330,
+                 "y":1445
+                }, 
+                {
+                 "height":60,
+                 "id":79,
+                 "name":"discover-soc-booths",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":62,
+                 "x":5845,
+                 "y":1523
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -147,8 +191,32 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":6241.97530864198,
-                 "y":1535.8024691358
+                 "x":5552.97530864198,
+                 "y":1554.8024691358
+                }, 
+                {
+                 "height":0,
+                 "id":75,
+                 "name":"LunchNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5359,
+                 "y":1470
+                }, 
+                {
+                 "height":0,
+                 "id":78,
+                 "name":"Soc-boothsNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5874,
+                 "y":1556
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -687,7 +755,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":75,
+ "nextobjectid":81,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
