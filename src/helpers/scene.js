@@ -1,8 +1,10 @@
 import Player from '../objects/Player'
-import { getState } from './state'
+import { getState, setState } from './state'
 
 export function createFromTilemap(scene, mapKey, tilesetKey, from) {
   scene.cameras.main.fadeIn(200)
+
+  setState({ location: { scene: scene.scene.key } })
 
   const map = scene.make.tilemap({ key: mapKey })
 
@@ -37,9 +39,13 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
           ? entrance.properties['target']
           : scene.scene.key
       )
+      .setData('key', entrance.properties && entrance.properties['key'])
   )
 
-  const spawnPoint = map.findObject('Players', obj => obj.name === (from || 'Start'))
+  const spawnPoint =
+    map.findObject('Players', obj => obj.name === (from || 'Start')) ||
+    map.getObjectLayer('Players').objects[0]
+
   scene.player = new Player(
     scene,
     spawnPoint.x,
@@ -55,9 +61,12 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
   scene.physics.add.collider(scene.player, front)
 
   scene.physics.add.overlap(scene.player, zones, (player, entrance) => {
-    scene.scene.start(entrance.getData('name'), {
-      target: entrance.getData('target'),
-    })
+    const name = entrance.getData('name')
+    if (name === 'Lift') {
+      scene.scene.start('Lift', { key: entrance.getData('key') })
+    } else {
+      scene.scene.start(name, { target: entrance.getData('target') })
+    }
   })
 
   // scene.npc = scene.physics.add.sprite(80, 20, 'players', 3)
