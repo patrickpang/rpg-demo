@@ -2,6 +2,7 @@ import Phaser from 'phaser'
 import StartScene from './scenes/StartScene'
 import Dialog from './scenes/dialog'
 import Lift from './scenes/lift'
+import HUD from './scenes/HUD'
 
 import { createFromTilemap } from './helpers/scene'
 
@@ -9,6 +10,7 @@ import UpperUStreetMap from '../assets/levels/UpperUStreet.json'
 import LowerUStreetMap from '../assets/levels/LowerUStreet.json'
 import Haking3FMap from '../assets/levels/Haking3F.json'
 import Haking5FMap from '../assets/levels/Haking5F.json'
+import HakingTunnelMap from '../assets/levels/HakingTunnel.json'
 import HappyParkMap from '../assets/levels/HappyPark.json'
 import CBGFMap from '../assets/levels/CBGF.json'
 import CBLG1Map from '../assets/levels/CBLG1.json'
@@ -27,6 +29,7 @@ const scenesData = [
   ['LowerUStreet', LowerUStreetMap],
   ['Haking3F', Haking3FMap],
   ['Haking5F', Haking5FMap],
+  ['HakingTunnel', HakingTunnelMap],
   ['HappyPark', HappyParkMap],
   ['CBGF', CBGFMap],
   ['CBLG1', CBLG1Map],
@@ -72,7 +75,7 @@ const config = {
       debug: false,
     },
   },
-  scene: [StartScene, Dialog, Lift].concat(scenes),
+  scene: [StartScene, Dialog, Lift, HUD].concat(scenes),
 }
 
 const game = new Phaser.Game(config)
