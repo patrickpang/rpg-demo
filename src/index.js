@@ -1,6 +1,6 @@
 import Phaser from 'phaser'
 import StartScene from './scenes/StartScene'
-import Dialog from './helpers/dialog'
+import Dialog from './scenes/dialog'
 
 import { createFromTilemap } from './helpers/scene'
 
@@ -19,7 +19,7 @@ import KnowlesGFMap from '../assets/levels/KnowlesGF.json'
 import KnowlesKKTunnelMap from '../assets/levels/KnowlesKKTunnel.json'
 import SUBuilding1FMap from '../assets/levels/SUBuilding1F.json'
 import SUBuildingGFMap from '../assets/levels/SUBuildingGF.json'
-import CentennialLGFMap from '../assets/levels/CentennialLGF.json'
+import CentenLGMap from '../assets/levels/CentenLG.json'
 
 const scenesData = [
   ['UpperUStreet', UpperUStreetMap],
@@ -37,7 +37,7 @@ const scenesData = [
   ['KnowlesKKTunnel', KnowlesKKTunnelMap],
   ['SUBuilding1F', SUBuilding1FMap],
   ['SUBuildingGF', SUBuildingGFMap],
-  ['CentennialLGF', CentennialLGFMap],
+  ['CentenLG', CentenLGMap],
 ]
 
 const scenes = scenesData.map(([sceneKey, map]) => {

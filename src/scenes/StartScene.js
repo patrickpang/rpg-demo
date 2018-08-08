@@ -146,15 +146,25 @@ export default class StartScene extends Phaser.Scene {
     inputBox.style.fontFamily = fontFamily
 
     const form = document.createElement('form')
+
+    const submitName = () => {
+      if (inputBox.value !== '') {
+        setState({ player: { name: inputBox.value } })
+
+        this.inputBorder.destroy()
+        document.getElementById('overlay').removeChild(form)
+
+        this.choosePlayer()
+      } else {
+        inputBox.focus()
+      }
+    }
+
     form.onsubmit = e => {
       e.preventDefault()
-      setState({ player: { name: inputBox.value } })
-
-      this.inputBorder.destroy()
-      document.getElementById('overlay').removeChild(form)
-
-      this.choosePlayer()
+      submitName()
     }
+    inputBox.onblur = submitName
 
     form.appendChild(inputBox)
     document.getElementById('overlay').appendChild(form)
