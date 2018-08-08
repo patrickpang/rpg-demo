@@ -23,6 +23,7 @@
     "zh": [
       "Hi，你係唔係港大嘅學生呀？我好肚餓但係我唔知邊度有得買嘢食...",
       "你可唔可以幫我買個午餐？呢啲係飯錢。"
+<<<<<<< HEAD
     ]
   },
 
@@ -34,6 +35,8 @@
     "zh": [
       "",
       ""
+=======
+>>>>>>> e2991a4431de78bd31ee2fad230af84009793200
     ]
   },
 
@@ -41,10 +44,7 @@
     "en": [
       "Here is your exclusive student credit card, please enjoy all the discounts and perks we have prepared for you!"
     ],
-    "zh": [
-      "",
-      ""
-    ]
+    "zh": ["我就嚟要考試，但係我唔記得帶我啲文具！！", "你可唔可以幫我去買？"]
   },
 
   "buy-stationery": {
@@ -70,6 +70,7 @@
       "Please enjoy your shopping here."
     ],
     "zh": ["呢度就係Co-op，你可以喺度搵到唔同種類嘅文具。", "歡迎光臨。"]
+<<<<<<< HEAD
   },
 
   "print-stuff": {
@@ -130,6 +131,13 @@
       "",
       ""
     ]
+=======
+  },
+
+  "print-stuff": {
+    "en": ["Could you help me print out my poster? This is the USB."],
+    "zh": ["你可唔可以幫我print個poster？張poster喺呢隻USB度。"]
+>>>>>>> e2991a4431de78bd31ee2fad230af84009793200
   },
 
   "lsk-conference-room-intro": {
@@ -138,11 +146,12 @@
       ""
     ],
     "zh": [
-      "",
-      ""
+      "呢度就係SU Printing Shop，你可以係喺度俾錢印唔同仲量同尺寸嘅嘢。",
+      "你仲可以係度print A3 poster添，你上堂成日都要交A3 poster㗎！"
     ]
   },
 
+<<<<<<< HEAD
   "bea-bank-intro": {
     "en": [
       "",
@@ -152,6 +161,11 @@
       "",
       ""
     ]
+=======
+  "fix-computer": {
+    "en": ["My laptop suddenly start malfunctioning... Where can I fix it inside the campus?"],
+    "zh": ["我部電腦突然壞咗用唔到...你知唔知campus入面有邊度可以整電腦？"]
+>>>>>>> e2991a4431de78bd31ee2fad230af84009793200
   },
 
   "delifrance-intro": {
@@ -159,30 +173,36 @@
       "This is the Delifrance, one of the many eateries in HKU. Here is your fruit juice."
     ],
     "zh": [
-      "",
-      ""
+      "呢度就係SU Computer Store，你可以喺度買電腦同埋整電腦。",
+      "我哋呢度經常都會有專業嘅IT人員幫你解決問題！"
     ]
   },
 
   "chi-wah-intro": {
     "en": [
+<<<<<<< HEAD
       "",
       ""
+=======
+      "We need an extension chord so that we can use our speaker. Could you please help us borrow an extension chord?"
+>>>>>>> e2991a4431de78bd31ee2fad230af84009793200
     ],
-    "zh": [
-      "",
-      ""
-    ]
+    "zh": ["我哋差個拖板先用到個speaker。你可唔可以幫我哋借個拖板呀？"]
   },
 
   "university-book-store-intro": {
     "en": [
+<<<<<<< HEAD
       "This is the University Book Store where you can buy lots of academic books as your studying materials.",
       "Most of the textbooks required in your courses could usually be bought here."
+=======
+      "This is the SU Office where you can contact HKUSU, borrow all sorts of equipment and book venues within the campus to hold events.",
+      "Here is your extension chord."
+>>>>>>> e2991a4431de78bd31ee2fad230af84009793200
     ],
     "zh": [
-      "",
-      ""
+      "呢度就係SU Office，你可以係度搵到學生會嘅ex-co，借equipment同book場去搞活動。",
+      "嗱，你要嘅拖板。"
     ]
   },
 
@@ -197,6 +217,9 @@
 =======
     "en": ["Welcome to the office of the Faculty of Engineering"],
     "zh": ["Hello～呢度就係 engine faculty 既 office 喇"]
+<<<<<<< HEAD
+>>>>>>> e2991a4431de78bd31ee2fad230af84009793200
+=======
 >>>>>>> e2991a4431de78bd31ee2fad230af84009793200
   }
 }

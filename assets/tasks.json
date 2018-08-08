@@ -3,6 +3,7 @@
     "en": {
       "title": "Buy Lunch",
       "description": "You need to buy lunch from EAT"
+<<<<<<< HEAD
     },
     "zh": {
       "title": "買午餐",
@@ -14,10 +15,12 @@
     "en": {
       "title": "Register Credit Card",
       "description": "You need to register credit card on the Lower U-street"
+=======
+>>>>>>> e2991a4431de78bd31ee2fad230af84009793200
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "買午餐",
+      "description": "去EAT買個午餐"
     }
   },
 
@@ -62,6 +65,7 @@
     "zh": {
       "title": "整電腦",
       "description": "去SU Computer Store整電腦"
+<<<<<<< HEAD
     }
   },
 
@@ -84,11 +88,14 @@
     "zh": {
       "title": "",
       "description": ""
+=======
+>>>>>>> e2991a4431de78bd31ee2fad230af84009793200
     }
   },
 
   "discover-lsk-conference-room": {
     "en": {
+<<<<<<< HEAD
       "title": "Discover LSK Conference Room",
       "description": "You need to discover LSK Conference Room in Centennial Campus LGF"
     },
@@ -135,10 +142,14 @@
     "en": {
       "title": "Discover University Book Store",
       "description": "You need to discover University Book Store on the Upper U-street"
+=======
+      "title": "Borrow Extension Chord",
+      "description": "You need to borrow Extension Chord from SU Office"
+>>>>>>> e2991a4431de78bd31ee2fad230af84009793200
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "借拖板",
+      "description": "去SU Office借拖板"
     }
   },
 
