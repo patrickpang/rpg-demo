@@ -2,7 +2,18 @@
   "buy-lunch": {
     "en": {
       "title": "Buy Lunch",
-      "description": "You need to buy lunch from SU Can"
+      "description": "You need to buy lunch from EAT"
+    },
+    "zh": {
+      "title": "買午餐",
+      "description": "去EAT買個午餐"
+    }
+  },
+
+  "register-credit-card": {
+    "en": {
+      "title": "Register Credit Card",
+      "description": "You need to register credit card on the Lower U-street"
     },
     "zh": {
       "title": "",
@@ -16,8 +27,8 @@
       "description": "You need to buy stationery from Co-op Store"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "買文具",
+      "description": "去Co-op買文具"
     }
   },
 
@@ -27,8 +38,8 @@
       "description": "You need to discover society booths on the Upper U-street"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀唔同Soc嘅booth",
+      "description": "去U-street上層參觀唔同Soc嘅booth"
     }
   },
 
@@ -38,8 +49,8 @@
       "description": "You need to print stuff in SU Printing Shop"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "印嘢",
+      "description": "去SU Printing Shop print嘢"
     }
   },
 
@@ -49,15 +60,81 @@
       "description": "You need to fix computer in SU Computer Store"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "整電腦",
+      "description": "去SU Computer Store整電腦"
     }
   },
 
   "borrow-socket": {
     "en": {
-      "title": "Borrow Socket",
-      "description": "You need to borrow socket from SU Office"
+      "title": "Borrow Extension Chord",
+      "description": "You need to borrow Extension Chord from SU Office"
+    },
+    "zh": {
+      "title": "借拖板",
+      "description": "去SU Office借拖板"
+    }
+  },
+
+  "discover-obc-grill": {
+    "en": {
+      "title": "Discover OBC Grill",
+      "description": "You need to discover OBC Grill in Centennial Campus LGF"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-lsk-conference-room": {
+    "en": {
+      "title": "Discover LSK Conference Room",
+      "description": "You need to discover LSK Conference Room in Centennial Campus LGF"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-bea-bank": {
+    "en": {
+      "title": "Discover BEA Bank",
+      "description": "You need to discover BEA Bank on the Upper U-street"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-delifrance": {
+    "en": {
+      "title": "Discover Delifrance",
+      "description": "You need to discover Delifrance on the Upper U-street"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-chi-wah": {
+    "en": {
+      "title": "Discover Chi Wah Learning Center",
+      "description": "You need to discover Chi Wah Learning Center on the Upper U-street"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-university-book-store": {
+    "en": {
+      "title": "Discover University Book Store",
+      "description": "You need to discover University Book Store on the Upper U-street"
     },
     "zh": {
       "title": "",
@@ -67,13 +144,12 @@
 
   "octopus-form": {
     "en": {
-      "title": "Get Student Octopus Card",
+      "title": "Apply Student Octopus Card",
       "description": "You need to get a form in the office of the Faculty of Engineering"
     },
     "zh": {
-      "title": "攞張學生八達通",
-      "description": "去個 faculty office 填張 form 先～"
+      "title": "申請學生八達通",
+      "description": "去faculty office填張form先～"
     }
-  },
-  
+  }
 }

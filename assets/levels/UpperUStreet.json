@@ -120,6 +120,28 @@
                  "width":61,
                  "x":5846,
                  "y":1526
+                }, 
+                {
+                 "height":62.6666666666667,
+                 "id":85,
+                 "name":"bea-bank-intro",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":65.3333333333321,
+                 "x":8369.33333333333,
+                 "y":1460
+                }, 
+                {
+                 "height":61.3333333333333,
+                 "id":88,
+                 "name":"delifrance-intro",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":66.666666666667,
+                 "x":7934.66666666667,
+                 "y":1441.33333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -157,12 +179,58 @@
                  "height":60,
                  "id":79,
                  "name":"discover-soc-booths",
+                 "properties":
+                    {
+                     "completed":true
+                    },
+                 "propertytypes":
+                    {
+                     "completed":"bool"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":62,
                  "x":5845,
                  "y":1523
+                }, 
+                {
+                 "height":64,
+                 "id":84,
+                 "name":"discover-bea-bank",
+                 "properties":
+                    {
+                     "completed":true
+                    },
+                 "propertytypes":
+                    {
+                     "completed":"bool"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":8368,
+                 "y":1458.66666666667
+                }, 
+                {
+                 "height":64,
+                 "id":87,
+                 "name":"discover-delifrance",
+                 "properties":
+                    {
+                     "completed":true
+                    },
+                 "propertytypes":
+                    {
+                     "completed":"bool"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":7937.33333333333,
+                 "y":1440
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -217,6 +285,30 @@
                  "width":0,
                  "x":5874,
                  "y":1556
+                }, 
+                {
+                 "height":0,
+                 "id":83,
+                 "name":"BEABankNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":8400,
+                 "y":1490.66666666667
+                }, 
+                {
+                 "height":0,
+                 "id":86,
+                 "name":"DelifranceNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":7968,
+                 "y":1472
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -755,7 +847,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":81,
+ "nextobjectid":89,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

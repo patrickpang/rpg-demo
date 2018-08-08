@@ -1,13 +1,9 @@
 {
   "thank-you": {
-    "en": [
-      "Thanks so much"
-    ],
-    "zh": [
-      "多謝你吖"
-    ]
+    "en": ["Thanks so much"],
+    "zh": ["多謝你吖"]
   },
-  
+
   "hku-intro": {
     "en": [
       "The University of Hong Kong 香港大學 (often abbreviated as HKU) is a public research university located in Pokfulam, Hong Kong. Founded in 1911, its origins can be traced back to the Hong Kong College of Medicine for Chinese which was founded in 1887, it is the oldest tertiary institution in Hong Kong.[5] It is often cited as one of the most prestigious universities in Asia.[6]",
@@ -25,6 +21,27 @@
       "Could you help me buy a lunch? Here’s the money."
     ],
     "zh": [
+      "Hi，你係唔係港大嘅學生呀？我好肚餓但係我唔知邊度有得買嘢食...",
+      "你可唔可以幫我買個午餐？呢啲係飯錢。"
+    ]
+  },
+
+  "eat-intro": {
+    "en": [
+      "This is your lunch. Here is the EAT, one of the many eateries within HKU campus.",
+      "Today you could register student credit card on the Haking Wong Platform for a lot of benefits."
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "register-credit-card": {
+    "en": [
+      "Here is your exclusive student credit card, please enjoy all the discounts and perks we have prepared for you!"
+    ],
+    "zh": [
       "",
       ""
     ]
@@ -35,10 +52,7 @@
       "I am going to have examination later, but I’ve forgotten to bring my stationeries!!",
       "Could you please help me buy them?"
     ],
-    "zh": [
-      "",
-      ""
-    ]
+    "zh": ["我就嚟要考試，但係我唔記得帶我啲文具！！", "你可唔可以幫我去買？"]
   },
 
   "discover-soc-booths": {
@@ -46,8 +60,7 @@
       "University Street is a common place for many societies to set up their booths and attract students to know more about them or even register their events."
     ],
     "zh": [
-      "",
-      ""
+      "U-street係一個公共嘅地方俾唔同嘅學會set booth嚟介紹自己同埋吸引學生去報名參加佢哋嘅活動。"
     ]
   },
 
@@ -56,20 +69,12 @@
       "This is the Co-op Store where you can find any sorts of stationery you want to aid with your academic study.",
       "Please enjoy your shopping here."
     ],
-    "zh": [
-      "",
-      ""
-    ]
+    "zh": ["呢度就係Co-op，你可以喺度搵到唔同種類嘅文具。", "歡迎光臨。"]
   },
 
   "print-stuff": {
-    "en": [
-      "Could you help me print out my poster? This is the USB."
-    ],
-    "zh": [
-      "",
-      ""
-    ]
+    "en": ["Could you help me print out my poster? This is the USB."],
+    "zh": ["你可唔可以幫我print個poster？張poster喺呢隻USB度。"]
   },
 
   "su-printing-shop-intro": {
@@ -78,19 +83,14 @@
       "You can even print A3 poster here which is very useful for many of your class work!"
     ],
     "zh": [
-      "",
-      ""
+      "呢度就係SU Printing Shop，你可以係喺度俾錢印唔同仲量同尺寸嘅嘢。",
+      "你仲可以係度print A3 poster添，你上堂成日都要交A3 poster㗎！"
     ]
   },
 
   "fix-computer": {
-    "en": [
-      "My laptop suddenly start malfunctioning... Where can I fix it inside the campus?"
-    ],
-    "zh": [
-      "",
-      ""
-    ]
+    "en": ["My laptop suddenly start malfunctioning... Where can I fix it inside the campus?"],
+    "zh": ["我部電腦突然壞咗用唔到...你知唔知campus入面有邊度可以整電腦？"]
   },
 
   "su-computer-store-intro": {
@@ -99,14 +99,32 @@
       "We always have IT professionals here to solve your problems!"
     ],
     "zh": [
-      "",
-      ""
+      "呢度就係SU Computer Store，你可以喺度買電腦同埋整電腦。",
+      "我哋呢度經常都會有專業嘅IT人員幫你解決問題！"
     ]
   },
 
   "borrow-socket": {
     "en": [
-      "We need a socket so that we can use our speaker. Could you please help us borrow a socket?"
+      "We need an extension chord so that we can use our speaker. Could you please help us borrow an extension chord?"
+    ],
+    "zh": ["我哋差個拖板先用到個speaker。你可唔可以幫我哋借個拖板呀？"]
+  },
+
+  "su-office-intro": {
+    "en": [
+      "This is the SU Office where you can contact HKUSU, borrow all sorts of equipment and book venues within the campus to hold events.",
+      "Here is your extension chord."
+    ],
+    "zh": [
+      "呢度就係SU Office，你可以係度搵到學生會嘅ex-co，借equipment同book場去搞活動。",
+      "嗱，你要嘅拖板。"
+    ]
+  },
+
+  "obc-grill-intro": {
+    "en": [
+      "This is the OBC Grill, one of the many eateries in HKU. Here is your salad."
     ],
     "zh": [
       "",
@@ -114,10 +132,53 @@
     ]
   },
 
-  "su-office-intro": {
+  "lsk-conference-room-intro": {
     "en": [
-      "This is the SU Office where you can contact HKUSU, borrow all sorts of equipment and book venues within the campus to hold events.",
-      "Here is your socket."
+      "",
+      ""
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "bea-bank-intro": {
+    "en": [
+      "",
+      ""
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "delifrance-intro": {
+    "en": [
+      "This is the Delifrance, one of the many eateries in HKU. Here is your fruit juice."
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "chi-wah-intro": {
+    "en": [
+      "",
+      ""
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "university-book-store-intro": {
+    "en": [
+      "This is the University Book Store where you can buy lots of academic books as your studying materials.",
+      "Most of the textbooks required in your courses could usually be bought here."
     ],
     "zh": [
       "",
@@ -126,8 +187,16 @@
   },
 
   "haking5f-intro": {
+<<<<<<< HEAD
+    "en": [
+      "Welcome to the office of the Faculty of Engineering"
+    ],
+    "zh": [
+      "hello～呢度就係 engine faculty 既 office 拉"
+    ]
+=======
     "en": ["Welcome to the office of the Faculty of Engineering"],
-    "zh": ["hello～呢度就係 engine faculty 既 office 拉"]
+    "zh": ["Hello～呢度就係 engine faculty 既 office 喇"]
+>>>>>>> e2991a4431de78bd31ee2fad230af84009793200
   }
-
 }
