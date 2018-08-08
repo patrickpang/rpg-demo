@@ -54,6 +54,17 @@
     }
   },
 
+  "borrow-socket": {
+    "en": {
+      "title": "Borrow Socket",
+      "description": "You need to borrow socket from SU Office"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
   "octopus-form": {
     "en": {
       "title": "Get Student Octopus Card",

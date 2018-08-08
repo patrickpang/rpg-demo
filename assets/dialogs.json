@@ -114,6 +114,17 @@
     ]
   },
 
+  "su-office-intro": {
+    "en": [
+      "This is the SU Office where you can contact HKUSU, borrow all sorts of equipment and book venues within the campus to hold events.",
+      "Here is your socket."
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
   "haking5f-intro": {
     "en": ["Welcome to the office of the Faculty of Engineering"],
     "zh": ["hello～呢度就係 engine faculty 既 office 拉"]
