@@ -290,6 +290,14 @@
                  "id":29,
                  "name":"CoffeeNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"buy-coffee"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -314,6 +322,14 @@
                  "id":36,
                  "name":"SnackNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"buy-snacks"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,

@@ -184,6 +184,14 @@
                  "id":19,
                  "name":"Haking5FNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-haking-wong-building"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -196,6 +204,14 @@
                  "id":22,
                  "name":"EngineeringOfficeNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"octopus-form"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,

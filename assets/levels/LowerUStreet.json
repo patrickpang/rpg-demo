@@ -138,54 +138,6 @@
                  "y":802.20345
                 }, 
                 {
-                 "height":0,
-                 "id":11,
-                 "name":"HakingTunnel",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":559.03,
-                 "y":980.52345
-                }, 
-                {
-                 "height":0,
-                 "id":12,
-                 "name":"NearHaking",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":827.48,
-                 "y":980.75345
-                }, 
-                {
-                 "height":0,
-                 "id":13,
-                 "name":"NearA2",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":860.44,
-                 "y":1259.85345
-                }, 
-                {
-                 "height":0,
-                 "id":14,
-                 "name":"SUBuildingGF",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1792.33,
-                 "y":974.20345
-                }, 
-                {
                  "height":106,
                  "id":19,
                  "name":"CBLG",
@@ -208,18 +160,6 @@
                  "y":886
                 }, 
                 {
-                 "height":0,
-                 "id":23,
-                 "name":"CentenLG",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":2950,
-                 "y":986
-                }, 
-                {
                  "height":96,
                  "id":24,
                  "name":"Haking3F",
@@ -237,18 +177,6 @@
                  "width":63,
                  "x":1471,
                  "y":737
-                }, 
-                {
-                 "height":0,
-                 "id":25,
-                 "name":"NearSUBuilding",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1504,
-                 "y":879
                 }, 
                 {
                  "height":133,
@@ -294,6 +222,78 @@
                  "width":0,
                  "x":2426,
                  "y":956
+                }, 
+                {
+                 "height":0,
+                 "id":33,
+                 "name":"HakingTunnel",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":559,
+                 "y":962
+                }, 
+                {
+                 "height":0,
+                 "id":34,
+                 "name":"NearHaking",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":835,
+                 "y":958
+                }, 
+                {
+                 "height":0,
+                 "id":35,
+                 "name":"NearA2",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":864,
+                 "y":1249
+                }, 
+                {
+                 "height":0,
+                 "id":37,
+                 "name":"NearSUBuilding",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1504,
+                 "y":896
+                }, 
+                {
+                 "height":0,
+                 "id":38,
+                 "name":"SUBuildingGF",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1792,
+                 "y":962
+                }, 
+                {
+                 "height":0,
+                 "id":39,
+                 "name":"CentenLG",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":2946,
+                 "y":994
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -322,6 +322,14 @@
                  "id":30,
                  "name":"CreditCardNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"register-credit-card"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -427,7 +435,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":33,
+ "nextobjectid":40,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

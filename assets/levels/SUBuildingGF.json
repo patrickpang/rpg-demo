@@ -163,6 +163,14 @@
                  "id":20,
                  "name":"ComputerNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"fix-computer"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -186,6 +194,14 @@
                  "height":194,
                  "id":26,
                  "name":"DanceTeamNPCs",
+                 "properties":
+                    {
+                     "task":"borrow-socket"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -344,6 +360,18 @@
                  "width":0,
                  "x":81,
                  "y":849
+                }, 
+                {
+                 "height":0,
+                 "id":30,
+                 "name":"Haking3F",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1856,
+                 "y":565.333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -363,7 +391,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":30,
+ "nextobjectid":33,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

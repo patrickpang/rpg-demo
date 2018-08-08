@@ -221,6 +221,14 @@
                  "id":68,
                  "name":"OBCGrillNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-obc-grill"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -233,6 +241,14 @@
                  "id":71,
                  "name":"LSKConferenceRoomNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-lsk-conference-room"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
