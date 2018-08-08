@@ -9,7 +9,7 @@ import UpperUStreetMap from '../../assets/levels/UpperUStreet.json'
 import george from '../../assets/players/george.png'
 import betty from '../../assets/players/betty.png'
 import { fontFamily, mainFont } from '../constants'
-import { setState } from '../helpers/state'
+import { setState, getState } from '../helpers/state'
 
 const fontColor = '#fefefe'
 
@@ -37,6 +37,10 @@ export default class StartScene extends Phaser.Scene {
   }
 
   create() {
+    if (getState(['player'])) {
+      this.startGame()
+    }
+
     this.cameras.main.fadeIn(200)
 
     this.map = this.make.tilemap({ key: 'UpperUStreetMap' })
