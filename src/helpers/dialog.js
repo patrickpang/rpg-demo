@@ -1,6 +1,16 @@
 import Phaser from 'phaser'
 import { fontFamily } from '../constants'
 
+// Usages
+
+// this.scene.run('Dialog', {
+//   parentScene: this,
+//   paragraphs: [
+//     'The University of Hong Kong 香港大學 (often abbreviated as HKU) is a public research university located in Pokfulam, Hong Kong.',
+//     'Today, the University of Hong Kong is organised into 10 academic faculties with English as the language of instruction.',
+//   ],
+// })
+
 export default class Dialog extends Phaser.Scene {
   constructor() {
     super({ key: 'Dialog' })
@@ -14,6 +24,7 @@ export default class Dialog extends Phaser.Scene {
     this.currentIndex = 0
 
     this.scene.pause(this.parentScene.scene.key)
+    this.scene.bringToTop(this.scene.key)
 
     this.gameWidth = this.sys.game.config.width
     this.gameHeight = this.sys.game.config.height

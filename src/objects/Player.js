@@ -24,7 +24,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     const animationManager = this.anims.animationManager
 
     animationManager.create({
-      key: 'left',
+      key: this.character + '-left',
       frames: animationManager.generateFrameNumbers(this.character, {
         frames: [1, 5, 9, 13],
       }),
@@ -33,7 +33,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     })
 
     animationManager.create({
-      key: 'right',
+      key: this.character + '-right',
       frames: animationManager.generateFrameNumbers(this.character, {
         frames: [3, 7, 11, 15],
       }),
@@ -41,7 +41,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
       repeat: -1,
     })
     animationManager.create({
-      key: 'up',
+      key: this.character + '-up',
       frames: animationManager.generateFrameNumbers(this.character, {
         frames: [2, 6, 10, 14],
       }),
@@ -49,7 +49,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
       repeat: -1,
     })
     animationManager.create({
-      key: 'down',
+      key: this.character + '-down',
       frames: animationManager.generateFrameNumbers(this.character, {
         frames: [0, 4, 8, 12],
       }),
@@ -104,16 +104,16 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
   animateMove(direction) {
     switch (direction) {
       case 'left':
-        this.anims.play('left', true)
+        this.anims.play(this.character + '-left', true)
         break
       case 'right':
-        this.anims.play('right', true)
+        this.anims.play(this.character + '-right', true)
         break
       case 'up':
-        this.anims.play('up', true)
+        this.anims.play(this.character + '-up', true)
         break
       case 'down':
-        this.anims.play('down', true)
+        this.anims.play(this.character + '-down', true)
         break
       default:
         this.anims.stop()
