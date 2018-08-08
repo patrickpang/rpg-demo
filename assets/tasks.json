@@ -16,8 +16,8 @@
       "description": "You need to register credit card on the Lower U-street"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "申請信用卡",
+      "description": "去U-street下層申請信用卡"
     }
   },
 
@@ -39,7 +39,7 @@
     },
     "zh": {
       "title": "參觀唔同Soc嘅booth",
-      "description": "去U-street上層參觀唔同Soc嘅booth"
+      "description": "去睇下U-street上層唔同Soc嘅booth"
     }
   },
 
@@ -82,19 +82,19 @@
       "description": "You need to discover OBC Grill in Centennial Campus LGF"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀OBC Grill",
+      "description": "去Centennial Campus LGF嘅OBC Grill睇下"
     }
   },
 
   "discover-lsk-conference-room": {
     "en": {
-      "title": "Discover LSK Conference Room",
-      "description": "You need to discover LSK Conference Room in Centennial Campus LGF"
+      "title": "Discover LSK Lecture Centre",
+      "description": "You need to discover LSK Lecture Centre in Centennial Campus LGF"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀李兆基會議中心",
+      "description": "去Centennial Campus LGF嘅李兆基會議中心睇下"
     }
   },
 
@@ -104,8 +104,8 @@
       "description": "You need to discover BEA Bank on the Upper U-street"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀東亞銀行",
+      "description": "去U-street上層嘅東亞銀行睇下"
     }
   },
 
@@ -115,19 +115,19 @@
       "description": "You need to discover Delifrance on the Upper U-street"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀Delifrance",
+      "description": "去U-street上層嘅Delifrance睇下"
     }
   },
 
   "discover-chi-wah": {
     "en": {
-      "title": "Discover Chi Wah Learning Center",
-      "description": "You need to discover Chi Wah Learning Center on the Upper U-street"
+      "title": "Discover Chi Wah Learning Commons",
+      "description": "You need to discover Chi Wah Learning Commons on the Upper U-street"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀智華館",
+      "description": "去U-street上層嘅智華做陣嘢先〜"
     }
   },
 
@@ -137,8 +137,8 @@
       "description": "You need to discover University Book Store on the Upper U-street"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀大學書店",
+      "description": "去U-street上層嘅大學書店睇下書做文青"
     }
   },
 
@@ -148,8 +148,8 @@
       "description": "You need to discover Haking Wong Building"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀黃克競樓",
+      "description": "去黃克競樓睇下"
     }
   },
 
@@ -170,8 +170,8 @@
       "description": "You need to discover Haking Wong Building 3F"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀黃克競樓3樓",
+      "description": "去黃克競樓3樓探險，搵下CS related嘅地方"
     }
   },
 
@@ -181,8 +181,8 @@
       "description": "You need to discover the computer laboratories in Haking Wong Building 3F"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀Computer Lab",
+      "description": "去Computer Lab睇下"
     }
   },
 
@@ -192,8 +192,8 @@
       "description": "You need to discover the booth to register for joining Computer Science Association Superpass event"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀Computer Science Association Superpass攤位",
+      "description": "去CSA Superpass攤位睇下"
     }
   },
 
@@ -203,8 +203,8 @@
       "description": "You need to discover the Multi-media Room in Haking Wong Building 3F"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀Multi-media Room",
+      "description": "去Multi-media Room睇下"
     }
   },
 
@@ -214,8 +214,8 @@
       "description": "You need to discover the Room LG104"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀LG104",
+      "description": "去LG104睇下"
     }
   },
 
@@ -225,8 +225,8 @@
       "description": "You need to discover the Society Room of Computer Science Association"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀CSA Soc房",
+      "description": "去CSA Soc房睇下"
     }
   },
 
@@ -236,19 +236,19 @@
       "description": "You need to discover another common area for society booths to be set up on the Upper U-street"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀另一邊嘅Soc-booths",
+      "description": "去睇下U-street上層另一邊嘅Soc-booths"
     }
   },
 
   "buy-coffee": {
     "en": {
       "title": "Buy Coffee",
-      "description": "You need to buy coffee from the Coffee Academics"
+      "description": "You need to buy coffee from The Coffee Academics"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "買咖啡飲",
+      "description": "好眼訓呀，去The Coffee Academics買杯咖啡飲先〜"
     }
   },
 
@@ -258,19 +258,19 @@
       "description": "You need to buy snacks from the Mein Bowl"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "買小食",
+      "description": "好肚餓呀，去Mein Bowl買啲嘢食先〜"
     }
   },
 
   "discover-oval": {
     "en": {
-      "title": "Discover The Oval Learning Center",
-      "description": "You need to discover the Oval Learning Center in Knowles Building"
+      "title": "Discover The Oval Learning Space",
+      "description": "You need to discover The Oval in Knowles Building"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀The Oval Learning Space",
+      "description": "去Knowles嘅Oval做陣嘢先〜"
     }
   },
 
@@ -280,8 +280,8 @@
       "description": "You need to discover the Curve Learning Space in KKL Building"
     },
     "zh": {
-      "title": "",
-      "description": ""
+      "title": "參觀The Curve Learning Space",
+      "description": "去KKL嘅Curve做陣嘢先〜"
     }
   }
 }

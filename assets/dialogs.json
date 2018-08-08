@@ -22,7 +22,7 @@
     ],
     "zh": [
       "Hi，你係唔係港大嘅學生呀？我好肚餓但係我唔知邊度有得買嘢食...",
-      "你可唔可以幫我買個午餐？呢啲係飯錢。"
+      "你可唔可以幫我買個午餐？呢啲有啲錢。"
     ]
   },
 
@@ -31,14 +31,15 @@
       "This is your lunch. Here is the EAT, one of the many eateries within HKU campus.",
       "Today you could register student credit card on the Haking Wong Platform for a lot of benefits."
     ],
-    "zh": ["", ""]
+    "zh": ["歡迎來到EAT，我哋係campus入面嘅一間中菜餐廳，記住多啲嚟。呢個係你要嘅午餐。",
+     "係喎，你今日可以喺黃克競平台嗰度申請學生信用卡，好似有着數㗎！"]
   },
 
   "register-credit-card": {
     "en": [
       "Here is your exclusive student credit card, please enjoy all the discounts and perks we have prepared for you!"
     ],
-    "zh": ["", ""]
+    "zh": ["多謝你，呢張就係你嘅學生信用卡，記住多啲用佢嚟攞我哋俾你嘅優惠呀〜"]
   },
 
   "buy-stationery": {
@@ -113,7 +114,7 @@
 
   "obc-grill-intro": {
     "en": ["This is the OBC Grill, one of the many eateries in HKU. Here is your salad."],
-    "zh": [""]
+    "zh": ["歡迎來到OBC Grill，我哋係campus入面嘅一間西藏餐廳，記住多啲嚟。呢個係你要嘅沙律。"]
   },
 
   "print-stuff": {
@@ -122,25 +123,27 @@
   },
 
   "lsk-conference-room-intro": {
-    "en": ["", ""],
-    "zh": ["", ""]
+    "en": ["This is Lee Shau Kee Lecture Centre， where your Inauguration holds."],
+    "zh": ["呢度就係李兆基會議中心，係你哋嘅開學典禮舉辦嘅地方。"]
   },
 
   "bea-bank-intro": {
-    "en": ["", ""],
-    "zh": ["", ""]
+    "en": ["This is Bank of East Asia, where you can register student credit card and make transactions."],
+    "zh": ["呢度係東亞銀行，你可以係度申請信用卡同埋㩒錢。"]
   },
 
   "delifrance-intro": {
     "en": ["This is the Delifrance, one of the many eateries in HKU. Here is your fruit juice."],
-    "zh": ["", ""]
+    "zh": ["歡迎來到Delifrance，我哋係campus入面嘅一間西藏餐廳，記住多啲嚟。呢個係你要嘅果汁"]
   },
 
   "chi-wah-intro": {
     "en": [
-      ""
+      "This is Chi Wah Learning Commons. Here you can find many space for you to work and study.",
+      "You don't need to worry if you forgot to bring your laptop since Chi Wah provides desktop computer and iMac for you."
     ],
-    "zh": [""]
+    "zh": ["呢度就係智華喇，喺呢度你可以搵到好多地方俾你去溫書同做嘢。",
+    "如果你唔記得帶電腦唔緊要，因為呢都會有電腦同埋iMac俾你去用。"]
   },
 
   "university-book-store-intro": {
@@ -148,7 +151,7 @@
       "This is the University Book Store where you can buy lots of academic books as your studying materials.",
       "Most of the textbooks required in your courses could usually be bought here."
     ],
-    "zh": ["", ""]
+    "zh": ["呢度係大學書店，你可以喺度搵到好多參考書。", "大部份上堂要用嘅教科書都可以喺度買到。"]
   },
 
   "haking5f-intro": {
@@ -157,7 +160,10 @@
       "In this building you can find lots of fascinating Engineering facilities.",
       "At the back there is the Office of the Faculty of Engineering where you can enquire for a lot of useful information about the faculty."
     ],
-    "zh": ["", ""]
+    "zh": [
+      "呢度就係黃克競樓，基本上Engine大部份嘅活動同lab都係喺呢度搞。",
+      "係呢一座building入面，你可以搵到好多Faculty嘅設施，快啲周圍去發掘下啦。",
+      "呢度後面就係Faculty Office，有事需要同Faculty聯絡就嚟呢度啦〜"]
   },
 
   "engineering-office-intro": {
@@ -165,14 +171,15 @@
       "This is the Office of the Faculty of Engineering where you can obtain various services provided exclusively for Engineering students.",
       "Now, you can find an octopus form in the office to apply for your student octopus card."
     ],
-    "zh": ["", ""]
+    "zh": ["呢度就係Faculty Office，有咩需要就嚟搵我哋啦〜", 
+      "依家去後面攞份八達通申請表填啦，填完再俾我哋蓋印。"]
   },
 
   "octopus-form": {
     "en": [
       "Congratulations! You have found the octopus form."
     ],
-    "zh": ["", ""]
+    "zh": ["好叻呀，你搵到份八達通form"]
   },
 
   "haking3f-intro": {
@@ -180,14 +187,15 @@
       "This is the 3F of Haking Wong Building where you can find a variety of society rooms and computer laboratories.",
       "Many students come down to use the computer laboratories to finish their assignments or research for projects."
     ],
-    "zh": ["", ""]
+    "zh": ["呢度就係黃克競3樓，呢一層有唔同Soc嘅Soc房同埋computer lab。", 
+      "好多同學都會落嚟computer lab度做assignment同research projects。"]
   },
 
   "computer-laboratories-intro": {
     "en": [
       "This is one of the computer laboratories here in 3F. You can gain access to here if you are a CS student."
     ],
-    "zh": ["", ""]
+    "zh": ["呢度係3樓其中一間computer lab。當你成為CS學生之後就會有Access right。"]
   },
 
   "superpass-intro": {
@@ -195,7 +203,8 @@
       "We are from Computer Science Association and we are holding an event called Superpass here~",
       "You can write some fai-chuns here and register for Superpass Dinner to eat with your friends and wish for great GPA in the coming semester~"
     ],
-    "zh": ["", ""]
+    "zh": ["我哋係CSA，依家喺度搞緊Superpass", 
+      "你可以喺度寫揮春,同埋報名參加Superpass Dinner，同你嘅朋友一齊過3爆4"]
   },
 
   "multi-media-room-intro": {
@@ -211,7 +220,8 @@
       "This is a special computer laboratory where the society room of Computer Science Association is located.",
       "You can enter the society room for more information."
     ],
-    "zh": ["", ""]
+    "zh": ["呢個computer lab好特別，因為我哋CSA嘅Soc房就係喺呢個度入面。", 
+      "你可以去我哋Soc房了解多啲〜"]
   },
 
   "csa-intro": {
@@ -226,7 +236,7 @@
     "en": [
       "This is another common area in Upper U-street for societies to set up their booths."
     ],
-    "zh": ["", ""]
+    "zh": ["呢度係U-street上層另一邊比soc擺booth嘅地方。"]
   },
 
   "buy-coffee": {
@@ -234,15 +244,17 @@
       "Hi, do you know where could I buy a cup of coffee in the campus?",
       "Could you buy me one? Here's the money."
     ],
-    "zh": ["", ""]
+    "zh": ["Hi，你知唔知道campus入面邊度有得買咖啡飲呀？", 
+      "你可唔可以幫我買杯咖啡？呢度有啲錢。"]
   },
 
   "coffee-academics-intro": {
     "en": [
-      "This is the Coffee Academics where you can buy the best brand of coffee for your relaxation in between lectures.",
+      "This is The Coffee Academics where you can buy the best brand of coffee for your relaxation in between lectures.",
       "Here is your coffee."
     ],
-    "zh": ["", ""]
+    "zh": ["呢度係The Coffee Academics，你可以喺度買到最好嘅咖啡，幫你上堂嘅時候提提神〜", 
+      "呢度係你杯咖啡。"]
   },
 
   "buy-snacks": {
@@ -251,7 +263,9 @@
       "I heard that it sells delicious snacks and I would really want to try some.",
       "Could you please help me buy some?"
     ],
-    "zh": ["", ""]
+    "zh": ["唔好意思，我想問你知唔知邊度係Mein Bowl呀？", 
+      "我聽講嗰度有啲好好食嘅小食，我想試下！",
+      "你可唔可以幫我買啲？"] 
   },
 
   "mein-bowl-intro": {
@@ -259,21 +273,23 @@
       "This is the Mein Bowl where you can find different types of delicious Asian snacks.",
       "Here is your siu mai."
     ],
-    "zh": ["", ""]
+    "zh": ["呢度就係Mein Bowl，你可以喺度買到唔同種類嘅小食。", 
+      "呢度係你要嘅燒賣。"]
   },
 
   "oval-intro": {
     "en": [
-      "This is the Oval, a learning center for students to study and rest.",
-      "It is a common place for especially architecture students to gather."
+      "This is the Oval, a learning space for students to study and rest.",
+      "It is a common place for especially architecture and surveying students to gather."
     ],
-    "zh": ["", ""]
+    "zh": ["呢個就係Oval，你可以係度做嘢，溫書，休息下。", 
+      "呢度主要係俾archi同survey嘅同學gather。"]
   },
 
   "curve-intro": {
     "en": [
       "This is another learning space within the campus called the Curve."
     ],
-    "zh": ["", ""]
+    "zh": ["呢個就係Curve，係另一個俾你溫書做嘢地方。"]
   }
 }
