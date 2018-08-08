@@ -104,10 +104,7 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
     } else if (scene.scene.get(name)) {
       scene.scene.start(name, { target: entrance.getData('target') })
     } else {
-      scene.scene.run('Dialog', {
-        parentScene: scene,
-        paragraphs: ['Temporarily Unavailable'],
-      })
+      scene.sys.game.events.emit('unavailable')
     }
   })
 
@@ -135,19 +132,23 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
     const completed = task.getData('completed')
     const obtained = task.getData('obtained')
 
-    if (!taskState) {
-      setState({ tasks: { [key]: { completed, obtained } } })
-    } else if (!taskState.obtained && obtained) {
-      setState({ tasks: { [key]: { obtained: true } } })
-    } else if (taskState.obtained && !obtained) {
+    if (completed) {
       setState({ tasks: { [key]: { completed: true } } })
+    } else if (obtained) {
+      if (taskState && !taskState.obtained) {
+        setState({ tasks: { [key]: { obtained: true } } })
+      }
+    } else {
+      if (taskState && taskState.obtained) {
+        setState({ tasks: { [key]: { completed: true } } })
 
-      scene.scene.run('Dialog', {
-        parentScene: scene,
-        key: 'thank-you',
-      })
-    } else if (!taskState.completed && completed) {
-      setState({ tasks: { [key]: { completed: true } } })
+        scene.scene.run('Dialog', {
+          parentScene: scene,
+          key: 'thank-you',
+        })
+      } else {
+        setState({ tasks: { [key]: { completed, obtained } } })
+      }
     }
   })
 

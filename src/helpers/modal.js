@@ -23,14 +23,7 @@ const oncreate = actions => {
   }
 }
 
-const content = [
-  'form',
-  { onsubmit: onsubmit },
-  [
-    ['input', { type: 'text', name: 'player-name', placeholder: 'What is your name?' }],
-    ['input', { type: 'submit', value: 'Start' }],
-  ],
-]
+const content = ['div', [['h1', 'About Us'], ['p', 'Hello. We are CSA.']]]
 
 const close = closeAction => ['button', { onclick: closeAction, class: 'modal-close' }, 'x']
 

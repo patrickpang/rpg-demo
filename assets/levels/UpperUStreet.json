@@ -684,18 +684,6 @@
                  "y":1348
                 }, 
                 {
-                 "height":0,
-                 "id":97,
-                 "name":"TunnelBack",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":5173.33333333333,
-                 "y":1138.66666666667
-                }, 
-                {
                  "height":35.3333333333335,
                  "id":98,
                  "name":"HakingTunnel",
@@ -891,6 +879,18 @@
                  "width":0,
                  "x":9563.5,
                  "y":1631.5
+                }, 
+                {
+                 "height":0,
+                 "id":100,
+                 "name":"TunnelBack",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":5176.32096196092,
+                 "y":1111.11111111111
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -968,7 +968,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":99,
+ "nextobjectid":101,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

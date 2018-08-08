@@ -1,6 +1,5 @@
 import { getState, setState } from './state'
 import LineBreaker from 'linebreak'
-import { chunk } from 'lodash'
 
 export function getLanguage() {
   const currentLanguage = getState(['player', 'language'])
