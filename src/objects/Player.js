@@ -3,9 +3,10 @@ import Phaser from 'phaser'
 import { tileWidth, tileHeight } from '../constants'
 
 export default class Player extends Phaser.Physics.Arcade.Sprite {
-  constructor(scene, x, y) {
-    super(scene, x, y, 'george', 0)
+  constructor(scene, x, y, character) {
+    super(scene, x, y, character, 0)
     this.scene = scene
+    this.character = character
   }
 
   preload() {}
@@ -24,7 +25,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
 
     animationManager.create({
       key: 'left',
-      frames: animationManager.generateFrameNumbers('george', {
+      frames: animationManager.generateFrameNumbers(this.character, {
         frames: [1, 5, 9, 13],
       }),
       frameRate: 10,
@@ -33,7 +34,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
 
     animationManager.create({
       key: 'right',
-      frames: animationManager.generateFrameNumbers('george', {
+      frames: animationManager.generateFrameNumbers(this.character, {
         frames: [3, 7, 11, 15],
       }),
       frameRate: 10,
@@ -41,7 +42,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     })
     animationManager.create({
       key: 'up',
-      frames: animationManager.generateFrameNumbers('george', {
+      frames: animationManager.generateFrameNumbers(this.character, {
         frames: [2, 6, 10, 14],
       }),
       frameRate: 10,
@@ -49,7 +50,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     })
     animationManager.create({
       key: 'down',
-      frames: animationManager.generateFrameNumbers('george', {
+      frames: animationManager.generateFrameNumbers(this.character, {
         frames: [0, 4, 8, 12],
       }),
       frameRate: 10,
