@@ -1,13 +1,9 @@
 {
   "thank-you": {
-    "en": [
-      "Thanks so much"
-    ],
-    "zh": [
-      "多謝你吖"
-    ]
+    "en": ["Thanks so much"],
+    "zh": ["多謝你吖"]
   },
-  
+
   "hku-intro": {
     "en": [
       "The University of Hong Kong 香港大學 (often abbreviated as HKU) is a public research university located in Pokfulam, Hong Kong. Founded in 1911, its origins can be traced back to the Hong Kong College of Medicine for Chinese which was founded in 1887, it is the oldest tertiary institution in Hong Kong.[5] It is often cited as one of the most prestigious universities in Asia.[6]",
@@ -35,10 +31,7 @@
       "I am going to have examination later, but I’ve forgotten to bring my stationeries!!",
       "Could you please help me buy them?"
     ],
-    "zh": [
-      "我就嚟要考試，但係我唔記得帶我啲文具！！",
-      "你可唔可以幫我去買？"
-    ]
+    "zh": ["我就嚟要考試，但係我唔記得帶我啲文具！！", "你可唔可以幫我去買？"]
   },
 
   "discover-soc-booths": {
@@ -46,8 +39,7 @@
       "University Street is a common place for many societies to set up their booths and attract students to know more about them or even register their events."
     ],
     "zh": [
-      "U-street係一個公共嘅地方俾唔同嘅學會set booth嚟介紹自己同埋吸引學生去報名參加佢哋嘅活動。",
-      ""
+      "U-street係一個公共嘅地方俾唔同嘅學會set booth嚟介紹自己同埋吸引學生去報名參加佢哋嘅活動。"
     ]
   },
 
@@ -56,20 +48,12 @@
       "This is the Co-op Store where you can find any sorts of stationery you want to aid with your academic study.",
       "Please enjoy your shopping here."
     ],
-    "zh": [
-      "呢度就係Co-op，你可以喺度搵到唔同種類嘅文具。",
-      "歡迎光臨。"
-    ]
+    "zh": ["呢度就係Co-op，你可以喺度搵到唔同種類嘅文具。", "歡迎光臨。"]
   },
 
   "print-stuff": {
-    "en": [
-      "Could you help me print out my poster? This is the USB."
-    ],
-    "zh": [
-      "你可唔可以幫我print個poster？張poster喺呢隻USB度。",
-      ""
-    ]
+    "en": ["Could you help me print out my poster? This is the USB."],
+    "zh": ["你可唔可以幫我print個poster？張poster喺呢隻USB度。"]
   },
 
   "su-printing-shop-intro": {
@@ -84,13 +68,8 @@
   },
 
   "fix-computer": {
-    "en": [
-      "My laptop suddenly start malfunctioning... Where can I fix it inside the campus?"
-    ],
-    "zh": [
-      "我部電腦突然壞咗用唔到...你知唔知campus入面有邊度可以整電腦？",
-      ""
-    ]
+    "en": ["My laptop suddenly start malfunctioning... Where can I fix it inside the campus?"],
+    "zh": ["我部電腦突然壞咗用唔到...你知唔知campus入面有邊度可以整電腦？"]
   },
 
   "su-computer-store-intro": {
@@ -108,10 +87,7 @@
     "en": [
       "We need an extension chord so that we can use our speaker. Could you please help us borrow an extension chord?"
     ],
-    "zh": [
-      "我哋差個拖板先用到個speaker。你可唔可以幫我哋借個拖板呀？",
-      ""
-    ]
+    "zh": ["我哋差個拖板先用到個speaker。你可唔可以幫我哋借個拖板呀？"]
   },
 
   "su-office-intro": {
@@ -129,5 +105,4 @@
     "en": ["Welcome to the office of the Faculty of Engineering"],
     "zh": ["Hello～呢度就係 engine faculty 既 office 喇"]
   }
-
 }
