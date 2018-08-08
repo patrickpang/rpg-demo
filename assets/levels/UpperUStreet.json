@@ -87,6 +87,17 @@
                  "width":62.4522049451953,
                  "x":5086.66836604639,
                  "y":1963.69309202141
+                }, 
+                {
+                 "height":69.1358024691358,
+                 "id":73,
+                 "name":"buy-stationery",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":128.395061728395,
+                 "x":6176.30864197531,
+                 "y":1504.64197530864
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -97,7 +108,48 @@
         {
          "draworder":"topdown",
          "name":"Tasks",
-         "objects":[],
+         "objects":[
+                {
+                 "height":65.4320987654321,
+                 "id":71,
+                 "name":"buy-stationery",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":132.098765432099,
+                 "x":6175.30864197531,
+                 "y":1504.93827160494
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"NPCs",
+         "objects":[
+                {
+                 "height":0,
+                 "id":70,
+                 "name":"StationeryNPC",
+                 "point":true,
+                 "properties":
+                    {
+                     "task":"buy-stationery"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":6241.97530864198,
+                 "y":1535.8024691358
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -635,7 +687,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":68,
+ "nextobjectid":75,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

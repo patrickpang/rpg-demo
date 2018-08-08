@@ -8,5 +8,11 @@
       "title": "攞張學生八達通",
       "description": "去個 faculty office 填張 form 先～"
     }
+  },
+  "buy-stationery": {
+    "en": {
+      "title": "Buy Stationery",
+      "description": "You need to buy stationery from co-op store"
+    }
   }
 }
