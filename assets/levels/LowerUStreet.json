@@ -80,7 +80,7 @@
                 {
                  "height":134,
                  "id":4,
-                 "name":"HakingTunnel",
+                 "name":"Unavailable",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -222,18 +222,6 @@
                  "width":0,
                  "x":2426,
                  "y":956
-                }, 
-                {
-                 "height":0,
-                 "id":33,
-                 "name":"HakingTunnel",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":559,
-                 "y":962
                 }, 
                 {
                  "height":0,
