@@ -204,7 +204,7 @@ export default class StartScene extends Phaser.Scene {
   }
 
   startGame() {
-    this.scene.start('UpperUStreet')
+    this.scene.start(getState(['location', 'scene']) || 'UpperUStreet')
   }
 
   update() {}

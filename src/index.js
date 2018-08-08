@@ -1,6 +1,7 @@
 import Phaser from 'phaser'
 import StartScene from './scenes/StartScene'
 import Dialog from './scenes/dialog'
+import Lift from './scenes/lift'
 
 import { createFromTilemap } from './helpers/scene'
 
@@ -71,7 +72,7 @@ const config = {
       debug: false,
     },
   },
-  scene: [StartScene, Dialog].concat(scenes),
+  scene: [StartScene, Dialog, Lift].concat(scenes),
 }
 
 const game = new Phaser.Game(config)
