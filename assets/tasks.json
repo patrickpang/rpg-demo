@@ -16,8 +16,8 @@
       "description": "You need to register credit card on the Lower U-street"
     },
     "zh": {
-      "title": "買午餐",
-      "description": "去EAT買個午餐"
+      "title": "",
+      "description": ""
     }
   },
 
@@ -62,6 +62,17 @@
     "zh": {
       "title": "整電腦",
       "description": "去SU Computer Store整電腦"
+    }
+  },
+
+  "borrow-socket": {
+    "en": {
+      "title": "Borrow Extension Chord",
+      "description": "You need to borrow Extension Chord from SU Office"
+    },
+    "zh": {
+      "title": "借拖板",
+      "description": "去SU Office借拖板"
     }
   },
 
@@ -131,14 +142,14 @@
     }
   },
 
-  "borrow-socket": {
+  "discover-haking-wong-building": {
     "en": {
-      "title": "Borrow Extension Chord",
-      "description": "You need to borrow Extension Chord from SU Office"
+      "title": "Discover Haking Wong Building",
+      "description": "You need to discover Haking Wong Building"
     },
     "zh": {
-      "title": "借拖板",
-      "description": "去SU Office借拖板"
+      "title": "",
+      "description": ""
     }
   },
 
@@ -150,6 +161,127 @@
     "zh": {
       "title": "申請學生八達通",
       "description": "去faculty office填張form先～"
+    }
+  },
+
+  "discover-haking-wong-3f": {
+    "en": {
+      "title": "Discover Haking Wong Building 3F",
+      "description": "You need to discover Haking Wong Building 3F"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-computer-laboratories": {
+    "en": {
+      "title": "Discover Computer Laboratories",
+      "description": "You need to discover the computer laboratories in Haking Wong Building 3F"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-superpass": {
+    "en": {
+      "title": "Discover Computer Science Association Superpass Booth",
+      "description": "You need to discover the booth to register for joining Computer Science Association Superpass event"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-multi-media-room": {
+    "en": {
+      "title": "Discover Multi-media Room",
+      "description": "You need to discover the Multi-media Room in Haking Wong Building 3F"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-lg104": {
+    "en": {
+      "title": "Discover Room LG104",
+      "description": "You need to discover the Room LG104"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-csa-soc-room": {
+    "en": {
+      "title": "Discover Computer Science Association Society Room",
+      "description": "You need to discover the Society Room of Computer Science Association"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-another-soc-booths": {
+    "en": {
+      "title": "Discover Another Common Area For Soc-booths",
+      "description": "You need to discover another common area for society booths to be set up on the Upper U-street"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "buy-coffee": {
+    "en": {
+      "title": "Buy Coffee",
+      "description": "You need to buy coffee from the Coffee Academics"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "buy-snacks": {
+    "en": {
+      "title": "Buy Snacks",
+      "description": "You need to buy snacks from the Mein Bowl"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-oval": {
+    "en": {
+      "title": "Discover The Oval Learning Center",
+      "description": "You need to discover the Oval Learning Center in Knowles Building"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-curve": {
+    "en": {
+      "title": "Discover The Curve Learning Space",
+      "description": "You need to discover the Curve Learning Space in KKL Building"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
     }
   }
 }

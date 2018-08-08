@@ -78,15 +78,37 @@
          "name":"Dialogs",
          "objects":[
                 {
-                 "height":24.3093801104972,
+                 "height":62.3093801104972,
                  "id":17,
                  "name":"haking5f-intro",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":83.9779198895028,
-                 "x":801.657448895028,
-                 "y":409.392271270718
+                 "width":63.9779198895028,
+                 "x":736.657448895028,
+                 "y":435.392271270718
+                }, 
+                {
+                 "height":116,
+                 "id":23,
+                 "name":"engineering-office-intro",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":1008,
+                 "y":653
+                }, 
+                {
+                 "height":65,
+                 "id":24,
+                 "name":"octopus-form",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80,
+                 "x":897,
+                 "y":496
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -99,18 +121,18 @@
          "name":"Tasks",
          "objects":[
                 {
-                 "height":22.0994475138122,
+                 "height":115.099447513812,
                  "id":11,
                  "name":"octopus-form",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":82.8729281767955,
-                 "x":802.209944751381,
-                 "y":435.359116022099
+                 "width":63.8729281767955,
+                 "x":1008.20994475138,
+                 "y":654.359116022099
                 }, 
                 {
-                 "height":31.5327689705051,
+                 "height":64.5327689705051,
                  "id":18,
                  "name":"octopus-form",
                  "properties":
@@ -124,9 +146,62 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":61.2415862392,
+                 "width":78.2415862392,
                  "x":898.547608751754,
-                 "y":511.99049629137
+                 "y":495.99049629137
+                }, 
+                {
+                 "height":63,
+                 "id":20,
+                 "name":"discover-haking-wong-building",
+                 "properties":
+                    {
+                     "completed":true
+                    },
+                 "propertytypes":
+                    {
+                     "completed":"bool"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":65,
+                 "x":736,
+                 "y":436
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"NPCs",
+         "objects":[
+                {
+                 "height":0,
+                 "id":19,
+                 "name":"Haking5FNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":768,
+                 "y":463
+                }, 
+                {
+                 "height":0,
+                 "id":22,
+                 "name":"EngineeringOfficeNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1040,
+                 "y":746
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -210,8 +285,8 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":852,
-                 "y":621
+                 "x":737,
+                 "y":384
                 }, 
                 {
                  "height":0,
@@ -243,7 +318,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":19,
+ "nextobjectid":25,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

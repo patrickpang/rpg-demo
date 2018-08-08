@@ -38,7 +38,7 @@
     "en": [
       "Here is your exclusive student credit card, please enjoy all the discounts and perks we have prepared for you!"
     ],
-    "zh": ["我就嚟要考試，但係我唔記得帶我啲文具！！", "你可唔可以幫我去買？"]
+    "zh": ["", ""]
   },
 
   "buy-stationery": {
@@ -49,7 +49,7 @@
     "zh": ["我就嚟要考試，但係我唔記得帶我啲文具！！", "你可唔可以幫我去買？"]
   },
 
-  "discover-soc-booths": {
+  "soc-booths-intro": {
     "en": [
       "University Street is a common place for many societies to set up their booths and attract students to know more about them or even register their events."
     ],
@@ -138,9 +138,9 @@
 
   "chi-wah-intro": {
     "en": [
-      "We need an extension chord so that we can use our speaker. Could you please help us borrow an extension chord?"
+      ""
     ],
-    "zh": ["我哋差個拖板先用到個speaker。你可唔可以幫我哋借個拖板呀？"]
+    "zh": [""]
   },
 
   "university-book-store-intro": {
@@ -152,7 +152,128 @@
   },
 
   "haking5f-intro": {
-    "en": ["Welcome to the office of the Faculty of Engineering"],
-    "zh": ["Hello～呢度就係 engine faculty 既 office 喇"]
+    "en": [
+      "This is the Haking Wong Building where most activities related to the Faculty of Engineering will be performed.",
+      "In this building you can find lots of fascinating Engineering facilities.",
+      "At the back there is the Office of the Faculty of Engineering where you can enquire for a lot of useful information about the faculty."
+    ],
+    "zh": ["", ""]
+  },
+
+  "engineering-office-intro": {
+    "en": [
+      "This is the Office of the Faculty of Engineering where you can obtain various services provided exclusively for Engineering students.",
+      "Now, you can find an octopus form in the office to apply for your student octopus card."
+    ],
+    "zh": ["", ""]
+  },
+
+  "octopus-form": {
+    "en": [
+      "Congratulations! You have found the octopus form."
+    ],
+    "zh": ["", ""]
+  },
+
+  "haking3f-intro": {
+    "en": [
+      "This is the 3F of Haking Wong Building where you can find a variety of society rooms and computer laboratories.",
+      "Many students come down to use the computer laboratories to finish their assignments or research for projects."
+    ],
+    "zh": ["", ""]
+  },
+
+  "computer-laboratories-intro": {
+    "en": [
+      "This is one of the computer laboratories here in 3F. You can gain access to here if you are a CS student."
+    ],
+    "zh": ["", ""]
+  },
+
+  "superpass-intro": {
+    "en": [
+      "We are from Computer Science Association and we are holding an event called Superpass here~",
+      "You can write some fai-chuns here and register for Superpass Dinner to eat with your friends and wish for great GPA in the coming semester~"
+    ],
+    "zh": ["", ""]
+  },
+
+  "multi-media-room-intro": {
+    "en": [
+      "",
+      ""
+    ],
+    "zh": ["", ""]
+  },
+
+  "lg104-intro": {
+    "en": [
+      "This is a special computer laboratory where the society room of Computer Science Association is located.",
+      "You can enter the society room for more information."
+    ],
+    "zh": ["", ""]
+  },
+
+  "csa-intro": {
+    "en": [
+      "",
+      ""
+    ],
+    "zh": ["", ""]
+  },
+
+  "another-soc-booths-intro": {
+    "en": [
+      "This is another common area in Upper U-street for societies to set up their booths."
+    ],
+    "zh": ["", ""]
+  },
+
+  "buy-coffee": {
+    "en": [
+      "Hi, do you know where could I buy a cup of coffee in the campus?",
+      "Could you buy me one? Here's the money."
+    ],
+    "zh": ["", ""]
+  },
+
+  "coffee-academics-intro": {
+    "en": [
+      "This is the Coffee Academics where you can buy the best brand of coffee for your relaxation in between lectures.",
+      "Here is your coffee."
+    ],
+    "zh": ["", ""]
+  },
+
+  "buy-snacks": {
+    "en": [
+      "Excuse me, do you know where is the Mein Bowl?",
+      "I heard that it sells delicious snacks and I would really want to try some.",
+      "Could you please help me buy some?"
+    ],
+    "zh": ["", ""]
+  },
+
+  "mein-bowl-intro": {
+    "en": [
+      "This is the Mein Bowl where you can find different types of delicious Asian snacks.",
+      "Here is your siu mai."
+    ],
+    "zh": ["", ""]
+  },
+
+  "oval-intro": {
+    "en": [
+      "This is the Oval, a learning center for students to study and rest.",
+      "It is a common place for especially architecture students to gather."
+    ],
+    "zh": ["", ""]
+  },
+
+  "curve-intro": {
+    "en": [
+      "This is another learning space within the campus called the Curve."
+    ],
+    "zh": ["", ""]
   }
 }
