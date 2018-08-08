@@ -53,6 +53,24 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
     )
   }
 
+  const taskZones = scene.physics.add.group({ classType: Phaser.GameObjects.Zone })
+  const taskLayer = map.getObjectLayer('Tasks')
+  if (taskLayer) {
+    taskLayer.objects.forEach(task =>
+      taskZones
+        .create(task.x, task.y, task.width, task.height)
+        .setData('key', task.name)
+        .setData(
+          'completed',
+          task.properties && task.properties['completed'] ? task.properties['completed'] : false
+        )
+        .setData(
+          'obtained',
+          task.properties && task.properties['obtained'] ? task.properties['obtained'] : false
+        )
+    )
+  }
+
   const npcLayer = map.getObjectLayer('NPCs')
   if (npcLayer) {
     npcLayer.objects.forEach(npc =>
@@ -103,6 +121,33 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
         parentScene: scene,
         key,
       })
+    }
+  })
+
+  scene.physics.add.overlap(scene.player, taskZones, (_, task) => {
+    const key = task.getData('key')
+    const taskState = getState(['tasks', key])
+
+    if (taskState && taskState.completed) {
+      return
+    }
+
+    const completed = task.getData('completed')
+    const obtained = task.getData('obtained')
+
+    if (!taskState) {
+      setState({ tasks: { [key]: { completed, obtained } } })
+    } else if (!taskState.obtained && obtained) {
+      setState({ tasks: { [key]: { obtained: true } } })
+    } else if (taskState.obtained && !obtained) {
+      setState({ tasks: { [key]: { completed: true } } })
+
+      scene.scene.run('Dialog', {
+        parentScene: scene,
+        key: 'thank-you',
+      })
+    } else if (!taskState.completed && completed) {
+      setState({ tasks: { [key]: { completed: true } } })
     }
   })
 
