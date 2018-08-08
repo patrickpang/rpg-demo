@@ -1,5 +1,6 @@
 import Phaser from 'phaser'
 import { fontFamily } from '../constants'
+import { getLanguage, wrappedZhText } from '../helpers/translation'
 import dialogsFile from '../../assets/dialogs.json'
 
 // Usages
@@ -24,10 +25,12 @@ export default class Dialog extends Phaser.Scene {
   create({ parentScene, paragraphs, nonBlock, key }) {
     this.parentScene = parentScene
 
+    this.language = getLanguage()
+
     if (key) {
       const dialog = this.cache.json.get('dialogs')[key]
       if (dialog) {
-        this.paragraphs = dialog['en']
+        this.paragraphs = dialog[this.language]
       } else {
         this.paragraphs = paragraphs || []
       }
@@ -63,7 +66,12 @@ export default class Dialog extends Phaser.Scene {
     }
 
     this.textBox = this.add
-      .text(x, y, this.paragraphs[0], textStyle)
+      .text(
+        x,
+        y,
+        this.language === 'zh' ? wrappedZhText(this.paragraphs[0]) : this.paragraphs[0],
+        textStyle
+      )
       .setWordWrapWidth(width, false)
       .setOrigin(0.5, 1)
       .setDepth(1)
@@ -88,7 +96,11 @@ export default class Dialog extends Phaser.Scene {
   renderNextParagraph() {
     this.currentIndex++
     if (this.currentIndex < this.paragraphs.length) {
-      this.textBox.setText(this.paragraphs[this.currentIndex])
+      this.textBox.setText(
+        this.language === 'zh'
+          ? wrappedZhText(this.paragraphs[this.currentIndex])
+          : this.paragraphs[this.currentIndex]
+      )
       this.dialogBox
         .clear()
         .fillStyle(0x000000, 0.5)

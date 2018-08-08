@@ -31,8 +31,10 @@
       "This is your lunch. Here is the EAT, one of the many eateries within HKU campus.",
       "Today you could register student credit card on the Haking Wong Platform for a lot of benefits."
     ],
-    "zh": ["歡迎來到EAT，我哋係campus入面嘅一間中菜餐廳，記住多啲嚟。呢個係你要嘅午餐。",
-     "係喎，你今日可以喺黃克競平台嗰度申請學生信用卡，好似有着數㗎！"]
+    "zh": [
+      "歡迎來到EAT，我哋係campus入面嘅一間中菜餐廳，記住多啲嚟。呢個係你要嘅午餐。",
+      "係喎，你今日可以喺黃克競平台嗰度申請學生信用卡，好似有着數㗎！"
+    ]
   },
 
   "register-credit-card": {
@@ -128,7 +130,9 @@
   },
 
   "bea-bank-intro": {
-    "en": ["This is Bank of East Asia, where you can register student credit card and make transactions."],
+    "en": [
+      "This is Bank of East Asia, where you can register student credit card and make transactions."
+    ],
     "zh": ["呢度係東亞銀行，你可以係度申請信用卡同埋㩒錢。"]
   },
 
@@ -142,8 +146,10 @@
       "This is Chi Wah Learning Commons. Here you can find many space for you to work and study.",
       "You don't need to worry if you forgot to bring your laptop since Chi Wah provides desktop computer and iMac for you."
     ],
-    "zh": ["呢度就係智華喇，喺呢度你可以搵到好多地方俾你去溫書同做嘢。",
-    "如果你唔記得帶電腦唔緊要，因為呢都會有電腦同埋iMac俾你去用。"]
+    "zh": [
+      "呢度就係智華喇，喺呢度你可以搵到好多地方俾你去溫書同做嘢。",
+      "如果你唔記得帶電腦唔緊要，因為呢都會有電腦同埋iMac俾你去用。"
+    ]
   },
 
   "university-book-store-intro": {
@@ -163,7 +169,8 @@
     "zh": [
       "呢度就係黃克競樓，基本上Engine大部份嘅活動同lab都係喺呢度搞。",
       "係呢一座building入面，你可以搵到好多Faculty嘅設施，快啲周圍去發掘下啦。",
-      "呢度後面就係Faculty Office，有事需要同Faculty聯絡就嚟呢度啦〜"]
+      "呢度後面就係Faculty Office，有事需要同Faculty聯絡就嚟呢度啦〜"
+    ]
   },
 
   "engineering-office-intro": {
@@ -171,14 +178,14 @@
       "This is the Office of the Faculty of Engineering where you can obtain various services provided exclusively for Engineering students.",
       "Now, you can find an octopus form in the office to apply for your student octopus card."
     ],
-    "zh": ["呢度就係Faculty Office，有咩需要就嚟搵我哋啦〜", 
-      "依家去後面攞份八達通申請表填啦，填完再俾我哋蓋印。"]
+    "zh": [
+      "呢度就係Faculty Office，有咩需要就嚟搵我哋啦〜",
+      "依家去後面攞份八達通申請表填啦，填完再俾我哋蓋印。"
+    ]
   },
 
   "octopus-form": {
-    "en": [
-      "Congratulations! You have found the octopus form."
-    ],
+    "en": ["Congratulations! You have found the octopus form."],
     "zh": ["好叻呀，你搵到份八達通form"]
   },
 
@@ -187,8 +194,10 @@
       "This is the 3F of Haking Wong Building where you can find a variety of society rooms and computer laboratories.",
       "Many students come down to use the computer laboratories to finish their assignments or research for projects."
     ],
-    "zh": ["呢度就係黃克競3樓，呢一層有唔同Soc嘅Soc房同埋computer lab。", 
-      "好多同學都會落嚟computer lab度做assignment同research projects。"]
+    "zh": [
+      "呢度就係黃克競3樓，呢一層有唔同Soc嘅Soc房同埋computer lab。",
+      "好多同學都會落嚟computer lab度做assignment同research projects。"
+    ]
   },
 
   "computer-laboratories-intro": {
@@ -203,15 +212,14 @@
       "We are from Computer Science Association and we are holding an event called Superpass here~",
       "You can write some fai-chuns here and register for Superpass Dinner to eat with your friends and wish for great GPA in the coming semester~"
     ],
-    "zh": ["我哋係CSA，依家喺度搞緊Superpass", 
-      "你可以喺度寫揮春,同埋報名參加Superpass Dinner，同你嘅朋友一齊過3爆4"]
+    "zh": [
+      "我哋係CSA，依家喺度搞緊Superpass",
+      "你可以喺度寫揮春,同埋報名參加Superpass Dinner，同你嘅朋友一齊過3爆4"
+    ]
   },
 
   "multi-media-room-intro": {
-    "en": [
-      "",
-      ""
-    ],
+    "en": ["", ""],
     "zh": ["", ""]
   },
 
@@ -220,22 +228,19 @@
       "This is a special computer laboratory where the society room of Computer Science Association is located.",
       "You can enter the society room for more information."
     ],
-    "zh": ["呢個computer lab好特別，因為我哋CSA嘅Soc房就係喺呢個度入面。", 
-      "你可以去我哋Soc房了解多啲〜"]
+    "zh": [
+      "呢個computer lab好特別，因為我哋CSA嘅Soc房就係喺呢個度入面。",
+      "你可以去我哋Soc房了解多啲〜"
+    ]
   },
 
   "csa-intro": {
-    "en": [
-      "",
-      ""
-    ],
+    "en": ["", ""],
     "zh": ["", ""]
   },
 
   "another-soc-booths-intro": {
-    "en": [
-      "This is another common area in Upper U-street for societies to set up their booths."
-    ],
+    "en": ["This is another common area in Upper U-street for societies to set up their booths."],
     "zh": ["呢度係U-street上層另一邊比soc擺booth嘅地方。"]
   },
 
@@ -244,8 +249,7 @@
       "Hi, do you know where could I buy a cup of coffee in the campus?",
       "Could you buy me one? Here's the money."
     ],
-    "zh": ["Hi，你知唔知道campus入面邊度有得買咖啡飲呀？", 
-      "你可唔可以幫我買杯咖啡？呢度有啲錢。"]
+    "zh": ["Hi，你知唔知道campus入面邊度有得買咖啡飲呀？", "你可唔可以幫我買杯咖啡？呢度有啲錢。"]
   },
 
   "coffee-academics-intro": {
@@ -253,8 +257,10 @@
       "This is The Coffee Academics where you can buy the best brand of coffee for your relaxation in between lectures.",
       "Here is your coffee."
     ],
-    "zh": ["呢度係The Coffee Academics，你可以喺度買到最好嘅咖啡，幫你上堂嘅時候提提神〜", 
-      "呢度係你杯咖啡。"]
+    "zh": [
+      "呢度係The Coffee Academics，你可以喺度買到最好嘅咖啡，幫你上堂嘅時候提提神〜",
+      "呢度係你杯咖啡。"
+    ]
   },
 
   "buy-snacks": {
@@ -263,9 +269,11 @@
       "I heard that it sells delicious snacks and I would really want to try some.",
       "Could you please help me buy some?"
     ],
-    "zh": ["唔好意思，我想問你知唔知邊度係Mein Bowl呀？", 
+    "zh": [
+      "唔好意思，我想問你知唔知邊度係Mein Bowl呀？",
       "我聽講嗰度有啲好好食嘅小食，我想試下！",
-      "你可唔可以幫我買啲？"] 
+      "你可唔可以幫我買啲？"
+    ]
   },
 
   "mein-bowl-intro": {
@@ -273,8 +281,7 @@
       "This is the Mein Bowl where you can find different types of delicious Asian snacks.",
       "Here is your siu mai."
     ],
-    "zh": ["呢度就係Mein Bowl，你可以喺度買到唔同種類嘅小食。", 
-      "呢度係你要嘅燒賣。"]
+    "zh": ["呢度就係Mein Bowl，你可以喺度買到唔同種類嘅小食。", "呢度係你要嘅燒賣。"]
   },
 
   "oval-intro": {
@@ -282,14 +289,14 @@
       "This is the Oval, a learning space for students to study and rest.",
       "It is a common place for especially architecture and surveying students to gather."
     ],
-    "zh": ["呢個就係Oval，你可以係度做嘢，溫書，休息下。", 
-      "呢度主要係俾archi同survey嘅同學gather。"]
+    "zh": [
+      "呢個就係Oval，你可以係度做嘢，溫書，休息下。",
+      "呢度主要係俾archi同survey嘅同學gather。"
+    ]
   },
 
   "curve-intro": {
-    "en": [
-      "This is another learning space within the campus called the Curve."
-    ],
+    "en": ["This is another learning space within the campus called the Curve."],
     "zh": ["呢個就係Curve，係另一個俾你溫書做嘢地方。"]
   }
 }
