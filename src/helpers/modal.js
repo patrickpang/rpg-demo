@@ -4,7 +4,6 @@ import { h } from 'ijk'
 const onsubmit = e => {
   e.preventDefault()
   const nameInput = document.querySelector('input[name="player-name"]')
-  console.log(nameInput.value)
 }
 
 const state = {
@@ -18,7 +17,6 @@ const actions = {
 
 const oncreate = actions => {
   window.onclick = e => {
-    console.log(e)
     if (e.target.classList.contains('modal')) {
       actions.close()
     }

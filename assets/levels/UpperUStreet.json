@@ -297,6 +297,14 @@
                  "id":75,
                  "name":"LunchNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"buy-lunch"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -309,6 +317,14 @@
                  "id":78,
                  "name":"Soc-boothsNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-soc-booths"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -321,6 +337,14 @@
                  "id":83,
                  "name":"BEABankNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-bea-bank"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -333,6 +357,14 @@
                  "id":86,
                  "name":"DelifranceNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-delifrance"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -345,6 +377,14 @@
                  "id":90,
                  "name":"AnotherSoc-boothsNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-another-soc-booths"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -889,7 +929,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":96,
+ "nextobjectid":97,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

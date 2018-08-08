@@ -190,6 +190,18 @@
                  "width":0,
                  "x":1089.33333333333,
                  "y":174.666666666667
+                }, 
+                {
+                 "height":0,
+                 "id":34,
+                 "name":"Lift",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":638.666666666667,
+                 "y":2718.66666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -206,6 +218,14 @@
                  "id":13,
                  "name":"Haking3FNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-haking-wong-3f"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -218,6 +238,14 @@
                  "id":16,
                  "name":"ComputerLabNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-computer-laboratories"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -230,6 +258,14 @@
                  "id":19,
                  "name":"SuperpassNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-superpass"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -242,6 +278,14 @@
                  "id":22,
                  "name":"Multi-mediaRoomNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-multi-media-room"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -254,6 +298,14 @@
                  "id":26,
                  "name":"LG104NPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-lg104"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -266,6 +318,14 @@
                  "id":31,
                  "name":"CSANPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-csa-soc-room"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -491,7 +551,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":34,
+ "nextobjectid":35,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

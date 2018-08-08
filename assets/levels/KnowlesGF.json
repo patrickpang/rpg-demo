@@ -111,18 +111,6 @@
                  "y":866.01569506726
                 }, 
                 {
-                 "height":0,
-                 "id":30,
-                 "name":"HappyPark",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":639.006988120196,
-                 "y":832.55928255299
-                }, 
-                {
                  "height":64,
                  "id":33,
                  "name":"Unavailable",
@@ -185,6 +173,18 @@
                  "width":0,
                  "x":636.275784753363,
                  "y":833.78475336323
+                }, 
+                {
+                 "height":0,
+                 "id":35,
+                 "name":"HappyPark",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":639.5,
+                 "y":833.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -204,7 +204,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":35,
+ "nextobjectid":36,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

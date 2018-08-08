@@ -365,6 +365,14 @@
                  "id":24,
                  "name":"PrintingNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"print-stuff"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -414,7 +422,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":35,
+ "nextobjectid":36,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

@@ -190,6 +190,14 @@
                  "id":45,
                  "name":"OvalNPC",
                  "point":true,
+                 "properties":
+                    {
+                     "task":"discover-oval"
+                    },
+                 "propertytypes":
+                    {
+                     "task":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
