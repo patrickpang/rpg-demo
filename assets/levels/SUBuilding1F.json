@@ -217,15 +217,48 @@
          "name":"Dialogs",
          "objects":[
                 {
-                 "height":118.773946360153,
-                 "id":20,
+                 "height":64,
+                 "id":23,
                  "name":"coop-intro",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":131.54533844189,
-                 "x":445.721583652618,
-                 "y":582.375478927203
+                 "width":64,
+                 "x":481,
+                 "y":609
+                }, 
+                {
+                 "height":64,
+                 "id":28,
+                 "name":"print-stuff",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":832,
+                 "y":736
+                }, 
+                {
+                 "height":65,
+                 "id":31,
+                 "name":"su-printing-shop-intro",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":60,
+                 "x":834,
+                 "y":544
+                }, 
+                {
+                 "height":61,
+                 "id":34,
+                 "name":"su-office-intro",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":61,
+                 "x":1378,
+                 "y":644
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -238,8 +271,8 @@
          "name":"Tasks",
          "objects":[
                 {
-                 "height":116.219667943806,
-                 "id":21,
+                 "height":64,
+                 "id":22,
                  "name":"buy-stationery",
                  "properties":
                     {
@@ -252,9 +285,58 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":130.268199233716,
-                 "x":445.721583652618,
-                 "y":584.92975734355
+                 "width":64,
+                 "x":479.5,
+                 "y":608
+                }, 
+                {
+                 "height":64,
+                 "id":26,
+                 "name":"print-stuff",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":832,
+                 "y":736
+                }, 
+                {
+                 "height":67,
+                 "id":30,
+                 "name":"print-stuff",
+                 "properties":
+                    {
+                     "obtained":true
+                    },
+                 "propertytypes":
+                    {
+                     "obtained":"bool"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":61,
+                 "x":834,
+                 "y":542
+                }, 
+                {
+                 "height":61,
+                 "id":33,
+                 "name":"borrow-socket",
+                 "properties":
+                    {
+                     "obtained":true
+                    },
+                 "propertytypes":
+                    {
+                     "obtained":"bool"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":63,
+                 "x":1376,
+                 "y":643
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -277,6 +359,42 @@
                  "width":0,
                  "x":512.13282247765,
                  "y":638.569604086846
+                }, 
+                {
+                 "height":0,
+                 "id":24,
+                 "name":"PrintingNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":865,
+                 "y":771
+                }, 
+                {
+                 "height":0,
+                 "id":29,
+                 "name":"SUPrintingShopNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":866,
+                 "y":579
+                }, 
+                {
+                 "height":0,
+                 "id":32,
+                 "name":"SUOfficeNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1409,
+                 "y":674
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -296,7 +414,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":22,
+ "nextobjectid":35,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

@@ -1,12 +1,13 @@
 {
   "thank-you": {
-    "en": ["Thanks so much"],
-    "zh": ["多謝你吖"]
+    "en": [
+      "Thanks so much"
+    ],
+    "zh": [
+      "多謝你吖"
+    ]
   },
-  "haking5f-intro": {
-    "en": ["Welcome to the office of the Faculty of Engineering"],
-    "zh": ["hello～呢度就係 engine faculty 既 office 拉"]
-  },
+  
   "hku-intro": {
     "en": [
       "The University of Hong Kong 香港大學 (often abbreviated as HKU) is a public research university located in Pokfulam, Hong Kong. Founded in 1911, its origins can be traced back to the Hong Kong College of Medicine for Chinese which was founded in 1887, it is the oldest tertiary institution in Hong Kong.[5] It is often cited as one of the most prestigious universities in Asia.[6]",
@@ -17,7 +18,116 @@
       "香港大學創立於殖民地時期的香港，其溯源是1887年成立的華人西醫書院，該校後來併入香港大學並成為香港大學醫學院，與文學院及工程學院一同被認為是香港大學的創校學院。香港大學在日佔時期遭受嚴重破壞，太平洋戰爭結束後，香港大學於1948年恢復運作，其後多所學院及學術部門相繼成立[7]。"
     ]
   },
+
+  "buy-lunch": {
+    "en": [
+      "Hi, are you a student of HKU? I am starving but I do not know where can I buy food in the campus...",
+      "Could you help me buy a lunch? Here’s the money."
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
   "buy-stationery": {
-    "en": ["Please help me buy stationery", "You may go inside this building to see"]
+    "en": [
+      "I am going to have examination later, but I’ve forgotten to bring my stationeries!!",
+      "Could you please help me buy them?"
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "discover-soc-booths": {
+    "en": [
+      "University Street is a common place for many societies to set up their booths and attract students to know more about them or even register their events."
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "coop-intro": {
+    "en": [
+      "This is the Co-op Store where you can find any sorts of stationery you want to aid with your academic study.",
+      "Please enjoy your shopping here."
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "print-stuff": {
+    "en": [
+      "Could you help me print out my poster? This is the USB."
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "su-printing-shop-intro": {
+    "en": [
+      "This is the SU Printing Shop where you can print all kinds of stuff by paying with cash.",
+      "You can even print A3 poster here which is very useful for many of your class work!"
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "fix-computer": {
+    "en": [
+      "My laptop suddenly start malfunctioning... Where can I fix it inside the campus?"
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "su-computer-store-intro": {
+    "en": [
+      "This is the SU Computer Store where you can buy laptops and fix your computers.",
+      "We always have IT professionals here to solve your problems!"
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "borrow-socket": {
+    "en": [
+      "We need a socket so that we can use our speaker. Could you please help us borrow a socket?"
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "su-office-intro": {
+    "en": [
+      "This is the SU Office where you can contact HKUSU, borrow all sorts of equipment and book venues within the campus to hold events.",
+      "Here is your socket."
+    ],
+    "zh": [
+      "",
+      ""
+    ]
+  },
+
+  "haking5f-intro": {
+    "en": ["Welcome to the office of the Faculty of Engineering"],
+    "zh": ["hello～呢度就係 engine faculty 既 office 拉"]
   }
+
 }

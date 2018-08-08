@@ -1,4 +1,70 @@
 {
+  "buy-lunch": {
+    "en": {
+      "title": "Buy Lunch",
+      "description": "You need to buy lunch from SU Can"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "buy-stationery": {
+    "en": {
+      "title": "Buy Stationery",
+      "description": "You need to buy stationery from Co-op Store"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "discover-soc-booths": {
+    "en": {
+      "title": "Discover Soc-booths",
+      "description": "You need to discover society booths on the Upper U-street"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "print-stuff": {
+    "en": {
+      "title": "Print Stuff",
+      "description": "You need to print stuff in SU Printing Shop"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "fix-computer": {
+    "en": {
+      "title": "Fix Computer",
+      "description": "You need to fix computer in SU Computer Store"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
+  "borrow-socket": {
+    "en": {
+      "title": "Borrow Socket",
+      "description": "You need to borrow socket from SU Office"
+    },
+    "zh": {
+      "title": "",
+      "description": ""
+    }
+  },
+
   "octopus-form": {
     "en": {
       "title": "Get Student Octopus Card",
@@ -9,10 +75,5 @@
       "description": "去個 faculty office 填張 form 先～"
     }
   },
-  "buy-stationery": {
-    "en": {
-      "title": "Buy Stationery",
-      "description": "You need to buy stationery from co-op store"
-    }
-  }
+  
 }

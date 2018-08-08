@@ -156,6 +156,145 @@
         }, 
         {
          "draworder":"topdown",
+         "name":"NPCs",
+         "objects":[
+                {
+                 "height":0,
+                 "id":20,
+                 "name":"ComputerNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":130,
+                 "y":770
+                }, 
+                {
+                 "height":0,
+                 "id":23,
+                 "name":"SUComputerStoreNPC",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":225,
+                 "y":579
+                }, 
+                {
+                 "height":194,
+                 "id":26,
+                 "name":"DanceTeamNPCs",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":317,
+                 "x":929,
+                 "y":799
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Tasks",
+         "objects":[
+                {
+                 "height":64,
+                 "id":21,
+                 "name":"fix-computer",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":63,
+                 "x":97,
+                 "y":736
+                }, 
+                {
+                 "height":61,
+                 "id":24,
+                 "name":"fix-computer",
+                 "properties":
+                    {
+                     "obtained":true
+                    },
+                 "propertytypes":
+                    {
+                     "obtained":"bool"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":63,
+                 "x":193,
+                 "y":547
+                }, 
+                {
+                 "height":254,
+                 "id":27,
+                 "name":"borrow-socket",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":383,
+                 "x":896,
+                 "y":769
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Dialogs",
+         "objects":[
+                {
+                 "height":60,
+                 "id":22,
+                 "name":"fix-computer",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":63,
+                 "x":97,
+                 "y":739
+                }, 
+                {
+                 "height":59,
+                 "id":25,
+                 "name":"su-computer-store-intro",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":62,
+                 "x":194,
+                 "y":550
+                }, 
+                {
+                 "height":253,
+                 "id":28,
+                 "name":"borrow-socket",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":383,
+                 "x":896,
+                 "y":770
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
          "name":"Players",
          "objects":[
                 {
@@ -169,18 +308,6 @@
                  "width":0,
                  "x":2015.34246361483,
                  "y":568.98392141775
-                }, 
-                {
-                 "height":0,
-                 "id":5,
-                 "name":"Start",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1086.59906823787,
-                 "y":829.901890929022
                 }, 
                 {
                  "height":0,
@@ -205,6 +332,18 @@
                  "width":0,
                  "x":109.724688322334,
                  "y":840.653983866097
+                }, 
+                {
+                 "height":0,
+                 "id":29,
+                 "name":"Start",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":81,
+                 "y":849
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -224,7 +363,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":20,
+ "nextobjectid":30,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
