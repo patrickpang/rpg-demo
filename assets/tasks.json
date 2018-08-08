@@ -79,22 +79,22 @@
   "discover-obc-grill": {
     "en": {
       "title": "Discover OBC Grill",
-      "description": "You need to discover OBC Grill in Centennial Campus LGF"
+      "description": "You need to discover OBC Grill in Centennial Campus LG1"
     },
     "zh": {
       "title": "參觀OBC Grill",
-      "description": "去Centennial Campus LGF嘅OBC Grill睇下"
+      "description": "去Centennial Campus LG1嘅OBC Grill睇下"
     }
   },
 
   "discover-lsk-conference-room": {
     "en": {
       "title": "Discover LSK Lecture Centre",
-      "description": "You need to discover LSK Lecture Centre in Centennial Campus LGF"
+      "description": "You need to discover LSK Lecture Centre in Centennial Campus LG1"
     },
     "zh": {
       "title": "參觀李兆基會議中心",
-      "description": "去Centennial Campus LGF嘅李兆基會議中心睇下"
+      "description": "去Centennial Campus LG1嘅李兆基會議中心睇下"
     }
   },
 

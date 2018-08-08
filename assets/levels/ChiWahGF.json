@@ -233,7 +233,7 @@
          "name":"Tasks",
          "objects":[
                 {
-                 "height":127,
+                 "height":112.333333333333,
                  "id":12,
                  "name":"discover-chi-wah",
                  "properties":
@@ -249,7 +249,7 @@
                  "visible":true,
                  "width":65,
                  "x":448,
-                 "y":608
+                 "y":622.666666666667
                 }, 
                 {
                  "height":65,
@@ -281,7 +281,7 @@
          "name":"Dialogs",
          "objects":[
                 {
-                 "height":127,
+                 "height":108.333333333333,
                  "id":13,
                  "name":"chi-wah-intro",
                  "rotation":0,
@@ -289,7 +289,7 @@
                  "visible":true,
                  "width":64,
                  "x":448,
-                 "y":608
+                 "y":626.666666666667
                 }, 
                 {
                  "height":66,

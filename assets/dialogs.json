@@ -1,17 +1,17 @@
 {
   "thank-you": {
-    "en": ["Thanks so much"],
-    "zh": ["多謝你吖"]
+    "en": ["Thanks so much!"],
+    "zh": ["多謝你呀！"]
   },
 
   "hku-intro": {
     "en": [
-      "The University of Hong Kong 香港大學 (often abbreviated as HKU) is a public research university located in Pokfulam, Hong Kong. Founded in 1911, its origins can be traced back to the Hong Kong College of Medicine for Chinese which was founded in 1887, it is the oldest tertiary institution in Hong Kong.[5] It is often cited as one of the most prestigious universities in Asia.[6]",
-      "Today, the University of Hong Kong is organised into 10 academic faculties with English as the language of instruction. It exhibits strength in scholarly research and education of science, biomedicine,[7] dentistry, education,[8] humanities, law,[9] linguistics,[10] political sciences,[11][12] and social sciences. The University of Hong Kong was also the first team in the world which successfully isolated the corona virus, the causative agent of SARS.[13]"
+      "The University of Hong Kong 香港大學 (often abbreviated as HKU) is a public research university located in Pokfulam, Hong Kong. Founded in 1911, its origins can be traced back to the Hong Kong College of Medicine for Chinese which was founded in 1887, it is the oldest tertiary institution in Hong Kong. It is often cited as one of the most prestigious universities in Asia.",
+      "Today, the University of Hong Kong is organised into 10 academic faculties with English as the language of instruction. It exhibits strength in scholarly research and education of science, biomedicine, dentistry, education, humanities, law, linguistics, political sciences, and social sciences. The University of Hong Kong was also the first team in the world which successfully isolated the corona virus, the causative agent of SARS."
     ],
     "zh": [
-      "香港大學，簡稱港大（英語：The University of Hong Kong，縮寫：HKU），是中國香港特別行政區的一所公立研究型大學，大學本部位於香港島的薄扶林[3][註 1]。香港大學成立於1911年，並於1912年3月11日正式辦學，[6][7]是香港最早建立的高等教育機構。成立之初，更是大英帝國在東亞成立的唯一一間大學[8]。",
-      "香港大學創立於殖民地時期的香港，其溯源是1887年成立的華人西醫書院，該校後來併入香港大學並成為香港大學醫學院，與文學院及工程學院一同被認為是香港大學的創校學院。香港大學在日佔時期遭受嚴重破壞，太平洋戰爭結束後，香港大學於1948年恢復運作，其後多所學院及學術部門相繼成立[7]。"
+      "香港大學，簡稱港大（英語：The University of Hong Kong，縮寫：HKU），是中國香港特別行政區的一所公立研究型大學，大學本部位於香港島的薄扶林。香港大學成立於1911年，並於1912年3月11日正式辦學，是香港最早建立的高等教育機構。成立之初，更是大英帝國在東亞成立的唯一一間大學。",
+      "香港大學創立於殖民地時期的香港，其溯源是1887年成立的華人西醫書院，該校後來併入香港大學並成為香港大學醫學院，與文學院及工程學院一同被認為是香港大學的創校學院。香港大學在日佔時期遭受嚴重破壞，太平洋戰爭結束後，香港大學於1948年恢復運作，其後多所學院及學術部門相繼成立。"
     ]
   },
 
@@ -22,7 +22,7 @@
     ],
     "zh": [
       "Hi，你係唔係港大嘅學生呀？我好肚餓但係我唔知邊度有得買嘢食...",
-      "你可唔可以幫我買個午餐？呢啲有啲錢。"
+      "你可唔可以幫我買個午餐？呢到有啲錢。"
     ]
   },
 
@@ -32,7 +32,7 @@
       "Today you could register student credit card on the Haking Wong Platform for a lot of benefits."
     ],
     "zh": [
-      "歡迎來到EAT，我哋係campus入面嘅一間中菜餐廳，記住多啲嚟。呢個係你要嘅午餐。",
+      "歡迎黎到EAT，我哋係campus入面嘅一間中菜餐廳，記住多啲嚟。呢個係你要嘅午餐。",
       "係喎，你今日可以喺黃克競平台嗰度申請學生信用卡，好似有着數㗎！"
     ]
   },
@@ -75,7 +75,7 @@
       "You can even print A3 poster here which is very useful for many of your class work!"
     ],
     "zh": [
-      "呢度就係SU Printing Shop，你可以係喺度俾錢印唔同仲量同尺寸嘅嘢。",
+      "呢度就係SU Printing Shop，你可以係喺度俾錢印唔同數量同尺寸嘅嘢。",
       "你仲可以係度print A3 poster添，你上堂成日都要交A3 poster㗎！"
     ]
   },
@@ -116,12 +116,12 @@
 
   "obc-grill-intro": {
     "en": ["This is the OBC Grill, one of the many eateries in HKU. Here is your salad."],
-    "zh": ["歡迎來到OBC Grill，我哋係campus入面嘅一間西藏餐廳，記住多啲嚟。呢個係你要嘅沙律。"]
+    "zh": ["歡迎黎到OBC Grill，我哋係campus入面嘅一間西式餐廳，記住多啲嚟呀。呢個係你要嘅沙律。"]
   },
 
   "print-stuff": {
     "en": ["Could you help me print out my poster? This is the USB."],
-    "zh": ["你可唔可以幫我print個poster？張poster喺呢隻USB度。"]
+    "zh": ["你可唔可以幫我print張poster？張poster喺呢隻USB度。"]
   },
 
   "lsk-conference-room-intro": {
@@ -138,7 +138,7 @@
 
   "delifrance-intro": {
     "en": ["This is the Delifrance, one of the many eateries in HKU. Here is your fruit juice."],
-    "zh": ["歡迎來到Delifrance，我哋係campus入面嘅一間西藏餐廳，記住多啲嚟。呢個係你要嘅果汁"]
+    "zh": ["歡迎黎到Delifrance，我哋係campus入面嘅一間西式餐廳，記住多啲嚟呀。呢個係你要嘅果汁"]
   },
 
   "chi-wah-intro": {
@@ -148,7 +148,7 @@
     ],
     "zh": [
       "呢度就係智華喇，喺呢度你可以搵到好多地方俾你去溫書同做嘢。",
-      "如果你唔記得帶電腦唔緊要，因為呢都會有電腦同埋iMac俾你去用。"
+      "如果你唔記得帶電腦唔緊要，因為呢度都會有電腦同埋iMac俾你去用。"
     ]
   },
 
@@ -186,7 +186,7 @@
 
   "octopus-form": {
     "en": ["Congratulations! You have found the octopus form."],
-    "zh": ["好叻呀，你搵到份八達通form"]
+    "zh": ["好叻呀，你搵到份八達通form。"]
   },
 
   "haking3f-intro": {
@@ -195,7 +195,7 @@
       "Many students come down to use the computer laboratories to finish their assignments or research for projects."
     ],
     "zh": [
-      "呢度就係黃克競3樓，呢一層有唔同Soc嘅Soc房同埋computer lab。",
+      "呢度就係黃克競3樓，呢一層有唔同Society嘅Society rooms同埋computer lab。",
       "好多同學都會落嚟computer lab度做assignment同research projects。"
     ]
   },
@@ -213,14 +213,14 @@
       "You can write some fai-chuns here and register for Superpass Dinner to eat with your friends and wish for great GPA in the coming semester~"
     ],
     "zh": [
-      "我哋係CSA，依家喺度搞緊Superpass",
-      "你可以喺度寫揮春,同埋報名參加Superpass Dinner，同你嘅朋友一齊過3爆4"
+      "我哋係CSA，依家喺度搞緊Superpass。",
+      "你可以喺度寫揮春,同埋報名參加Superpass Dinner，同你嘅朋友一齊過3爆4。"
     ]
   },
 
   "multi-media-room-intro": {
-    "en": ["", ""],
-    "zh": ["", ""]
+    "en": ["This is a multimedia room."],
+    "zh": ["呢度係一間多媒體室。"]
   },
 
   "lg104-intro": {
@@ -229,19 +229,29 @@
       "You can enter the society room for more information."
     ],
     "zh": [
-      "呢個computer lab好特別，因為我哋CSA嘅Soc房就係喺呢個度入面。",
-      "你可以去我哋Soc房了解多啲〜"
+      "呢個computer lab好特別，因為我哋Computer Science Association (CSA)嘅Society room就係喺呢個度入面。",
+      "你可以去我哋嘅Society room了解多啲〜"
     ]
   },
 
   "csa-intro": {
-    "en": ["", ""],
-    "zh": ["", ""]
+    "en": [
+      "Here is the society room of Computer Science Association (CSA).",
+      "You can borrow different things like stationery, sporting goods, board games, etc.",
+      "You can also buy our society products, like single-lined paper, t-shirt, etc.",
+      "You can find us for more information!"
+    ],
+    "zh": [
+      "呢度就係我哋Computer Science Association (CSA)嘅society room啦。",
+      "你可以問我哋借好多唔同嘅嘢，例如係文具、運動用品、board games等等。",
+      "你仲可以向我哋買我哋嘅society products，例如係單行紙、t-shirt等等。",
+      "仲想知多啲嘅可以黎搵我哋㗎！"
+    ]
   },
 
   "another-soc-booths-intro": {
     "en": ["This is another common area in Upper U-street for societies to set up their booths."],
-    "zh": ["呢度係U-street上層另一邊比soc擺booth嘅地方。"]
+    "zh": ["呢度係U-street上層另一邊比societies擺booth嘅地方。"]
   },
 
   "buy-coffee": {
@@ -289,10 +299,7 @@
       "This is the Oval, a learning space for students to study and rest.",
       "It is a common place for especially architecture and surveying students to gather."
     ],
-    "zh": [
-      "呢個就係Oval，你可以係度做嘢，溫書，休息下。",
-      "呢度主要係俾archi同survey嘅同學gather。"
-    ]
+    "zh": ["呢個就係Oval，你可以係度做嘢，溫書，休息下。", "呢度主要係俾建築同survey嘅同學gather。"]
   },
 
   "curve-intro": {
