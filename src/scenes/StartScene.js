@@ -11,6 +11,13 @@ import betty from '../../assets/players/betty.png'
 import { fontFamily, mainFont } from '../constants'
 import { setState, getState } from '../helpers/state'
 
+import jeremy_blonde from '../../assets/players/jeremy-blonde.png'
+import jeremy_green from '../../assets/players/jeremy-green.png'
+import jeremy_pink from '../../assets/players/jeremy-pink.png'
+import martha_blonde from '../../assets/players/martha-blonde.png'
+import martha_green from '../../assets/players/martha-green.png'
+import martha_pink from '../../assets/players/martha-pink.png'
+
 const fontColor = '#fefefe'
 
 export default class StartScene extends Phaser.Scene {
@@ -33,6 +40,31 @@ export default class StartScene extends Phaser.Scene {
       google: {
         families: [mainFont],
       },
+    })
+
+    this.load.spritesheet('jeremy-blonde', jeremy_blonde, {
+      frameWidth: 32,
+      frameHeight: 32,
+    })
+    this.load.spritesheet('jeremy-green', jeremy_green, {
+      frameWidth: 32,
+      frameHeight: 32,
+    })
+    this.load.spritesheet('jeremy-pink', jeremy_pink, {
+      frameWidth: 32,
+      frameHeight: 32,
+    })
+    this.load.spritesheet('martha-blonde', martha_blonde, {
+      frameWidth: 32,
+      frameHeight: 32,
+    })
+    this.load.spritesheet('martha-green', martha_green, {
+      frameWidth: 32,
+      frameHeight: 32,
+    })
+    this.load.spritesheet('martha-pink', martha_pink, {
+      frameWidth: 32,
+      frameHeight: 32,
     })
   }
 

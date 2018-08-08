@@ -1,5 +1,6 @@
 import Phaser from 'phaser'
 import { fontFamily } from '../constants'
+import dialogsFile from '../../assets/dialogs.json'
 
 // Usages
 
@@ -16,14 +17,34 @@ export default class Dialog extends Phaser.Scene {
     super({ key: 'Dialog' })
   }
 
-  preload() {}
+  preload() {
+    this.load.json('dialogs', dialogsFile)
+  }
 
-  create({ parentScene, paragraphs }) {
+  create({ parentScene, paragraphs, nonBlock, key }) {
     this.parentScene = parentScene
-    this.paragraphs = paragraphs
+
+    if (key) {
+      const dialog = this.cache.json.get('dialogs')[key]
+      if (dialog) {
+        this.paragraphs = dialog['en']
+      } else {
+        this.paragraphs = paragraphs || []
+      }
+    } else {
+      this.paragraphs = paragraphs || []
+    }
+
     this.currentIndex = 0
 
-    this.scene.pause(this.parentScene.scene.key)
+    if (nonBlock) {
+      window.setInterval(() => {
+        this.scene.stop('Dialog')
+        this.scene.resume(this.parentScene.scene.key)
+      }, 1000)
+    } else {
+      this.scene.pause(this.parentScene.scene.key)
+    }
     this.scene.bringToTop(this.scene.key)
 
     this.gameWidth = this.sys.game.config.width
@@ -42,7 +63,7 @@ export default class Dialog extends Phaser.Scene {
     }
 
     this.textBox = this.add
-      .text(x, y, paragraphs[0], textStyle)
+      .text(x, y, this.paragraphs[0], textStyle)
       .setWordWrapWidth(width, false)
       .setOrigin(0.5, 1)
       .setDepth(1)
@@ -59,7 +80,9 @@ export default class Dialog extends Phaser.Scene {
       )
       .setInteractive()
 
-    this.input.on('pointerdown', () => this.renderNextParagraph())
+    if (!nonBlock) {
+      this.input.on('pointerdown', () => this.renderNextParagraph())
+    }
   }
 
   renderNextParagraph() {
@@ -76,7 +99,7 @@ export default class Dialog extends Phaser.Scene {
           this.textBox.height + this.padding * 2
         )
     } else {
-      this.scene.stop()
+      this.scene.stop('Dialog')
       this.scene.resume(this.parentScene.scene.key)
     }
   }
