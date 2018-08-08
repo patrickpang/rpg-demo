@@ -1,4 +1,5 @@
 import Player from '../objects/Player'
+import { getState } from './state'
 
 export function createFromTilemap(scene, mapKey, tilesetKey, from) {
   scene.cameras.main.fadeIn(200)
@@ -39,7 +40,12 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
   )
 
   const spawnPoint = map.findObject('Players', obj => obj.name === (from || 'Start'))
-  scene.player = new Player(scene, spawnPoint.x, spawnPoint.y)
+  scene.player = new Player(
+    scene,
+    spawnPoint.x,
+    spawnPoint.y,
+    getState(['player', 'gender']) === 'M' ? 'george' : 'betty'
+  )
   scene.player.create()
 
   const playerFront = map.createDynamicLayer('Player Front', tiles, 0, 0)
