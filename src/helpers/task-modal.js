@@ -18,7 +18,7 @@ const state = {
   taskList: [],
   tasks: {},
   tasksText: {},
-  selectedFilter: 'all',
+  selectedFilter: 'todo',
 }
 
 const actions = {
@@ -59,14 +59,18 @@ const taskItem = (task, taskText) => [
   'div',
   { class: 'todo-item' },
   [
-    ['input', { type: 'checkbox', checked: `${task.completed}` }, ''],
+    ['input', { type: 'checkbox', checked: task.completed }, ''],
     ['b', taskText.title],
     ['p', taskText.description],
   ],
 ]
 
-const taskList = (filter, taskList, tasks, tasksText) => [
-  taskList.map(key => taskItem(tasks[key], tasksText[key][language])),
+const filteredTaskList = (filter, taskList, tasks, tasksText) => [
+  'div',
+  { class: 'task-list' },
+  taskList
+    .filter(key => filterFns[filter](tasks[key]))
+    .map(key => taskItem(tasks[key], tasksText[key][language])),
 ]
 
 const content = (state, actions) => [
@@ -74,7 +78,7 @@ const content = (state, actions) => [
   [
     ['h1', 'Tasks'],
     filtersSelect(state, actions),
-    ['div', taskList(state.filter, state.taskList, state.tasks, state.tasksText)],
+    filteredTaskList(state.selectedFilter, state.taskList, state.tasks, state.tasksText),
   ],
 ]
 

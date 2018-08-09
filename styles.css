@@ -61,6 +61,10 @@ body {
   border: none;
 }
 
+div.filters {
+  margin-bottom: 20px;
+}
+
 div.filters span {
   margin-right: 10px;
 }

@@ -48,15 +48,15 @@ const scenes = scenesData.map(([sceneKey, map]) => {
   const scene = new Phaser.Scene(sceneKey)
 
   scene.preload = function() {
-    this.load.tilemapTiledJSON(sceneKey + 'Map', map)
+    scene.load.tilemapTiledJSON(sceneKey + 'Map', map)
   }
 
   scene.create = function({ target }) {
-    createFromTilemap(this, sceneKey + 'Map', 'ideal_tileset', target)
+    createFromTilemap(scene, sceneKey + 'Map', 'ideal_tileset', target)
   }
 
   scene.update = function() {
-    this.player.update()
+    scene.player.update()
   }
 
   return scene
