@@ -40,4 +40,4 @@ const view = (state, actions) =>
     ],
   ])
 
-export const setNameModal = app(state, actions, view, document.getElementById('modal'))
+export const aboutModal = app(state, actions, view, document.getElementById('modal'))

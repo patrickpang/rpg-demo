@@ -2,6 +2,7 @@ import Phaser from 'phaser'
 import { fontFamily } from '../constants'
 import { getState } from '../helpers/state'
 import { throttle } from 'lodash/fp'
+import { aboutModal } from '../helpers/modal'
 
 const fontColor = '#fefefe'
 
@@ -34,7 +35,7 @@ export default class HUD extends Phaser.Scene {
       .setOrigin(0, 1)
       .setScrollFactor(0, 0)
 
-    this.add
+    const taskButton = this.add
       .text(gameWidth - 20, 20, 'Tasks', {
         fontFamily: fontFamily,
         fontSize: '16px',
@@ -42,8 +43,9 @@ export default class HUD extends Phaser.Scene {
       })
       .setOrigin(1, 0)
       .setScrollFactor(0, 0)
+      .setInteractive()
 
-    this.add
+    const aboutButton = this.add
       .text(gameWidth - 20, gameHeight - 20, '?', {
         fontFamily: fontFamily,
         fontSize: '16px',
@@ -51,11 +53,11 @@ export default class HUD extends Phaser.Scene {
       })
       .setOrigin(1, 1)
       .setScrollFactor(0, 0)
-    //   .setInteractive()
+      .setInteractive()
 
-    // button.on('pointerdown', () => {
-    //   this.scene.start(scene, { target: 'Lift' })
-    // })
+    taskButton.on('pointerdown', () => {})
+
+    aboutButton.on('pointerdown', () => aboutModal.open())
 
     this.sys.game.events.on(
       'unavailable',
