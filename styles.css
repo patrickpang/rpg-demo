@@ -60,3 +60,11 @@ body {
   background: none;
   border: none;
 }
+
+div.filters span {
+  margin-right: 10px;
+}
+
+span.selected-filter {
+  font-weight: bold;
+}

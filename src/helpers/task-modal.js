@@ -48,7 +48,7 @@ const filtersSelect = (state, actions) => [
       'span',
       {
         class: filter === state.selectedFilter ? 'selected-filter' : '',
-        onclick: actions.selectFilter(filter),
+        onclick: () => actions.selectFilter(filter),
       },
       filter,
     ]),
@@ -65,7 +65,7 @@ const taskItem = (task, taskText) => [
   ],
 ]
 
-const taskList = (taskList, tasks, tasksText) => [
+const taskList = (filter, taskList, tasks, tasksText) => [
   taskList.map(key => taskItem(tasks[key], tasksText[key][language])),
 ]
 
@@ -74,7 +74,7 @@ const content = (state, actions) => [
   [
     ['h1', 'Tasks'],
     filtersSelect(state, actions),
-    ['div', taskList(state.taskList, state.tasks, state.tasksText)],
+    ['div', taskList(state.filter, state.taskList, state.tasks, state.tasksText)],
   ],
 ]
 
