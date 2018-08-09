@@ -6,13 +6,12 @@
 
   "hku-intro": {
     "en": [
-      "The University of Hong Kong 香港大學 (often abbreviated as HKU) is a public research university located in Pokfulam, Hong Kong. Founded in 1911, its origins can be traced back to the Hong Kong College of Medicine for Chinese which was founded in 1887, it is the oldest tertiary institution in Hong Kong. It is often cited as one of the most prestigious universities in Asia.",
-      "Today, the University of Hong Kong is organised into 10 academic faculties with English as the language of instruction. It exhibits strength in scholarly research and education of science, biomedicine, dentistry, education, humanities, law, linguistics, political sciences, and social sciences. The University of Hong Kong was also the first team in the world which successfully isolated the corona virus, the causative agent of SARS."
+      "CSA stands for Computer Science Association",
+      "We are the student society for CS students and freshmen interested in CS",
+      "We believe technology and humanity can work together to make life better",
+      "Join us if you are interested"
     ],
-    "zh": [
-      "香港大學，簡稱港大（英語：The University of Hong Kong，縮寫：HKU），是中國香港特別行政區的一所公立研究型大學，大學本部位於香港島的薄扶林。香港大學成立於1911年，並於1912年3月11日正式辦學，是香港最早建立的高等教育機構。成立之初，更是大英帝國在東亞成立的唯一一間大學。",
-      "香港大學創立於殖民地時期的香港，其溯源是1887年成立的華人西醫書院，該校後來併入香港大學並成為香港大學醫學院，與文學院及工程學院一同被認為是香港大學的創校學院。香港大學在日佔時期遭受嚴重破壞，太平洋戰爭結束後，香港大學於1948年恢復運作，其後多所學院及學術部門相繼成立。"
-    ]
+    "zh": ["", "", "", ""]
   },
 
   "buy-lunch": {
@@ -219,8 +218,10 @@
   },
 
   "multi-media-room-intro": {
-    "en": ["This is a multimedia room."],
-    "zh": ["呢度係一間多媒體室。"]
+    "en": [
+      "This is the multimedia lab, where experiments in the VR and AR fields are carried out."
+    ],
+    "zh": [""]
   },
 
   "lg104-intro": {
