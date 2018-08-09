@@ -83,7 +83,7 @@
                  "name":"CBGF",
                  "properties":
                     {
-                     "target":"FromCBGF"
+                     "target":"NearStair"
                     },
                  "propertytypes":
                     {
@@ -175,7 +175,7 @@
                 {
                  "height":0,
                  "id":7,
-                 "name":"CBGF",
+                 "name":"NearStair",
                  "point":true,
                  "rotation":0,
                  "type":"",
