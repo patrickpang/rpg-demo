@@ -69,7 +69,7 @@ export default class StartScene extends Phaser.Scene {
   }
 
   create() {
-    if (getState(['player'])) {
+    if (getState(['player', 'name'])) {
       this.startGame()
     }
 
