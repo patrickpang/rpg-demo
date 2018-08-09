@@ -45,7 +45,7 @@ const filtersSelect = (state, actions) => [
   { class: 'filters' },
   [
     filters.map(filter => [
-      'span',
+      'button',
       {
         class: filter === state.selectedFilter ? 'selected-filter' : '',
         onclick: () => actions.selectFilter(filter),

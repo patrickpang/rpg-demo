@@ -1,12 +1,16 @@
 import { app } from 'hyperapp'
 import { h } from 'ijk'
+import { getLanguage } from './translation'
+
+const language = getLanguage()
 
 const state = {
   isOpen: false,
+  translations: {},
 }
 
 const actions = {
-  open: () => ({ isOpen: true }),
+  open: translations => ({ isOpen: true, translations }),
   close: () => ({ isOpen: false }),
 }
 
@@ -18,7 +22,10 @@ const oncreate = actions => {
   }
 }
 
-const content = ['div', [['h1', 'About Us'], ['p', 'Hello. We are CSA.']]]
+const content = translations => [
+  'div',
+  [['h1', translations['about-us'][language]], ['p', translations['about-us-content'][language]]],
+]
 
 const close = closeAction => ['button', { onclick: closeAction, class: 'modal-close' }, 'x']
 
@@ -31,7 +38,7 @@ const view = (state, actions) =>
     },
     [
       ['div', { class: 'modal-overlay' }],
-      ['div', { class: 'modal-content' }, [close(actions.close), content]],
+      ['div', { class: 'modal-content' }, [close(actions.close), content(state.translations)]],
     ],
   ])
 

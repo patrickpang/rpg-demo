@@ -6,6 +6,7 @@ import { aboutModal } from '../helpers/about-modal'
 import { taskModal } from '../helpers/task-modal'
 
 import tasksFile from '../../assets/tasks.json'
+import translationsFile from '../../assets/translations.json'
 
 const fontColor = '#fefefe'
 
@@ -16,6 +17,7 @@ export default class HUD extends Phaser.Scene {
 
   preload() {
     this.load.json('tasks', tasksFile)
+    this.load.json('translations', translationsFile)
   }
 
   create({ sceneKey }) {
@@ -62,7 +64,7 @@ export default class HUD extends Phaser.Scene {
 
     taskButton.on('pointerdown', () => taskModal.open(this.cache.json.get('tasks')))
 
-    aboutButton.on('pointerdown', () => aboutModal.open())
+    aboutButton.on('pointerdown', () => aboutModal.open(this.cache.json.get('translations')))
 
     this.sys.game.events.on('unavailable', throttle(1000, () => this.showMiddleText('Coming soon')))
   }
