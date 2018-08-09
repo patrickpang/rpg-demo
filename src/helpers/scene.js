@@ -136,13 +136,17 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
       setState({ tasks: { [key]: { completed: true } } })
       const taskList = getState(['taskList']) || []
       setState({ taskList: taskList.concat(key) })
+      scene.sys.game.events.emit('task-completed')
     } else if (obtained) {
       if (taskState && !taskState.obtained) {
         setState({ tasks: { [key]: { obtained: true } } })
+        scene.sys.game.events.emit('item-obtained')
       }
     } else {
       if (taskState && taskState.obtained) {
         setState({ tasks: { [key]: { completed: true } } })
+
+        scene.sys.game.events.emit('task-completed')
 
         scene.scene.run('Dialog', {
           parentScene: scene,
@@ -152,6 +156,7 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
         setState({ tasks: { [key]: { completed, obtained } } })
         const taskList = getState(['taskList']) || []
         setState({ taskList: taskList.concat(key) })
+        scene.sys.game.events.emit('task-discovered')
       }
     }
   })

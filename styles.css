@@ -65,10 +65,10 @@ div.filters {
   margin-bottom: 20px;
 }
 
-div.filters span {
+div.filters button {
   margin-right: 10px;
 }
 
-span.selected-filter {
+button.selected-filter {
   font-weight: bold;
 }

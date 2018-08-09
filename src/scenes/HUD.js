@@ -67,6 +67,18 @@ export default class HUD extends Phaser.Scene {
     aboutButton.on('pointerdown', () => aboutModal.open(this.cache.json.get('translations')))
 
     this.sys.game.events.on('unavailable', throttle(1000, () => this.showMiddleText('Coming soon')))
+    this.sys.game.events.on(
+      'task-discovered',
+      throttle(1000, () => this.showMiddleText('Task discovered'))
+    )
+    this.sys.game.events.on(
+      'task-completed',
+      throttle(1000, () => this.showMiddleText('Task completed'))
+    )
+    this.sys.game.events.on(
+      'item-obtained',
+      throttle(1000, () => this.showMiddleText('Item obtained.'))
+    )
   }
 
   update() {}
@@ -75,7 +87,11 @@ export default class HUD extends Phaser.Scene {
     const gameWidth = this.sys.game.config.width
     const gameHeight = this.sys.game.config.height
 
-    const middleText = this.add
+    if (this.middleText) {
+      this.middleText.destroy()
+    }
+
+    this.middleText = this.add
       .text(gameWidth * 0.5, gameHeight * 0.5, text, {
         fontFamily: fontFamily,
         fontSize: '16px',
@@ -84,6 +100,6 @@ export default class HUD extends Phaser.Scene {
       .setOrigin(0.5, 0.5)
       .setScrollFactor(0, 0)
 
-    window.setTimeout(() => middleText.destroy(), 1000)
+    window.setTimeout(() => this.middleText.destroy(), 1000)
   }
 }
