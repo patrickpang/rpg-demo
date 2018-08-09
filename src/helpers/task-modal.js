@@ -46,8 +46,10 @@ const filtersSelect = (state, actions) => [
   [
     filters.map(filter => [
       'span',
-      { class: filter === state.selectedFilter ? 'selected-filter' : '' },
-      { onclick: actions.selectFilter(filter) },
+      {
+        class: filter === state.selectedFilter ? 'selected-filter' : '',
+        onclick: actions.selectFilter(filter),
+      },
       filter,
     ]),
   ],
@@ -71,7 +73,7 @@ const content = (state, actions) => [
   'div',
   [
     ['h1', 'Tasks'],
-    // ['code', JSON.stringify(filtersSelect(state, actions))],
+    filtersSelect(state, actions),
     ['div', taskList(state.taskList, state.tasks, state.tasksText)],
   ],
 ]
