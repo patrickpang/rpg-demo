@@ -1,11 +1,6 @@
 import { app } from 'hyperapp'
 import { h } from 'ijk'
 
-const onsubmit = e => {
-  e.preventDefault()
-  const nameInput = document.querySelector('input[name="player-name"]')
-}
-
 const state = {
   isOpen: false,
 }

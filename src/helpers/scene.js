@@ -134,6 +134,8 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
 
     if (completed) {
       setState({ tasks: { [key]: { completed: true } } })
+      const taskList = getState(['taskList']) || []
+      setState({ taskList: taskList.concat(key) })
     } else if (obtained) {
       if (taskState && !taskState.obtained) {
         setState({ tasks: { [key]: { obtained: true } } })
@@ -146,8 +148,10 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
           parentScene: scene,
           key: 'thank-you',
         })
-      } else {
+      } else if (!taskState) {
         setState({ tasks: { [key]: { completed, obtained } } })
+        const taskList = getState(['taskList']) || []
+        setState({ taskList: taskList.concat(key) })
       }
     }
   })

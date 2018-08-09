@@ -50,7 +50,8 @@ body {
 @media (min-width: 768px) {
   .modal-content {
     width: 80%;
-    margin: 15% auto;
+    height: 80%;
+    margin: 5% auto;
   }
 }
 

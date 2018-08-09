@@ -2,7 +2,10 @@ import Phaser from 'phaser'
 import { fontFamily } from '../constants'
 import { getState } from '../helpers/state'
 import { throttle } from 'lodash/fp'
-import { aboutModal } from '../helpers/modal'
+import { aboutModal } from '../helpers/about-modal'
+import { taskModal } from '../helpers/task-modal'
+
+import tasksFile from '../../assets/tasks.json'
 
 const fontColor = '#fefefe'
 
@@ -11,7 +14,9 @@ export default class HUD extends Phaser.Scene {
     super({ key: 'HUD' })
   }
 
-  preload() {}
+  preload() {
+    this.load.json('tasks', tasksFile)
+  }
 
   create({ sceneKey }) {
     const gameWidth = this.sys.game.config.width
@@ -55,14 +60,11 @@ export default class HUD extends Phaser.Scene {
       .setScrollFactor(0, 0)
       .setInteractive()
 
-    taskButton.on('pointerdown', () => {})
+    taskButton.on('pointerdown', () => taskModal.open(this.cache.json.get('tasks')))
 
     aboutButton.on('pointerdown', () => aboutModal.open())
 
-    this.sys.game.events.on(
-      'unavailable',
-      throttle(1000, () => this.showMiddleText('Temporarily Available'))
-    )
+    this.sys.game.events.on('unavailable', throttle(1000, () => this.showMiddleText('Coming soon')))
   }
 
   update() {}

@@ -1,5 +1,5 @@
 import { getState, setState } from './state'
-import LineBreaker from 'linebreak'
+import LineBreaker from 'linebreak/src/linebreaker'
 
 export function getLanguage() {
   const currentLanguage = getState(['player', 'language'])
