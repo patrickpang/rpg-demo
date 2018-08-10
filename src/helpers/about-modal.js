@@ -24,7 +24,14 @@ const oncreate = actions => {
 
 const content = translations => [
   'div',
-  [['h1', translations['about-us'][language]], ['p', translations['about-us-content'][language]]],
+  [
+    ['h1', translations['about-us'] && translations['about-us'][language]],
+    [
+      'p',
+      { class: 'modal-inner-content' },
+      translations['about-us-content'] && translations['about-us-content'][language],
+    ],
+  ],
 ]
 
 const close = closeAction => ['button', { onclick: closeAction, class: 'modal-close' }, 'x']

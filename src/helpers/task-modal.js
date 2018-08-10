@@ -67,7 +67,7 @@ const taskItem = (task, taskText) => [
 
 const filteredTaskList = (filter, taskList, tasks, tasksText) => [
   'div',
-  { class: 'task-list' },
+  { class: 'task-list modal-inner-content' },
   taskList
     .filter(key => filterFns[filter](tasks[key]))
     .map(key => taskItem(tasks[key], tasksText[key][language])),

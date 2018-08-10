@@ -2,6 +2,7 @@ import Phaser from 'phaser'
 import { fontFamily } from '../constants'
 import liftsFile from '../../assets/lifts.json'
 import backgroundFile from '../../assets/background/lift-background.png'
+import { reverse } from 'lodash/fp'
 
 const fontColor = '#333333'
 
@@ -16,7 +17,7 @@ export default class Lift extends Phaser.Scene {
   }
 
   create({ key }) {
-    const levels = this.cache.json.get('lifts')[key]
+    const levels = reverse(this.cache.json.get('lifts')[key])
 
     const gameWidth = this.sys.game.config.width
     const gameHeight = this.sys.game.config.height
