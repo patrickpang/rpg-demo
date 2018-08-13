@@ -72,10 +72,13 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
   }
 
   const npcLayer = map.getObjectLayer('NPCs')
+  const npcSprites = []
   if (npcLayer) {
-    npcLayer.objects.forEach(npc =>
-      scene.physics.add.sprite(npc.x, npc.y, randomNPCName(), randomFrame())
-    )
+    npcLayer.objects.forEach(npc => {
+      const npcSprite = scene.physics.add.sprite(npc.x, npc.y, randomNPCName(), randomFrame())
+      npcSprite.body.setImmovable()
+      npcSprites.push(npcSprite)
+    })
   }
 
   const spawnPoint =
@@ -95,6 +98,7 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
   scene.physics.add.collider(scene.player, border)
   scene.physics.add.collider(scene.player, back)
   scene.physics.add.collider(scene.player, front)
+  scene.physics.add.collider(scene.player, npcSprites)
 
   scene.physics.add.overlap(scene.player, zones, (_, entrance) => {
     const name = entrance.getData('name')

@@ -17,6 +17,8 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
 
     this.setCollideWorldBounds(true)
 
+    this.setSize(32, 32)
+
     this.createAnimations()
   }
 
