@@ -17,6 +17,7 @@ import jeremy_pink from '../../assets/players/jeremy-pink.png'
 import martha_blonde from '../../assets/players/martha-blonde.png'
 import martha_green from '../../assets/players/martha-green.png'
 import martha_pink from '../../assets/players/martha-pink.png'
+import { greetOverlay } from '../overlays/greet'
 
 const fontColor = '#fefefe'
 
@@ -69,8 +70,10 @@ export default class StartScene extends Phaser.Scene {
   }
 
   create() {
-    if (getState(['player', 'name'])) {
+    const playerState = getState(['player'])
+    if (playerState && playerState['name'] && playerState['gender']) {
       this.startGame()
+      return
     }
 
     this.cameras.main.fadeIn(200)
@@ -92,115 +95,9 @@ export default class StartScene extends Phaser.Scene {
 
     this.map.createDynamicLayer('Player Front', tiles, 0, 0)
 
-    const titlePoint = this.map.findObject('Welcome', obj => obj.name === 'Title')
-    this.add
-      .text(titlePoint.x, titlePoint.y, 'My Day In HKU', {
-        fontFamily: fontFamily,
-        fontSize: '48px',
-        fill: fontColor,
-      })
-      .setOrigin(0.5, 0.5)
-
-    const brandPoint = this.map.findObject('Welcome', obj => obj.name === 'MadeByCSA')
-    this.add
-      .text(brandPoint.x, brandPoint.y, 'made by CSA with ❤️', {
-        fontFamily: fontFamily,
-        fontSize: '24px',
-        fill: fontColor,
-      })
-      .setOrigin(0.5, 0.5)
-
-    const gameWidth = this.sys.game.config.width
-    const gameHeight = this.sys.game.config.height
-
-    const placeholder = this.add
-      .text(gameWidth * 0.5, gameHeight * 0.5, 'What is your name?', {
-        fontFamily: fontFamily,
-        fontSize: '24px',
-        fill: fontColor,
-      })
-      .setOrigin(0.5, 0.5)
-      .setScrollFactor(0, 0)
-
-    const padding = 10
-    const graphics = this.add.graphics()
-
-    this.inputBorder = graphics
-      .lineStyle(5, 0xffffff, 1)
-      .strokeRoundedRect(
-        placeholder.x - placeholder.width / 2 - padding,
-        placeholder.y - placeholder.height / 2 - padding,
-        placeholder.width + padding * 2,
-        placeholder.height + padding * 2,
-        10
-      )
-      .setScrollFactor(0, 0)
-
-    graphics.setInteractive(
-      new Phaser.Geom.Rectangle(
-        placeholder.x - placeholder.width / 2,
-        placeholder.y - placeholder.height / 2,
-        placeholder.width + padding * 2,
-        placeholder.height + padding * 2
-      ),
-      Phaser.Geom.Rectangle.Contains
-    )
-
-    graphics.on('pointerdown', () => {
-      placeholder.setVisible(false)
-      this.inputName(
-        placeholder.x - placeholder.width / 2 - padding,
-        placeholder.y - placeholder.height / 2 - padding,
-        placeholder.width + padding * 2,
-        placeholder.height + padding * 2,
-        padding
-      )
-    })
+    greetOverlay.show(() => this.choosePlayer())
 
     this.cameras.main.startFollow(this.player)
-
-    // set body size for larger surface area
-  }
-
-  inputName(x, y, width, height, padding) {
-    const inputBox = document.createElement('input')
-    inputBox.style.position = 'fixed'
-    inputBox.style.left = x
-    inputBox.style.top = y
-    inputBox.style.width = width
-    inputBox.style.height = height
-    inputBox.style.padding = padding
-    inputBox.style.background = 'none'
-    inputBox.style.border = 'none'
-    inputBox.style.outline = 'none'
-    inputBox.style.color = fontColor
-    inputBox.style.fontSize = '24px'
-    inputBox.style.fontFamily = fontFamily
-
-    const form = document.createElement('form')
-
-    const submitName = () => {
-      if (inputBox.value !== '') {
-        setState({ player: { name: inputBox.value } })
-
-        this.inputBorder.destroy()
-        document.getElementById('overlay').removeChild(form)
-
-        this.choosePlayer()
-      } else {
-        inputBox.focus()
-      }
-    }
-
-    form.onsubmit = e => {
-      e.preventDefault()
-      submitName()
-    }
-    inputBox.onblur = submitName
-
-    form.appendChild(inputBox)
-    document.getElementById('overlay').appendChild(form)
-    inputBox.focus()
   }
 
   choosePlayer() {

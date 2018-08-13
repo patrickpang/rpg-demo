@@ -1,7 +1,7 @@
 import { app } from 'hyperapp'
 import { h } from 'ijk'
-import { getState } from './state'
-import { getLanguage } from './translation'
+import { getState } from '../helpers/state'
+import { getLanguage } from '../helpers/translation'
 
 const language = getLanguage()
 
