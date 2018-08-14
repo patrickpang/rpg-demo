@@ -22,7 +22,7 @@ export default class Dialog extends Phaser.Scene {
     this.load.json('dialogs', dialogsFile)
   }
 
-  create({ parentScene, paragraphs, nonBlock, key }) {
+  create({ parentScene, paragraphs, key }) {
     this.parentScene = parentScene
 
     this.language = getLanguage()
@@ -40,14 +40,7 @@ export default class Dialog extends Phaser.Scene {
 
     this.currentIndex = 0
 
-    if (nonBlock) {
-      window.setInterval(() => {
-        this.scene.stop('Dialog')
-        this.scene.resume(this.parentScene.scene.key)
-      }, 1000)
-    } else {
-      this.scene.pause(this.parentScene.scene.key)
-    }
+    this.scene.pause(this.parentScene.scene.key)
     this.scene.bringToTop(this.scene.key)
 
     this.gameWidth = this.sys.game.config.width
@@ -88,9 +81,7 @@ export default class Dialog extends Phaser.Scene {
       )
       .setInteractive()
 
-    if (!nonBlock) {
-      this.input.on('pointerdown', () => this.renderNextParagraph())
-    }
+    this.input.on('pointerdown', () => this.renderNextParagraph())
   }
 
   renderNextParagraph() {

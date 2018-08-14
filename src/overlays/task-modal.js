@@ -19,15 +19,20 @@ const state = {
   tasks: {},
   tasksText: {},
   selectedFilter: 'todo',
+  onClose: () => null,
 }
 
 const actions = {
-  close: () => ({ isOpen: false }),
-  open: tasksText => ({
+  close: () => state => {
+    state.onClose()
+    return { isOpen: false, onClose: () => null }
+  },
+  open: ({ tasksText, onClose }) => ({
     isOpen: true,
     taskList: getState(['taskList']),
     tasks: getState(['tasks']),
     tasksText,
+    onClose,
   }),
   selectFilter: filter => ({ selectedFilter: filter }),
 }

@@ -14,7 +14,7 @@ const actions = {
     if (nameInput.value !== '') {
       setState({ player: { name: nameInput.value } })
       state.callback()
-      return { visible: false }
+      return { visible: false, callback: () => null }
     } else {
       return {}
     }

@@ -7,11 +7,15 @@ const language = getLanguage()
 const state = {
   isOpen: false,
   translations: {},
+  onClose: () => null,
 }
 
 const actions = {
-  open: translations => ({ isOpen: true, translations }),
-  close: () => ({ isOpen: false }),
+  open: ({ translations, onClose }) => ({ isOpen: true, translations, onClose }),
+  close: () => state => {
+    state.onClose()
+    return { isOpen: false, onClose: () => null }
+  },
 }
 
 const oncreate = actions => {

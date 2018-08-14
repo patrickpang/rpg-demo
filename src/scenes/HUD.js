@@ -20,7 +20,7 @@ export default class HUD extends Phaser.Scene {
     this.load.json('translations', translationsFile)
   }
 
-  create({ sceneKey }) {
+  create({ parentSceneKey }) {
     const gameWidth = this.sys.game.config.width
     const gameHeight = this.sys.game.config.height
 
@@ -34,7 +34,7 @@ export default class HUD extends Phaser.Scene {
       .setScrollFactor(0, 0)
 
     this.add
-      .text(20, gameHeight - 20, sceneKey, {
+      .text(20, gameHeight - 20, parentSceneKey, {
         fontFamily: fontFamily,
         fontSize: '16px',
         fill: fontColor,
@@ -62,9 +62,21 @@ export default class HUD extends Phaser.Scene {
       .setScrollFactor(0, 0)
       .setInteractive()
 
-    taskButton.on('pointerdown', () => taskModal.open(this.cache.json.get('tasks')))
+    taskButton.on('pointerdown', () => {
+      this.scene.pause(parentSceneKey)
+      taskModal.open({
+        tasksText: this.cache.json.get('tasks'),
+        onClose: () => this.scene.resume(parentSceneKey),
+      })
+    })
 
-    aboutButton.on('pointerdown', () => aboutModal.open(this.cache.json.get('translations')))
+    aboutButton.on('pointerdown', () => {
+      this.scene.pause(parentSceneKey)
+      aboutModal.open({
+        translations: this.cache.json.get('translations'),
+        onClose: () => this.scene.resume(parentSceneKey),
+      })
+    })
 
     this.sys.game.events.on('unavailable', throttle(1000, () => this.showMiddleText('Coming soon')))
     this.sys.game.events.on(

@@ -104,8 +104,10 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
     const name = entrance.getData('name')
 
     if (name === 'Lift') {
+      scene.scene.stop('HUD')
       scene.scene.start('Lift', { key: entrance.getData('key') })
     } else if (scene.scene.get(name)) {
+      scene.scene.stop('HUD')
       scene.scene.start(name, { target: entrance.getData('target') })
     } else {
       scene.sys.game.events.emit('unavailable')
@@ -165,9 +167,8 @@ export function createFromTilemap(scene, mapKey, tilesetKey, from) {
     }
   })
 
-  scene.scene.run('HUD', { sceneKey: scene.scene.key })
+  scene.scene.run('HUD', { parentSceneKey: scene.scene.key })
   scene.scene.bringToTop('HUD')
-  scene.events.on('shutdown', () => scene.scene.stop('HUD'))
 
   scene.cameras.main.startFollow(scene.player)
 }

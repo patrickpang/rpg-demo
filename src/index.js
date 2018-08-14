@@ -80,4 +80,4 @@ const config = {
 
 const game = new Phaser.Game(config)
 
-window.onresize = () => location.reload()
+// window.onresize = () => location.reload()
