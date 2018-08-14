@@ -7,7 +7,7 @@
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
     "prebuild": "rm -rf dist",
-    "deploy": "npm run build && firebase deploy"
+    "deploy": "npm run build && workbox generateSW workbox-config.js && firebase deploy"
   },
   "dependencies": {
     "hyperapp": "^1.2.8",
@@ -19,7 +19,8 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1",
-    "prettier": "1.14.0"
+    "prettier": "1.14.0",
+    "workbox-cli": "^3.4.1"
   },
   "keywords": []
 }
