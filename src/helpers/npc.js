@@ -20,5 +20,5 @@ export function randomNPCName() {
 }
 
 export function randomFrame() {
-  return random(0, minFrames)
+  return random(0, minFrames - 1)
 }
