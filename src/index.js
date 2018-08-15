@@ -25,6 +25,7 @@ import SUBuilding1FMap from '../assets/levels/SUBuilding1F.json'
 import SUBuildingGFMap from '../assets/levels/SUBuildingGF.json'
 import CentenLGMap from '../assets/levels/CentenLG.json'
 import MainBuilding1FMap from '../assets/levels/MainBuilding1F.json'
+import MainBuildingGFMap from '../assets/levels/MainBuildingGF.json'
 
 const scenesData = [
   ['UpperUStreet', UpperUStreetMap],
@@ -46,6 +47,7 @@ const scenesData = [
   ['SUBuildingGF', SUBuildingGFMap],
   ['CentenLG', CentenLGMap],
   ['MainBuilding1F', MainBuilding1FMap],
+  ['MainBuildingGF', MainBuildingGFMap],
 ]
 
 const scenes = scenesData.map(([sceneKey, map]) => {
