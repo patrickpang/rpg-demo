@@ -24,6 +24,7 @@ import KnowlesKKTunnelMap from '../assets/levels/KnowlesKKTunnel.json'
 import SUBuilding1FMap from '../assets/levels/SUBuilding1F.json'
 import SUBuildingGFMap from '../assets/levels/SUBuildingGF.json'
 import CentenLGMap from '../assets/levels/CentenLG.json'
+import MainBuilding1FMap from '../assets/levels/MainBuilding1F.json'
 
 const scenesData = [
   ['UpperUStreet', UpperUStreetMap],
@@ -44,6 +45,7 @@ const scenesData = [
   ['SUBuilding1F', SUBuilding1FMap],
   ['SUBuildingGF', SUBuildingGFMap],
   ['CentenLG', CentenLGMap],
+  ['MainBuilding1F', MainBuilding1FMap],
 ]
 
 const scenes = scenesData.map(([sceneKey, map]) => {
@@ -82,4 +84,4 @@ const config = {
 
 const game = new Phaser.Game(config)
 
-// window.onresize = () => location.reload()
+window.addEventListener('orientationchange', () => location.reload())

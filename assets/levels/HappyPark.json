@@ -140,7 +140,7 @@
                 {
                  "height":61.9014313099041,
                  "id":22,
-                 "name":"LE",
+                 "name":"LEPlatform",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -277,7 +277,7 @@
                 {
                  "height":0,
                  "id":10,
-                 "name":"LE",
+                 "name":"LEPlatform",
                  "point":true,
                  "rotation":0,
                  "type":"",
