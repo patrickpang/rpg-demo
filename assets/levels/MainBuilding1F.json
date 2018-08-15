@@ -91,7 +91,7 @@
                 {
                  "height":91.7255876170457,
                  "id":63,
-                 "name":"LEPLatform",
+                 "name":"LEPlatform",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -112,7 +112,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -158,7 +158,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }],
