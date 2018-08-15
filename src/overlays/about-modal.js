@@ -1,18 +1,29 @@
 import { app } from 'hyperapp'
 import { h } from 'ijk'
+import { take } from 'lodash/fp'
 import { getLanguage } from '../helpers/translation'
+import { getState, setState } from '../helpers/state'
 
 const language = getLanguage()
 
 const state = {
   isOpen: false,
-  translations: {},
+  translations: null,
   onClose: () => null,
+  changelog: [],
+  lastSeen: 0,
 }
 
 const actions = {
-  open: ({ translations, onClose }) => ({ isOpen: true, translations, onClose }),
+  open: ({ translations, onClose, changelog }) => ({
+    isOpen: true,
+    translations,
+    onClose,
+    changelog,
+    lastSeen: getState(['history', 'changelog']) || 0,
+  }),
   close: () => state => {
+    setState({ history: { changelog: state.changelog.length } })
     state.onClose()
     return { isOpen: false, onClose: () => null }
   },
@@ -26,14 +37,28 @@ const oncreate = actions => {
   }
 }
 
-const content = translations => [
+const featuresList = ({ translations, changelog, updates }) => [
   'div',
   [
-    ['h1', translations['about-us'] && translations['about-us'][language]],
+    ['h1', translations['changelog'][language]],
+    ['ul', take(updates, changelog).map(feature => ['li', feature[language]])],
+  ],
+]
+
+const content = ({ translations, lastSeen, changelog }) => [
+  'div',
+  { class: 'modal-long-content' },
+  [
+    lastSeen !== changelog.length &&
+      featuresList({ translations, changelog, updates: changelog.length - lastSeen }),
+    ['h1', translations['about-us'][language]],
+    ['p', translations['about-us-content'][language]],
+    lastSeen === changelog.length && featuresList({ translations, changelog, updates: 5 }),
+    ['h1', translations['feedback'][language]],
     [
-      'p',
-      { class: 'modal-inner-content' },
-      translations['about-us-content'] && translations['about-us-content'][language],
+      'a',
+      { class: 'feedback-link', href: 'https://m.me/CSA.ENS.HKUSU', target: '_blank' },
+      translations['inbox-us'][language],
     ],
   ],
 ]
@@ -49,7 +74,11 @@ const view = (state, actions) =>
     },
     [
       ['div', { class: 'modal-overlay' }],
-      ['div', { class: 'modal-content' }, [close(actions.close), content(state.translations)]],
+      [
+        'div',
+        { class: 'modal-content' },
+        [close(actions.close), state.translations && content(state)],
+      ],
     ],
   ])
 

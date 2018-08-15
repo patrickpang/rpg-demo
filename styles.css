@@ -52,6 +52,11 @@ body {
   overflow: auto;
 }
 
+.modal-long-content {
+  height: 95%;
+  overflow: auto;
+}
+
 @media (min-width: 768px) {
   .modal-content {
     width: 80%;
@@ -145,4 +150,11 @@ button.selected-filter {
   padding: 12px;
   width: 120px;
   margin: 24px auto;
+}
+
+.feedback-link {
+  padding: 8px;
+  color: #fefefe;
+  background: dodgerblue;
+  text-decoration: none;
 }

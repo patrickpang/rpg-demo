@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
+    "prestart": "rm -rf dist/sw.js",
     "build": "parcel build index.html",
     "prebuild": "rm -rf dist",
     "deploy": "npm run build && workbox generateSW workbox-config.js && firebase deploy"

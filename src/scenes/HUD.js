@@ -6,7 +6,6 @@ import { aboutModal } from '../overlays/about-modal'
 import { taskModal } from '../overlays/task-modal'
 
 import tasksFile from '../../assets/tasks.json'
-import translationsFile from '../../assets/translations.json'
 
 const fontColor = '#fefefe'
 
@@ -17,7 +16,6 @@ export default class HUD extends Phaser.Scene {
 
   preload() {
     this.load.json('tasks', tasksFile)
-    this.load.json('translations', translationsFile)
   }
 
   create({ parentSceneKey }) {
@@ -74,6 +72,7 @@ export default class HUD extends Phaser.Scene {
       this.scene.pause(parentSceneKey)
       aboutModal.open({
         translations: this.cache.json.get('translations'),
+        changelog: this.cache.json.get('changelog')['changelog'],
         onClose: () => this.scene.resume(parentSceneKey),
       })
     })

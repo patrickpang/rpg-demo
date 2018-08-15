@@ -8,17 +8,20 @@ import UpperUStreetMap from '../../assets/levels/UpperUStreet.json'
 
 import george from '../../assets/players/george.png'
 import betty from '../../assets/players/betty.png'
-import { fontFamily, mainFont } from '../constants'
-import { setState, getState } from '../helpers/state'
-
 import jeremy_blonde from '../../assets/players/jeremy-blonde.png'
 import jeremy_green from '../../assets/players/jeremy-green.png'
 import jeremy_pink from '../../assets/players/jeremy-pink.png'
 import martha_blonde from '../../assets/players/martha-blonde.png'
 import martha_green from '../../assets/players/martha-green.png'
 import martha_pink from '../../assets/players/martha-pink.png'
-import { greetOverlay } from '../overlays/greet'
 
+import translationsFile from '../../assets/translations.json'
+import changelogFile from '../../assets/changelog.json'
+
+import { fontFamily, mainFont } from '../constants'
+import { setState, getState } from '../helpers/state'
+import { greetOverlay } from '../overlays/greet'
+import { aboutModal } from '../overlays/about-modal'
 const fontColor = '#fefefe'
 
 export default class StartScene extends Phaser.Scene {
@@ -37,11 +40,6 @@ export default class StartScene extends Phaser.Scene {
       frameHeight: 48,
     })
     this.load.tilemapTiledJSON('UpperUStreetMap', UpperUStreetMap)
-    WebFont.load({
-      google: {
-        families: [mainFont],
-      },
-    })
 
     this.load.spritesheet('jeremy-blonde', jeremy_blonde, {
       frameWidth: 32,
@@ -66,6 +64,15 @@ export default class StartScene extends Phaser.Scene {
     this.load.spritesheet('martha-pink', martha_pink, {
       frameWidth: 32,
       frameHeight: 32,
+    })
+
+    this.load.json('translations', translationsFile)
+    this.load.json('changelog', changelogFile)
+
+    WebFont.load({
+      google: {
+        families: [mainFont],
+      },
     })
   }
 
@@ -133,7 +140,21 @@ export default class StartScene extends Phaser.Scene {
   }
 
   startGame() {
-    this.scene.start(getState(['location', 'scene']) || 'UpperUStreet')
+    const lastScene = getState(['location', 'scene'])
+
+    this.scene.start(lastScene || 'UpperUStreet')
+
+    const lastSeen = getState(['history', 'changelog']) || 0
+
+    const changelog = this.cache.json.get('changelog')['changelog']
+    if (lastScene && lastSeen !== changelog.length) {
+      this.scene.pause(lastScene)
+      aboutModal.open({
+        translations: this.cache.json.get('translations'),
+        changelog,
+        onClose: () => this.scene.resume(lastScene),
+      })
+    }
   }
 
   update() {}

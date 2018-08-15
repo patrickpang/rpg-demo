@@ -29,8 +29,8 @@ const actions = {
   },
   open: ({ tasksText, onClose }) => ({
     isOpen: true,
-    taskList: getState(['taskList']),
-    tasks: getState(['tasks']),
+    taskList: getState(['taskList']) || [],
+    tasks: getState(['tasks']) || {},
     tasksText,
     onClose,
   }),
