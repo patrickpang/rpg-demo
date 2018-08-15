@@ -12,6 +12,7 @@ import Haking3FMap from '../assets/levels/Haking3F.json'
 import Haking5FMap from '../assets/levels/Haking5F.json'
 import HakingTunnelMap from '../assets/levels/HakingTunnel.json'
 import HappyParkMap from '../assets/levels/HappyPark.json'
+import LEPlatformMap from '../assets/levels/LEPlatform.json'
 import CBGFMap from '../assets/levels/CBGF.json'
 import CBLG1Map from '../assets/levels/CBLG1.json'
 import ChiWahGFMap from '../assets/levels/ChiWahGF.json'
@@ -31,6 +32,7 @@ const scenesData = [
   ['Haking5F', Haking5FMap],
   ['HakingTunnel', HakingTunnelMap],
   ['HappyPark', HappyParkMap],
+  ['LEPlatform', LEPlatformMap],
   ['CBGF', CBGFMap],
   ['CBLG1', CBLG1Map],
   ['ChiWahGF', ChiWahGFMap],

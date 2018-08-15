@@ -937,30 +937,6 @@
                  "width":0,
                  "x":5182.80754524599,
                  "y":2004.47820545501
-                }, 
-                {
-                 "height":0,
-                 "id":47,
-                 "name":"Title",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":5122.27540651366,
-                 "y":1535.1987559911
-                }, 
-                {
-                 "height":0,
-                 "id":67,
-                 "name":"MadeByCSA",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":5158.13580246914,
-                 "y":1582.33333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -968,7 +944,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":100,
+ "nextobjectid":101,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
