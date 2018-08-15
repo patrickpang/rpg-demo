@@ -3,5 +3,6 @@
   "HakingLift": [["3", "Haking3F"], ["5", "Haking5F"]],
   "SUBuildingLift": [["G", "SUBuildingGF"], ["1", "SUBuilding1F"]],
   "KnowlesLift": [["G", "KnowlesGF"], ["1", "Knowles1F"]],
-  "KKLift": [["G", "KKGF"], ["1", "KK1F"]]
+  "KKLift": [["G", "KKGF"], ["1", "KK1F"]],
+  "HappyParkLift": [["G", "LEPlatform"], ["1", "HappyPark"]]
 }

@@ -162,7 +162,7 @@
                 {
                  "height":64,
                  "id":27,
-                 "name":"Unavilable",
+                 "name":"Unavailable",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -185,6 +185,14 @@
                  "height":61.0719174476151,
                  "id":42,
                  "name":"Lift",
+                 "properties":
+                    {
+                     "key":"HappyParkLift"
+                    },
+                 "propertytypes":
+                    {
+                     "key":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,

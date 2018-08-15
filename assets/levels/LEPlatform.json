@@ -136,6 +136,14 @@
                  "height":61.3888224507693,
                  "id":51,
                  "name":"Lift",
+                 "properties":
+                    {
+                     "key":"HappyParkLift"
+                    },
+                 "propertytypes":
+                    {
+                     "key":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
