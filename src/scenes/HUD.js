@@ -98,15 +98,25 @@ export default class HUD extends Phaser.Scene {
     this.sys.game.events.on('unavailable', throttle(1000, () => this.showMiddleText('Coming soon')))
     this.sys.game.events.on(
       'task-discovered',
-      throttle(1000, () => this.showMiddleText('Task discovered'))
+      throttle(1000, () => {
+        const dot = this.showTasksNotification()
+        window.setTimeout(() => this.clearTasksNotification(dot), 5000)
+        this.showMiddleText('Task discovered')
+      })
     )
     this.sys.game.events.on(
       'task-completed',
-      throttle(1000, () => this.showMiddleText('Task completed'))
+      throttle(1000, () => {
+        this.showMiddleText('Task completed')
+      })
     )
     this.sys.game.events.on(
       'item-obtained',
-      throttle(1000, () => this.showMiddleText('Item obtained.'))
+      throttle(1000, () => {
+        const dot = this.showTasksNotification()
+        window.setTimeout(() => this.clearTasksNotification(dot), 5000)
+        this.showMiddleText('Item obtained.')
+      })
     )
   }
 
@@ -130,5 +140,19 @@ export default class HUD extends Phaser.Scene {
       .setScrollFactor(0, 0)
 
     window.setTimeout(() => this.middleText.destroy(), 1000)
+  }
+
+  showTasksNotification() {
+    const gameWidth = this.sys.game.config.width
+    const gameHeight = this.sys.game.config.height
+
+    return this.add
+      .graphics()
+      .fillStyle(0x2ecc40, 1.0)
+      .fillCircle(gameWidth - 15, 20, 4)
+  }
+
+  clearTasksNotification(dot) {
+    dot.clear()
   }
 }
