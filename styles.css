@@ -69,6 +69,8 @@ body {
   float: right;
   background: none;
   border: none;
+  width: 30px;
+  height: 30px;
 }
 
 div.filters {

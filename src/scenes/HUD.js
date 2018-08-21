@@ -48,7 +48,16 @@ export default class HUD extends Phaser.Scene {
       })
       .setOrigin(1, 0)
       .setScrollFactor(0, 0)
-      .setInteractive()
+
+    taskButton.setInteractive(
+      new Phaser.Geom.Rectangle(
+        -taskButton.width / 2,
+        -taskButton.height / 2,
+        taskButton.width + 20 * 2,
+        taskButton.height + 20 * 2
+      ),
+      Phaser.Geom.Rectangle.Contains
+    )
 
     const aboutButton = this.add
       .text(gameWidth - 20, gameHeight - 20, '?', {
@@ -58,7 +67,16 @@ export default class HUD extends Phaser.Scene {
       })
       .setOrigin(1, 1)
       .setScrollFactor(0, 0)
-      .setInteractive()
+
+    aboutButton.setInteractive(
+      new Phaser.Geom.Rectangle(
+        -aboutButton.width / 2,
+        -aboutButton.height / 2,
+        aboutButton.width + 20 * 2,
+        aboutButton.height + 20 * 2
+      ),
+      Phaser.Geom.Rectangle.Contains
+    )
 
     taskButton.on('pointerdown', () => {
       this.scene.pause(parentSceneKey)
